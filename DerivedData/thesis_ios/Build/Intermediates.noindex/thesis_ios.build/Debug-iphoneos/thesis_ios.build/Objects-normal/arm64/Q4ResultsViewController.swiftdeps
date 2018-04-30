@@ -1,0 +1,780 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Q4ResultsViewController"
+provides-nominal:
+- "10thesis_ios23Q4ResultsViewControllerC"
+provides-member:
+- ["10thesis_ios23Q4ResultsViewControllerC", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "imgView"
+- "viewDidLoad"
+depends-top-level:
+- !private "/"
+- !private "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BarsChart"
+- !private "BarsChartConfig"
+- !private "BooleanLiteralType"
+- !private "CGRect"
+- !private "ChartAxisConfig"
+- !private "Double"
+- "Q4ResultsViewController"
+- "QuestionFourViewController"
+- "String"
+- !private "StringLiteralType"
+- !private "UIColor"
+- !private "UIImage"
+- "UIImageView"
+- "UIScreen"
+- "UIViewController"
+depends-member:
+- ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["11SwiftCharts9BarsChartC", "init"]
+- !private ["11SwiftCharts9BarsChartC", "view"]
+- !private ["11SwiftCharts15BarsChartConfigC", "init"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "image"]
+- ["SC6CGRectV", "height"]
+- !private ["SC6CGRectV", "init"]
+- ["SC6CGRectV", "width"]
+- !private ["s7CVarArgP", "BarsChart"]
+- !private ["s7CVarArgP", "BarsChartConfig"]
+- !private ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "ChartAxisConfig"]
+- ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "UIImage"]
+- ["s7CVarArgP", "UIScreen"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addSubview"]
+- ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "gif"]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "imgView"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isNavigationBarHidden"]
+- ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "navigationController"]
+- !private ["s7CVarArgP", "red"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "toPass"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "w"]
+- !private ["11SwiftCharts5ChartC", "view"]
+- !private ["11SwiftCharts15ChartAxisConfigV", "init"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "BarsChart"]
+- !private ["s28CustomDebugStringConvertibleP", "BarsChartConfig"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "ChartAxisConfig"]
+- ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- ["s28CustomDebugStringConvertibleP", "UIScreen"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "gif"]
+- ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "imgView"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isNavigationBarHidden"]
+- ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "red"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "toPass"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "w"]
+- ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "height"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "height"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "BarsChart"]
+- !private ["s23CustomStringConvertibleP", "BarsChartConfig"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "ChartAxisConfig"]
+- ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- ["s23CustomStringConvertibleP", "UIScreen"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "gif"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "imgView"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isNavigationBarHidden"]
+- ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "navigationController"]
+- !private ["s23CustomStringConvertibleP", "red"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "toPass"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "w"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "height"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- ["s9DecodableP", "width"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "height"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- ["s9EncodableP", "width"]
+- !private ["s9EquatableP", "BarsChart"]
+- !private ["s9EquatableP", "BarsChartConfig"]
+- !private ["s9EquatableP", "CGRect"]
+- !private ["s9EquatableP", "ChartAxisConfig"]
+- ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "UIColor"]
+- !private ["s9EquatableP", "UIImage"]
+- ["s9EquatableP", "UIScreen"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addSubview"]
+- ["s9EquatableP", "bounds"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "gif"]
+- ["s9EquatableP", "height"]
+- !private ["s9EquatableP", "image"]
+- !private ["s9EquatableP", "imgView"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isNavigationBarHidden"]
+- ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "navigationController"]
+- !private ["s9EquatableP", "red"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "toPass"]
+- !private ["s9EquatableP", "view"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s9EquatableP", "w"]
+- ["s9EquatableP", "width"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "BarsChart"]
+- !private ["s8HashableP", "BarsChartConfig"]
+- !private ["s8HashableP", "CGRect"]
+- !private ["s8HashableP", "ChartAxisConfig"]
+- ["s8HashableP", "String"]
+- !private ["s8HashableP", "UIColor"]
+- !private ["s8HashableP", "UIImage"]
+- ["s8HashableP", "UIScreen"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addSubview"]
+- ["s8HashableP", "bounds"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "gif"]
+- !private ["s8HashableP", "image"]
+- !private ["s8HashableP", "imgView"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isNavigationBarHidden"]
+- ["s8HashableP", "main"]
+- !private ["s8HashableP", "navigationController"]
+- !private ["s8HashableP", "red"]
+- !private ["s8HashableP", "toPass"]
+- !private ["s8HashableP", "view"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["s8HashableP", "w"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "BarsChart"]
+- !private ["So8NSCodingP", "BarsChartConfig"]
+- !private ["So8NSCodingP", "CGRect"]
+- !private ["So8NSCodingP", "ChartAxisConfig"]
+- ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "UIColor"]
+- !private ["So8NSCodingP", "UIImage"]
+- ["So8NSCodingP", "UIScreen"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "gif"]
+- !private ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "imgView"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isNavigationBarHidden"]
+- !private ["So8NSCodingP", "navigationController"]
+- !private ["So8NSCodingP", "red"]
+- !private ["So8NSCodingP", "toPass"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "w"]
+- !private ["So9NSCopyingP", "red"]
+- !private ["So26NSExtensionRequestHandlingP", "BarsChart"]
+- !private ["So26NSExtensionRequestHandlingP", "BarsChartConfig"]
+- !private ["So26NSExtensionRequestHandlingP", "CGRect"]
+- !private ["So26NSExtensionRequestHandlingP", "ChartAxisConfig"]
+- ["So26NSExtensionRequestHandlingP", "String"]
+- !private ["So26NSExtensionRequestHandlingP", "UIColor"]
+- !private ["So26NSExtensionRequestHandlingP", "UIImage"]
+- ["So26NSExtensionRequestHandlingP", "UIScreen"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "imgView"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "isNavigationBarHidden"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationController"]
+- !private ["So26NSExtensionRequestHandlingP", "toPass"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "w"]
+- !private ["So21NSItemProviderReadingP", "gif"]
+- !private ["So21NSItemProviderReadingP", "red"]
+- !private ["So21NSItemProviderWritingP", "gif"]
+- !private ["So21NSItemProviderWritingP", "red"]
+- !private ["So8NSObjectC", "BarsChart"]
+- !private ["So8NSObjectC", "BarsChartConfig"]
+- !private ["So8NSObjectC", "CGRect"]
+- !private ["So8NSObjectC", "ChartAxisConfig"]
+- !private ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "QuestionFourViewController"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UIScreen"]
+- !private ["So8NSObjectC", "addSubview"]
+- ["So8NSObjectC", "bounds"]
+- ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- !private ["So8NSObjectC", "gif"]
+- ["So8NSObjectC", "h"]
+- !private ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "imgView"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isNavigationBarHidden"]
+- ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "navigationController"]
+- !private ["So8NSObjectC", "red"]
+- ["So8NSObjectC", "toPass"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "w"]
+- !private ["So16NSObjectProtocolP", "BarsChart"]
+- !private ["So16NSObjectProtocolP", "BarsChartConfig"]
+- !private ["So16NSObjectProtocolP", "CGRect"]
+- !private ["So16NSObjectProtocolP", "ChartAxisConfig"]
+- ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "UIColor"]
+- !private ["So16NSObjectProtocolP", "UIImage"]
+- ["So16NSObjectProtocolP", "UIScreen"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addSubview"]
+- ["So16NSObjectProtocolP", "bounds"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "gif"]
+- !private ["So16NSObjectProtocolP", "image"]
+- !private ["So16NSObjectProtocolP", "imgView"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isNavigationBarHidden"]
+- ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "navigationController"]
+- !private ["So16NSObjectProtocolP", "red"]
+- !private ["So16NSObjectProtocolP", "toPass"]
+- !private ["So16NSObjectProtocolP", "view"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "w"]
+- !private ["So14NSSecureCodingP", "gif"]
+- !private ["So14NSSecureCodingP", "red"]
+- !private ["11SwiftCharts8PannableP", "init"]
+- !private ["11SwiftCharts8PannableP", "view"]
+- !private ["10thesis_ios23Q4ResultsViewControllerC", "BarsChart"]
+- !private ["10thesis_ios23Q4ResultsViewControllerC", "BarsChartConfig"]
+- !private ["10thesis_ios23Q4ResultsViewControllerC", "CGRect"]
+- !private ["10thesis_ios23Q4ResultsViewControllerC", "ChartAxisConfig"]
+- !private ["10thesis_ios23Q4ResultsViewControllerC", "Double"]
+- ["10thesis_ios23Q4ResultsViewControllerC", "QuestionFourViewController"]
+- ["10thesis_ios23Q4ResultsViewControllerC", "String"]
+- !private ["10thesis_ios23Q4ResultsViewControllerC", "UIColor"]
+- !private ["10thesis_ios23Q4ResultsViewControllerC", "UIImage"]
+- ["10thesis_ios23Q4ResultsViewControllerC", "UIImageView"]
+- ["10thesis_ios23Q4ResultsViewControllerC", "UIScreen"]
+- ["10thesis_ios23Q4ResultsViewControllerC", "deinit"]
+- ["10thesis_ios23Q4ResultsViewControllerC", "delegate"]
+- ["10thesis_ios23Q4ResultsViewControllerC", "didReceiveMemoryWarning"]
+- ["10thesis_ios23Q4ResultsViewControllerC", "h"]
+- ["10thesis_ios23Q4ResultsViewControllerC", "imgView"]
+- ["10thesis_ios23Q4ResultsViewControllerC", "init"]
+- !private ["10thesis_ios23Q4ResultsViewControllerC", "navigationController"]
+- ["10thesis_ios23Q4ResultsViewControllerC", "toPass"]
+- !private ["10thesis_ios23Q4ResultsViewControllerC", "view"]
+- ["10thesis_ios23Q4ResultsViewControllerC", "viewDidLoad"]
+- ["10thesis_ios23Q4ResultsViewControllerC", "w"]
+- ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["11SwiftCharts10StringTypeP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "gif"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "image"]
+- !private ["So21UIAppearanceContainerP", "BarsChart"]
+- !private ["So21UIAppearanceContainerP", "BarsChartConfig"]
+- !private ["So21UIAppearanceContainerP", "CGRect"]
+- !private ["So21UIAppearanceContainerP", "ChartAxisConfig"]
+- ["So21UIAppearanceContainerP", "String"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- !private ["So21UIAppearanceContainerP", "UIImage"]
+- ["So21UIAppearanceContainerP", "UIScreen"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- !private ["So21UIAppearanceContainerP", "imgView"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isNavigationBarHidden"]
+- !private ["So21UIAppearanceContainerP", "navigationController"]
+- !private ["So21UIAppearanceContainerP", "toPass"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "w"]
+- !private ["So7UIColorC", "red"]
+- !private ["So18UIContentContainerP", "BarsChart"]
+- !private ["So18UIContentContainerP", "BarsChartConfig"]
+- !private ["So18UIContentContainerP", "CGRect"]
+- !private ["So18UIContentContainerP", "ChartAxisConfig"]
+- ["So18UIContentContainerP", "String"]
+- !private ["So18UIContentContainerP", "UIColor"]
+- !private ["So18UIContentContainerP", "UIImage"]
+- ["So18UIContentContainerP", "UIScreen"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "imgView"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "isNavigationBarHidden"]
+- !private ["So18UIContentContainerP", "navigationController"]
+- !private ["So18UIContentContainerP", "toPass"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "w"]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "image"]
+- !private ["So18UIFocusEnvironmentP", "BarsChart"]
+- !private ["So18UIFocusEnvironmentP", "BarsChartConfig"]
+- !private ["So18UIFocusEnvironmentP", "CGRect"]
+- !private ["So18UIFocusEnvironmentP", "ChartAxisConfig"]
+- ["So18UIFocusEnvironmentP", "String"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- !private ["So18UIFocusEnvironmentP", "UIImage"]
+- ["So18UIFocusEnvironmentP", "UIScreen"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- !private ["So18UIFocusEnvironmentP", "imgView"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isNavigationBarHidden"]
+- !private ["So18UIFocusEnvironmentP", "navigationController"]
+- !private ["So18UIFocusEnvironmentP", "toPass"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "w"]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "image"]
+- !private ["So7UIImageC", "gif"]
+- !private ["So11UIImageViewC", "image"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "gif"]
+- !private ["So22UINavigationControllerC", "isNavigationBarHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "BarsChart"]
+- !private ["So30UIPasteConfigurationSupportingP", "BarsChartConfig"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGRect"]
+- !private ["So30UIPasteConfigurationSupportingP", "ChartAxisConfig"]
+- ["So30UIPasteConfigurationSupportingP", "String"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- ["So30UIPasteConfigurationSupportingP", "UIScreen"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- !private ["So30UIPasteConfigurationSupportingP", "imgView"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isNavigationBarHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "toPass"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "w"]
+- !private ["So11UIResponderC", "BarsChart"]
+- !private ["So11UIResponderC", "BarsChartConfig"]
+- !private ["So11UIResponderC", "CGRect"]
+- !private ["So11UIResponderC", "ChartAxisConfig"]
+- !private ["So11UIResponderC", "Double"]
+- ["So11UIResponderC", "QuestionFourViewController"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIColor"]
+- !private ["So11UIResponderC", "UIImage"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UIScreen"]
+- !private ["So11UIResponderC", "addSubview"]
+- ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "h"]
+- !private ["So11UIResponderC", "image"]
+- ["So11UIResponderC", "imgView"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isNavigationBarHidden"]
+- !private ["So11UIResponderC", "navigationController"]
+- ["So11UIResponderC", "toPass"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "w"]
+- !private ["So30UIResponderStandardEditActionsP", "BarsChart"]
+- !private ["So30UIResponderStandardEditActionsP", "BarsChartConfig"]
+- !private ["So30UIResponderStandardEditActionsP", "CGRect"]
+- !private ["So30UIResponderStandardEditActionsP", "ChartAxisConfig"]
+- ["So30UIResponderStandardEditActionsP", "String"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImage"]
+- ["So30UIResponderStandardEditActionsP", "UIScreen"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- !private ["So30UIResponderStandardEditActionsP", "imgView"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isNavigationBarHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationController"]
+- !private ["So30UIResponderStandardEditActionsP", "toPass"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "w"]
+- ["So8UIScreenC", "bounds"]
+- ["So8UIScreenC", "main"]
+- !private ["So16UIStateRestoringP", "BarsChart"]
+- !private ["So16UIStateRestoringP", "BarsChartConfig"]
+- !private ["So16UIStateRestoringP", "CGRect"]
+- !private ["So16UIStateRestoringP", "ChartAxisConfig"]
+- ["So16UIStateRestoringP", "String"]
+- !private ["So16UIStateRestoringP", "UIColor"]
+- !private ["So16UIStateRestoringP", "UIImage"]
+- ["So16UIStateRestoringP", "UIScreen"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "imgView"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "isNavigationBarHidden"]
+- !private ["So16UIStateRestoringP", "navigationController"]
+- !private ["So16UIStateRestoringP", "toPass"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "w"]
+- !private ["So18UITraitEnvironmentP", "BarsChart"]
+- !private ["So18UITraitEnvironmentP", "BarsChartConfig"]
+- !private ["So18UITraitEnvironmentP", "CGRect"]
+- !private ["So18UITraitEnvironmentP", "ChartAxisConfig"]
+- ["So18UITraitEnvironmentP", "String"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- !private ["So18UITraitEnvironmentP", "UIImage"]
+- ["So18UITraitEnvironmentP", "UIScreen"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- ["So18UITraitEnvironmentP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- !private ["So18UITraitEnvironmentP", "imgView"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isNavigationBarHidden"]
+- ["So18UITraitEnvironmentP", "main"]
+- !private ["So18UITraitEnvironmentP", "navigationController"]
+- !private ["So18UITraitEnvironmentP", "toPass"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "w"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "image"]
+- !private ["So16UIViewControllerC", "BarsChart"]
+- !private ["So16UIViewControllerC", "BarsChartConfig"]
+- !private ["So16UIViewControllerC", "CGRect"]
+- !private ["So16UIViewControllerC", "ChartAxisConfig"]
+- !private ["So16UIViewControllerC", "Double"]
+- ["So16UIViewControllerC", "QuestionFourViewController"]
+- ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "UIColor"]
+- !private ["So16UIViewControllerC", "UIImage"]
+- ["So16UIViewControllerC", "UIImageView"]
+- ["So16UIViewControllerC", "UIScreen"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "delegate"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "h"]
+- ["So16UIViewControllerC", "imgView"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "isNavigationBarHidden"]
+- !private ["So16UIViewControllerC", "navigationController"]
+- ["So16UIViewControllerC", "toPass"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "w"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["11SwiftCharts8ZoomableP", "init"]
+- !private ["11SwiftCharts8ZoomableP", "view"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "image"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "red"]
+- !private ["s26_ExpressibleByImageLiteralP", "gif"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BarsChart"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BarsChartConfig"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ChartAxisConfig"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIScreen"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "gif"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imgView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isNavigationBarHidden"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "red"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "toPass"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "w"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "height"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "Sa"
+- !private "11SwiftCharts9BarsChartC"
+- !private "11SwiftCharts15BarsChartConfigC"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "SC6CGRectV"
+- "s7CVarArgP"
+- !private "11SwiftCharts5ChartC"
+- !private "11SwiftCharts15ChartAxisConfigV"
+- "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "s17MutableCollectionP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "11SwiftCharts8PannableP"
+- "10thesis_ios23Q4ResultsViewControllerC"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "11SwiftCharts10StringTypeP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So7UIImageC"
+- !private "So11UIImageViewC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So22UINavigationControllerC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So8UIScreenC"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "9Alamofire14URLConvertibleP"
+- !private "11SwiftCharts8ZoomableP"
+- "s14_ArrayProtocolP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Products/Debug-iphoneos/SwiftGifOrigin/SwiftGifOrigin.framework/Modules/SwiftGifOrigin.swiftmodule/arm64.swiftmodule"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Products/Debug-iphoneos/SwiftCharts/SwiftCharts.framework/Modules/SwiftCharts.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Products/Debug-iphoneos/SwiftGifOrigin/SwiftGifOrigin.framework/Headers/SwiftGifOrigin-umbrella.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Products/Debug-iphoneos/SwiftCharts/SwiftCharts.framework/Headers/SwiftCharts-umbrella.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Products/Debug-iphoneos/SwiftGifOrigin/SwiftGifOrigin.framework/Headers/SwiftGifOrigin-Swift.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Products/Debug-iphoneos/SwiftCharts/SwiftCharts.framework/Headers/SwiftCharts-Swift.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRCoreSwiftNameSupport.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseSwiftNameSupport.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthSwiftNameSupport.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Products/Debug-iphoneos/SwiftGifOrigin/SwiftGifOrigin.framework/Modules/module.modulemap"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Products/Debug-iphoneos/SwiftCharts/SwiftCharts.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "453de349a77bdfd5e7fc8b51922a826f"

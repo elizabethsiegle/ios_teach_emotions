@@ -1,0 +1,743 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChartStackedBarItemModel"
+- "ChartStackedBarModel"
+- "ChartStackedBarsViewGenerator"
+- "ChartTappedBarStackedFrame"
+- "ChartTappedBarStacked"
+- "ChartStackedBarsLayer"
+provides-nominal:
+- "11SwiftCharts20ChartStackedBarModelC"
+- "11SwiftCharts29ChartStackedBarsViewGeneratorC"
+- "11SwiftCharts26ChartTappedBarStackedFrameV"
+- "11SwiftCharts21ChartTappedBarStackedV"
+- "11SwiftCharts21ChartStackedBarsLayerC"
+provides-member:
+- ["11SwiftCharts20ChartStackedBarModelC", ""]
+- ["11SwiftCharts29ChartStackedBarsViewGeneratorC", ""]
+- ["11SwiftCharts26ChartTappedBarStackedFrameV", ""]
+- ["11SwiftCharts21ChartTappedBarStackedV", ""]
+- ["11SwiftCharts21ChartStackedBarsLayerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "-"
+- !private ">"
+- !private "??"
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CGFloat"
+- "CGPoint"
+- "CGRect"
+- "Chart"
+- "ChartAxis"
+- "ChartAxisValue"
+- "ChartBarModel"
+- "ChartBarViewSettings"
+- "ChartBarsViewGenerator"
+- "ChartCoordsSpaceLayer"
+- "ChartPointViewBarStacked"
+- "ChartPointViewBarStackedFrame"
+- "ChartStackedBarItemModel"
+- "ChartStackedBarModel"
+- "ChartStackedBarsLayer"
+- "ChartStackedBarsViewGenerator"
+- "ChartTappedBarStacked"
+- "ChartTappedBarStackedFrame"
+- "ChartViewSelector"
+- "CustomDebugStringConvertible"
+- !private "Dictionary"
+- "Double"
+- "Int"
+- "String"
+- !private "StringLiteralType"
+- !private "TernaryPrecedence"
+- "UIColor"
+- "UIView"
+- "Void"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "enumerated"]
+- !private ["Sa", "init"]
+- !private ["Sa", "reduce"]
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "enumerated"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "reduce"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "stackFrameSelectionViewUpdater"]
+- !private ["So15CALayerDelegateP", "stackedTapHandler"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["SC6CGRectV", "init"]
+- ["s7CVarArgP", "ChartBarViewGenerator"]
+- !private ["s7CVarArgP", "ChartStackedBarsViewGenerator"]
+- !private ["s7CVarArgP", "ChartTappedBarStacked"]
+- !private ["s7CVarArgP", "ChartTappedBarStackedFrame"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "barModels"]
+- !private ["s7CVarArgP", "barViews"]
+- !private ["s7CVarArgP", "barWidth"]
+- !private ["s7CVarArgP", "chartInitialized"]
+- !private ["s7CVarArgP", "debugDescription"]
+- !private ["s7CVarArgP", "enumerated"]
+- !private ["s7CVarArgP", "horizontal"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "modelLocToScreenLoc"]
+- !private ["s7CVarArgP", "reduce"]
+- !private ["s7CVarArgP", "settings"]
+- !private ["s7CVarArgP", "stackFrameSelectionViewUpdater"]
+- !private ["s7CVarArgP", "stackedTapHandler"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "tapHandler"]
+- !private ["11SwiftCharts5ChartC", "addSubview"]
+- !private ["11SwiftCharts14ChartAxisValueC", "copy"]
+- !private ["11SwiftCharts14ChartAxisValueC", "scalar"]
+- ["11SwiftCharts13ChartBarModelC", "ChartAxisValue"]
+- ["11SwiftCharts13ChartBarModelC", "ChartStackedBarItemModel"]
+- ["11SwiftCharts13ChartBarModelC", "Double"]
+- ["11SwiftCharts13ChartBarModelC", "String"]
+- ["11SwiftCharts13ChartBarModelC", ""]
+- !private ["11SwiftCharts13ChartBarModelC", "axisValue1"]
+- !private ["11SwiftCharts13ChartBarModelC", "axisValue2"]
+- !private ["11SwiftCharts13ChartBarModelC", "bgColor"]
+- !private ["11SwiftCharts13ChartBarModelC", "constant"]
+- ["11SwiftCharts13ChartBarModelC", "debugDescription"]
+- ["11SwiftCharts13ChartBarModelC", "init"]
+- ["11SwiftCharts13ChartBarModelC", "items"]
+- ["11SwiftCharts13ChartBarModelC", "totalQuantity"]
+- ["11SwiftCharts13ChartBarModelC", "totalQuantity.storage"]
+- !private ["11SwiftCharts22ChartBarsViewGeneratorC", "Array"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "Bool"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "CGFloat"]
+- !private ["11SwiftCharts22ChartBarsViewGeneratorC", "CGRect"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "Chart"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "ChartBarModel"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "ChartBarViewSettings"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "ChartCoordsSpaceLayer"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "ChartPointViewBarStacked"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "ChartPointViewBarStackedFrame"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "ChartStackedBarItemModel"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "ChartStackedBarModel"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "ChartStackedBarsLayer"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "Double"]
+- !private ["11SwiftCharts22ChartBarsViewGeneratorC", "FrameBuilder"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "Int"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "T"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "UIColor"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", ""]
+- !private ["11SwiftCharts22ChartBarsViewGeneratorC", "barWidth"]
+- !private ["11SwiftCharts22ChartBarsViewGeneratorC", "constantScreenLoc"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "generateView"]
+- !private ["11SwiftCharts22ChartBarsViewGeneratorC", "horizontal"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "init"]
+- !private ["11SwiftCharts22ChartBarsViewGeneratorC", "layer"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "stackedViewGenerator"]
+- !private ["11SwiftCharts22ChartBarsViewGeneratorC", "viewPoints"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "Bool"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "CGFloat"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "CGPoint"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "CGRect"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "Chart"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartAxis"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartBarModel"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartBarViewGenerator"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartBarViewSettings"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartPointViewBarStackedFrame"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartStackedBarModel"]
+- !private ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartStackedBarsViewGenerator"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartTappedBarStacked"]
+- !private ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartTappedBarStackedFrame"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartViewSelector"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "Int"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "T"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "UIColor"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "UIView"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "Void"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", ""]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "barModels"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "barViews"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "barWidth"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "chartInitialized"]
+- !private ["11SwiftCharts21ChartCoordsSpaceLayerC", "deinit"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "horizontal"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "init"]
+- !private ["11SwiftCharts21ChartCoordsSpaceLayerC", "modelLocToScreenLoc"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "settings"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "stackFrameSelectionViewUpdater"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "tapHandler"]
+- ["11SwiftCharts10ChartLayerP", "ChartBarViewGenerator"]
+- !private ["11SwiftCharts10ChartLayerP", "ChartStackedBarsViewGenerator"]
+- !private ["11SwiftCharts10ChartLayerP", "ChartTappedBarStacked"]
+- !private ["11SwiftCharts10ChartLayerP", "ChartTappedBarStackedFrame"]
+- ["11SwiftCharts10ChartLayerP", ""]
+- !private ["11SwiftCharts10ChartLayerP", "barModels"]
+- !private ["11SwiftCharts10ChartLayerP", "barViews"]
+- !private ["11SwiftCharts10ChartLayerP", "barWidth"]
+- !private ["11SwiftCharts10ChartLayerP", "chartInitialized"]
+- !private ["11SwiftCharts10ChartLayerP", "horizontal"]
+- !private ["11SwiftCharts10ChartLayerP", "init"]
+- !private ["11SwiftCharts10ChartLayerP", "modelLocToScreenLoc"]
+- !private ["11SwiftCharts10ChartLayerP", "settings"]
+- !private ["11SwiftCharts10ChartLayerP", "stackFrameSelectionViewUpdater"]
+- !private ["11SwiftCharts10ChartLayerP", "tapHandler"]
+- ["11SwiftCharts14ChartLayerBaseC", "Bool"]
+- ["11SwiftCharts14ChartLayerBaseC", "CGFloat"]
+- ["11SwiftCharts14ChartLayerBaseC", "CGPoint"]
+- ["11SwiftCharts14ChartLayerBaseC", "CGRect"]
+- ["11SwiftCharts14ChartLayerBaseC", "Chart"]
+- ["11SwiftCharts14ChartLayerBaseC", "ChartAxis"]
+- ["11SwiftCharts14ChartLayerBaseC", "ChartBarModel"]
+- ["11SwiftCharts14ChartLayerBaseC", "ChartBarViewGenerator"]
+- ["11SwiftCharts14ChartLayerBaseC", "ChartBarViewSettings"]
+- ["11SwiftCharts14ChartLayerBaseC", "ChartPointViewBarStackedFrame"]
+- ["11SwiftCharts14ChartLayerBaseC", "ChartStackedBarModel"]
+- !private ["11SwiftCharts14ChartLayerBaseC", "ChartStackedBarsViewGenerator"]
+- ["11SwiftCharts14ChartLayerBaseC", "ChartTappedBarStacked"]
+- !private ["11SwiftCharts14ChartLayerBaseC", "ChartTappedBarStackedFrame"]
+- ["11SwiftCharts14ChartLayerBaseC", "ChartViewSelector"]
+- ["11SwiftCharts14ChartLayerBaseC", "Int"]
+- ["11SwiftCharts14ChartLayerBaseC", "T"]
+- ["11SwiftCharts14ChartLayerBaseC", "UIColor"]
+- ["11SwiftCharts14ChartLayerBaseC", "UIView"]
+- ["11SwiftCharts14ChartLayerBaseC", "Void"]
+- ["11SwiftCharts14ChartLayerBaseC", "barModels"]
+- ["11SwiftCharts14ChartLayerBaseC", "barViews"]
+- ["11SwiftCharts14ChartLayerBaseC", "barWidth"]
+- ["11SwiftCharts14ChartLayerBaseC", "chartInitialized"]
+- ["11SwiftCharts14ChartLayerBaseC", "horizontal"]
+- !private ["11SwiftCharts14ChartLayerBaseC", "modelLocToScreenLoc"]
+- ["11SwiftCharts14ChartLayerBaseC", "settings"]
+- ["11SwiftCharts14ChartLayerBaseC", "stackFrameSelectionViewUpdater"]
+- ["11SwiftCharts14ChartLayerBaseC", "tapHandler"]
+- !private ["11SwiftCharts17ChartPointViewBarC", "init"]
+- !private ["11SwiftCharts17ChartPointViewBarC", "stackFrameSelectionViewUpdater"]
+- !private ["11SwiftCharts17ChartPointViewBarC", "stackedTapHandler"]
+- !private ["11SwiftCharts24ChartPointViewBarStackedC", "init"]
+- !private ["11SwiftCharts24ChartPointViewBarStackedC", "stackFrameSelectionViewUpdater"]
+- !private ["11SwiftCharts24ChartPointViewBarStackedC", "stackedTapHandler"]
+- ["11SwiftCharts20ChartStackedBarModelC", "ChartAxisValue"]
+- ["11SwiftCharts20ChartStackedBarModelC", "ChartStackedBarItemModel"]
+- ["11SwiftCharts20ChartStackedBarModelC", "Double"]
+- ["11SwiftCharts20ChartStackedBarModelC", "String"]
+- !private ["11SwiftCharts20ChartStackedBarModelC", "axisValue1"]
+- !private ["11SwiftCharts20ChartStackedBarModelC", "axisValue2"]
+- !private ["11SwiftCharts20ChartStackedBarModelC", "bgColor"]
+- !private ["11SwiftCharts20ChartStackedBarModelC", "constant"]
+- ["11SwiftCharts20ChartStackedBarModelC", "debugDescription"]
+- ["11SwiftCharts20ChartStackedBarModelC", "deinit"]
+- ["11SwiftCharts20ChartStackedBarModelC", "init"]
+- ["11SwiftCharts20ChartStackedBarModelC", "items"]
+- ["11SwiftCharts20ChartStackedBarModelC", "totalQuantity"]
+- !private ["11SwiftCharts20ChartStackedBarModelC", "totalQuantity.storage"]
+- ["11SwiftCharts21ChartStackedBarsLayerC", "Bool"]
+- ["11SwiftCharts21ChartStackedBarsLayerC", "CGFloat"]
+- ["11SwiftCharts21ChartStackedBarsLayerC", "CGPoint"]
+- ["11SwiftCharts21ChartStackedBarsLayerC", "CGRect"]
+- ["11SwiftCharts21ChartStackedBarsLayerC", "Chart"]
+- ["11SwiftCharts21ChartStackedBarsLayerC", "ChartAxis"]
+- ["11SwiftCharts21ChartStackedBarsLayerC", "ChartBarModel"]
+- ["11SwiftCharts21ChartStackedBarsLayerC", "ChartBarViewGenerator"]
+- ["11SwiftCharts21ChartStackedBarsLayerC", "ChartBarViewSettings"]
+- ["11SwiftCharts21ChartStackedBarsLayerC", "ChartPointViewBarStackedFrame"]
+- ["11SwiftCharts21ChartStackedBarsLayerC", "ChartStackedBarModel"]
+- !private ["11SwiftCharts21ChartStackedBarsLayerC", "ChartStackedBarsViewGenerator"]
+- ["11SwiftCharts21ChartStackedBarsLayerC", "ChartTappedBarStacked"]
+- !private ["11SwiftCharts21ChartStackedBarsLayerC", "ChartTappedBarStackedFrame"]
+- ["11SwiftCharts21ChartStackedBarsLayerC", "ChartViewSelector"]
+- ["11SwiftCharts21ChartStackedBarsLayerC", "Int"]
+- ["11SwiftCharts21ChartStackedBarsLayerC", "T"]
+- ["11SwiftCharts21ChartStackedBarsLayerC", "UIColor"]
+- ["11SwiftCharts21ChartStackedBarsLayerC", "UIView"]
+- ["11SwiftCharts21ChartStackedBarsLayerC", "Void"]
+- !private ["11SwiftCharts21ChartStackedBarsLayerC", "barModels"]
+- ["11SwiftCharts21ChartStackedBarsLayerC", "barViews"]
+- !private ["11SwiftCharts21ChartStackedBarsLayerC", "barWidth"]
+- ["11SwiftCharts21ChartStackedBarsLayerC", "chartInitialized"]
+- ["11SwiftCharts21ChartStackedBarsLayerC", "deinit"]
+- !private ["11SwiftCharts21ChartStackedBarsLayerC", "horizontal"]
+- ["11SwiftCharts21ChartStackedBarsLayerC", "init"]
+- !private ["11SwiftCharts21ChartStackedBarsLayerC", "settings"]
+- !private ["11SwiftCharts21ChartStackedBarsLayerC", "stackFrameSelectionViewUpdater"]
+- !private ["11SwiftCharts21ChartStackedBarsLayerC", "tapHandler"]
+- !private ["11SwiftCharts29ChartStackedBarsViewGeneratorC", "Array"]
+- ["11SwiftCharts29ChartStackedBarsViewGeneratorC", "Bool"]
+- ["11SwiftCharts29ChartStackedBarsViewGeneratorC", "CGFloat"]
+- !private ["11SwiftCharts29ChartStackedBarsViewGeneratorC", "CGRect"]
+- ["11SwiftCharts29ChartStackedBarsViewGeneratorC", "Chart"]
+- ["11SwiftCharts29ChartStackedBarsViewGeneratorC", "ChartBarModel"]
+- ["11SwiftCharts29ChartStackedBarsViewGeneratorC", "ChartBarViewSettings"]
+- ["11SwiftCharts29ChartStackedBarsViewGeneratorC", "ChartCoordsSpaceLayer"]
+- ["11SwiftCharts29ChartStackedBarsViewGeneratorC", "ChartPointViewBarStacked"]
+- ["11SwiftCharts29ChartStackedBarsViewGeneratorC", "ChartPointViewBarStackedFrame"]
+- ["11SwiftCharts29ChartStackedBarsViewGeneratorC", "ChartStackedBarItemModel"]
+- ["11SwiftCharts29ChartStackedBarsViewGeneratorC", "ChartStackedBarModel"]
+- ["11SwiftCharts29ChartStackedBarsViewGeneratorC", "ChartStackedBarsLayer"]
+- ["11SwiftCharts29ChartStackedBarsViewGeneratorC", "Double"]
+- !private ["11SwiftCharts29ChartStackedBarsViewGeneratorC", "FrameBuilder"]
+- ["11SwiftCharts29ChartStackedBarsViewGeneratorC", "Int"]
+- ["11SwiftCharts29ChartStackedBarsViewGeneratorC", "T"]
+- ["11SwiftCharts29ChartStackedBarsViewGeneratorC", "UIColor"]
+- !private ["11SwiftCharts29ChartStackedBarsViewGeneratorC", "barWidth"]
+- !private ["11SwiftCharts29ChartStackedBarsViewGeneratorC", "constantScreenLoc"]
+- ["11SwiftCharts29ChartStackedBarsViewGeneratorC", "deinit"]
+- ["11SwiftCharts29ChartStackedBarsViewGeneratorC", "generateView"]
+- !private ["11SwiftCharts29ChartStackedBarsViewGeneratorC", "horizontal"]
+- ["11SwiftCharts29ChartStackedBarsViewGeneratorC", "init"]
+- !private ["11SwiftCharts29ChartStackedBarsViewGeneratorC", "layer"]
+- !private ["11SwiftCharts29ChartStackedBarsViewGeneratorC", "stackedViewGenerator"]
+- !private ["11SwiftCharts29ChartStackedBarsViewGeneratorC", "viewPoints"]
+- ["11SwiftCharts21ChartTappedBarStackedV", "ChartCoordsSpaceLayer"]
+- ["11SwiftCharts21ChartTappedBarStackedV", "ChartPointViewBarStacked"]
+- ["11SwiftCharts21ChartTappedBarStackedV", "ChartStackedBarModel"]
+- ["11SwiftCharts21ChartTappedBarStackedV", "ChartTappedBarStackedFrame"]
+- ["11SwiftCharts21ChartTappedBarStackedV", "barView"]
+- ["11SwiftCharts21ChartTappedBarStackedV", "init"]
+- ["11SwiftCharts21ChartTappedBarStackedV", "layer"]
+- ["11SwiftCharts21ChartTappedBarStackedV", "model"]
+- ["11SwiftCharts21ChartTappedBarStackedV", "stackFrameData"]
+- ["11SwiftCharts26ChartTappedBarStackedFrameV", "CGRect"]
+- ["11SwiftCharts26ChartTappedBarStackedFrameV", "ChartStackedBarItemModel"]
+- ["11SwiftCharts26ChartTappedBarStackedFrameV", "Int"]
+- ["11SwiftCharts26ChartTappedBarStackedFrameV", "UIView"]
+- ["11SwiftCharts26ChartTappedBarStackedFrameV", "init"]
+- ["11SwiftCharts26ChartTappedBarStackedFrameV", "stackedItemIndex"]
+- ["11SwiftCharts26ChartTappedBarStackedFrameV", "stackedItemModel"]
+- ["11SwiftCharts26ChartTappedBarStackedFrameV", "stackedItemView"]
+- ["11SwiftCharts26ChartTappedBarStackedFrameV", "stackedItemViewFrameRelativeToBarParent"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "debugDescription"]
+- !private ["s10CollectionP", "enumerated"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "reduce"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "ChartBarViewGenerator"]
+- !private ["s28CustomDebugStringConvertibleP", "ChartStackedBarsViewGenerator"]
+- !private ["s28CustomDebugStringConvertibleP", "ChartTappedBarStacked"]
+- !private ["s28CustomDebugStringConvertibleP", "ChartTappedBarStackedFrame"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "axisValue1"]
+- !private ["s28CustomDebugStringConvertibleP", "axisValue2"]
+- !private ["s28CustomDebugStringConvertibleP", "barModels"]
+- !private ["s28CustomDebugStringConvertibleP", "barViews"]
+- !private ["s28CustomDebugStringConvertibleP", "barWidth"]
+- !private ["s28CustomDebugStringConvertibleP", "bgColor"]
+- !private ["s28CustomDebugStringConvertibleP", "chartInitialized"]
+- !private ["s28CustomDebugStringConvertibleP", "constant"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "horizontal"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "items"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "modelLocToScreenLoc"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "settings"]
+- !private ["s28CustomDebugStringConvertibleP", "stackFrameSelectionViewUpdater"]
+- !private ["s28CustomDebugStringConvertibleP", "stackedTapHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "tapHandler"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "debugDescription"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "ChartBarViewGenerator"]
+- !private ["s23CustomStringConvertibleP", "ChartStackedBarsViewGenerator"]
+- !private ["s23CustomStringConvertibleP", "ChartTappedBarStacked"]
+- !private ["s23CustomStringConvertibleP", "ChartTappedBarStackedFrame"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "barModels"]
+- !private ["s23CustomStringConvertibleP", "barViews"]
+- !private ["s23CustomStringConvertibleP", "barWidth"]
+- !private ["s23CustomStringConvertibleP", "chartInitialized"]
+- !private ["s23CustomStringConvertibleP", "copy"]
+- !private ["s23CustomStringConvertibleP", "debugDescription"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "horizontal"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "modelLocToScreenLoc"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "scalar"]
+- !private ["s23CustomStringConvertibleP", "settings"]
+- !private ["s23CustomStringConvertibleP", "stackFrameSelectionViewUpdater"]
+- !private ["s23CustomStringConvertibleP", "stackedTapHandler"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "tapHandler"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "debugDescription"]
+- !private ["s9DecodableP", "enumerated"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "map"]
+- !private ["s9DecodableP", "reduce"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "debugDescription"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "debugDescription"]
+- !private ["s9EncodableP", "enumerated"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EncodableP", "reduce"]
+- !private ["s9EncodableP", "subscript"]
+- ["s9EquatableP", "ChartBarViewGenerator"]
+- !private ["s9EquatableP", "ChartStackedBarsViewGenerator"]
+- !private ["s9EquatableP", "ChartTappedBarStacked"]
+- !private ["s9EquatableP", "ChartTappedBarStackedFrame"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "barModels"]
+- !private ["s9EquatableP", "barViews"]
+- !private ["s9EquatableP", "barWidth"]
+- !private ["s9EquatableP", "chartInitialized"]
+- !private ["s9EquatableP", "copy"]
+- !private ["s9EquatableP", "debugDescription"]
+- !private ["s9EquatableP", "enumerated"]
+- !private ["s9EquatableP", "horizontal"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "modelLocToScreenLoc"]
+- !private ["s9EquatableP", "reduce"]
+- !private ["s9EquatableP", "scalar"]
+- !private ["s9EquatableP", "settings"]
+- !private ["s9EquatableP", "stackFrameSelectionViewUpdater"]
+- !private ["s9EquatableP", "stackedTapHandler"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "tapHandler"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "debugDescription"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s13FloatingPointP", "init"]
+- ["s8HashableP", "ChartBarViewGenerator"]
+- !private ["s8HashableP", "ChartStackedBarsViewGenerator"]
+- !private ["s8HashableP", "ChartTappedBarStacked"]
+- !private ["s8HashableP", "ChartTappedBarStackedFrame"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "barModels"]
+- !private ["s8HashableP", "barViews"]
+- !private ["s8HashableP", "barWidth"]
+- !private ["s8HashableP", "chartInitialized"]
+- !private ["s8HashableP", "copy"]
+- !private ["s8HashableP", "horizontal"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "modelLocToScreenLoc"]
+- !private ["s8HashableP", "scalar"]
+- !private ["s8HashableP", "settings"]
+- !private ["s8HashableP", "stackFrameSelectionViewUpdater"]
+- !private ["s8HashableP", "stackedTapHandler"]
+- !private ["s8HashableP", "tapHandler"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "enumerated"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "reduce"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "stackFrameSelectionViewUpdater"]
+- !private ["So8NSCodingP", "stackedTapHandler"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "CGPoint"]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "Chart"]
+- ["So8NSObjectC", "ChartAxis"]
+- ["So8NSObjectC", "ChartBarModel"]
+- ["So8NSObjectC", "ChartBarViewGenerator"]
+- ["So8NSObjectC", "ChartBarViewSettings"]
+- ["So8NSObjectC", "ChartPointViewBarStackedFrame"]
+- ["So8NSObjectC", "ChartStackedBarModel"]
+- !private ["So8NSObjectC", "ChartStackedBarsViewGenerator"]
+- ["So8NSObjectC", "ChartTappedBarStacked"]
+- !private ["So8NSObjectC", "ChartTappedBarStackedFrame"]
+- ["So8NSObjectC", "ChartViewSelector"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "T"]
+- ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UIView"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", "barModels"]
+- ["So8NSObjectC", "barViews"]
+- ["So8NSObjectC", "barWidth"]
+- ["So8NSObjectC", "chartInitialized"]
+- ["So8NSObjectC", "horizontal"]
+- !private ["So8NSObjectC", "modelLocToScreenLoc"]
+- ["So8NSObjectC", "settings"]
+- ["So8NSObjectC", "stackFrameSelectionViewUpdater"]
+- !private ["So8NSObjectC", "stackedTapHandler"]
+- ["So8NSObjectC", "tapHandler"]
+- ["So16NSObjectProtocolP", "ChartBarViewGenerator"]
+- !private ["So16NSObjectProtocolP", "ChartStackedBarsViewGenerator"]
+- !private ["So16NSObjectProtocolP", "ChartTappedBarStacked"]
+- !private ["So16NSObjectProtocolP", "ChartTappedBarStackedFrame"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "barModels"]
+- !private ["So16NSObjectProtocolP", "barViews"]
+- !private ["So16NSObjectProtocolP", "barWidth"]
+- !private ["So16NSObjectProtocolP", "chartInitialized"]
+- !private ["So16NSObjectProtocolP", "horizontal"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "modelLocToScreenLoc"]
+- !private ["So16NSObjectProtocolP", "settings"]
+- !private ["So16NSObjectProtocolP", "stackFrameSelectionViewUpdater"]
+- !private ["So16NSObjectProtocolP", "stackedTapHandler"]
+- !private ["So16NSObjectProtocolP", "tapHandler"]
+- !private ["s7NumericP", "init"]
+- !private ["Sq", "map"]
+- !private ["11SwiftCharts8PannableP", "addSubview"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "enumerated"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "reduce"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "enumerated"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "reduce"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "debugDescription"]
+- !private ["s8SequenceP", "enumerated"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "reduce"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["11SwiftCharts10StringTypeP", "init"]
+- !private ["11SwiftCharts30TappedChartPointViewBarStackedV", "stackFrame"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "stackFrameSelectionViewUpdater"]
+- !private ["So29UIAccessibilityIdentificationP", "stackedTapHandler"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "stackFrameSelectionViewUpdater"]
+- !private ["So12UIAppearanceP", "stackedTapHandler"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "stackFrameSelectionViewUpdater"]
+- !private ["So21UIAppearanceContainerP", "stackedTapHandler"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "stackFrameSelectionViewUpdater"]
+- !private ["So17UICoordinateSpaceP", "stackedTapHandler"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "stackFrameSelectionViewUpdater"]
+- !private ["So13UIDynamicItemP", "stackedTapHandler"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "stackFrameSelectionViewUpdater"]
+- !private ["So18UIFocusEnvironmentP", "stackedTapHandler"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "stackFrameSelectionViewUpdater"]
+- !private ["So11UIFocusItemP", "stackedTapHandler"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "stackFrameSelectionViewUpdater"]
+- !private ["So30UIPasteConfigurationSupportingP", "stackedTapHandler"]
+- !private ["So11UIResponderC", "stackFrameSelectionViewUpdater"]
+- !private ["So11UIResponderC", "stackedTapHandler"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "stackFrameSelectionViewUpdater"]
+- !private ["So30UIResponderStandardEditActionsP", "stackedTapHandler"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "stackFrameSelectionViewUpdater"]
+- !private ["So18UITraitEnvironmentP", "stackedTapHandler"]
+- !private ["So6UIViewC", "stackFrameSelectionViewUpdater"]
+- !private ["So6UIViewC", "stackedTapHandler"]
+- !private ["11SwiftCharts8ZoomableP", "addSubview"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "reduce"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "stackFrameSelectionViewUpdater"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "stackedTapHandler"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ChartBarViewGenerator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ChartStackedBarsViewGenerator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ChartTappedBarStacked"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ChartTappedBarStackedFrame"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "barModels"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "barViews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "barWidth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "chartInitialized"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "horizontal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "modelLocToScreenLoc"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "settings"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stackFrameSelectionViewUpdater"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stackedTapHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tapHandler"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "debugDescription"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "reduce"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- !private "12CoreGraphics7CGFloatV"
+- !private "SC6CGRectV"
+- "s7CVarArgP"
+- !private "11SwiftCharts5ChartC"
+- !private "11SwiftCharts14ChartAxisValueC"
+- "11SwiftCharts13ChartBarModelC"
+- "11SwiftCharts22ChartBarsViewGeneratorC"
+- "11SwiftCharts21ChartCoordsSpaceLayerC"
+- "11SwiftCharts10ChartLayerP"
+- "11SwiftCharts14ChartLayerBaseC"
+- !private "11SwiftCharts17ChartPointViewBarC"
+- !private "11SwiftCharts24ChartPointViewBarStackedC"
+- "11SwiftCharts20ChartStackedBarModelC"
+- "11SwiftCharts21ChartStackedBarsLayerC"
+- "11SwiftCharts29ChartStackedBarsViewGeneratorC"
+- "11SwiftCharts21ChartTappedBarStackedV"
+- "11SwiftCharts26ChartTappedBarStackedFrameV"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s13FloatingPointP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s7NumericP"
+- !private "Sq"
+- !private "11SwiftCharts8PannableP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "11SwiftCharts10StringTypeP"
+- !private "11SwiftCharts30TappedChartPointViewBarStackedV"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "11SwiftCharts8ZoomableP"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/Target Support Files/SwiftCharts/SwiftCharts-umbrella.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftCharts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "dde84a2e8532ad751a6b0d1a9adf0cba"

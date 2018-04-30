@@ -1,0 +1,344 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChartAxisValuesGeneratorDate"
+provides-nominal:
+- "11SwiftCharts28ChartAxisValuesGeneratorDateC"
+provides-member:
+- ["11SwiftCharts28ChartAxisValuesGeneratorDateC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "-="
+- !private "/"
+- !private "<"
+- !private ">"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CGFloat"
+- "Calendar"
+- "ChartAxis"
+- "ChartAxisGeneratorMultiplier"
+- "ChartAxisGeneratorMultiplierUpdateMode"
+- "ChartAxisValuesGeneratorDate"
+- !private "Date"
+- "Double"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "StringLiteralType"
+depends-member:
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["s19BinaryFloatingPointP", "isNaN"]
+- !private ["s19BinaryFloatingPointP", "isZero"]
+- !private ["s19BinaryFloatingPointP", "nan"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isNaN"]
+- !private ["s7CVarArgP", "isZero"]
+- !private ["s7CVarArgP", "nan"]
+- ["10Foundation8CalendarV", "Component"]
+- !private ["11SwiftCharts9ChartAxisC", "first"]
+- !private ["11SwiftCharts9ChartAxisC", "firstInit"]
+- !private ["11SwiftCharts9ChartAxisC", "firstVisible"]
+- !private ["11SwiftCharts9ChartAxisC", "last"]
+- !private ["11SwiftCharts9ChartAxisC", "screenLength"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "CGFloat"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "Calendar"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "ChartAxis"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "ChartAxisGeneratorMultiplierUpdateMode"]
+- !private ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "Date"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "Double"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "Int"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", ""]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "axisInitialized"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "calculateModelStart"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "incrementScalar"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "init"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "maxTextSize"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "minSpace"]
+- !private ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "multiplier"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "preferredDividers"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "requiredLengthForDividers"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "unit"]
+- !private ["11SwiftCharts38ChartAxisGeneratorMultiplierUpdateModeO", "halve"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "CGFloat"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "Date"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "Double"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "Int"]
+- ["11SwiftCharts24ChartAxisValuesGeneratorP", ""]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "init"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "maxTextSize"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "minSpace"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "multiplier"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "preferredDividers"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "requiredLengthForDividers"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "unit"]
+- ["11SwiftCharts28ChartAxisValuesGeneratorDateC", "CGFloat"]
+- ["11SwiftCharts28ChartAxisValuesGeneratorDateC", "Calendar"]
+- ["11SwiftCharts28ChartAxisValuesGeneratorDateC", "ChartAxis"]
+- ["11SwiftCharts28ChartAxisValuesGeneratorDateC", "ChartAxisGeneratorMultiplierUpdateMode"]
+- !private ["11SwiftCharts28ChartAxisValuesGeneratorDateC", "Date"]
+- ["11SwiftCharts28ChartAxisValuesGeneratorDateC", "Double"]
+- ["11SwiftCharts28ChartAxisValuesGeneratorDateC", "Int"]
+- ["11SwiftCharts28ChartAxisValuesGeneratorDateC", "axisInitialized"]
+- ["11SwiftCharts28ChartAxisValuesGeneratorDateC", "calculateModelStart"]
+- ["11SwiftCharts28ChartAxisValuesGeneratorDateC", "deinit"]
+- ["11SwiftCharts28ChartAxisValuesGeneratorDateC", "incrementScalar"]
+- ["11SwiftCharts28ChartAxisValuesGeneratorDateC", "init"]
+- !private ["11SwiftCharts28ChartAxisValuesGeneratorDateC", "maxTextSize"]
+- !private ["11SwiftCharts28ChartAxisValuesGeneratorDateC", "minSpace"]
+- !private ["11SwiftCharts28ChartAxisValuesGeneratorDateC", "multiplier"]
+- !private ["11SwiftCharts28ChartAxisValuesGeneratorDateC", "preferredDividers"]
+- !private ["11SwiftCharts28ChartAxisValuesGeneratorDateC", "requiredLengthForDividers"]
+- ["11SwiftCharts28ChartAxisValuesGeneratorDateC", "unit"]
+- !private ["s10ComparableP", "addComponent"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "isNaN"]
+- !private ["s10ComparableP", "isZero"]
+- !private ["s10ComparableP", "nan"]
+- !private ["s10ComparableP", "timeInterval"]
+- !private ["s10ComparableP", "timeIntervalSince1970"]
+- ["s28CustomDebugStringConvertibleP", "Component"]
+- !private ["s28CustomDebugStringConvertibleP", "addComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isNaN"]
+- !private ["s28CustomDebugStringConvertibleP", "isZero"]
+- !private ["s28CustomDebugStringConvertibleP", "nan"]
+- !private ["s28CustomDebugStringConvertibleP", "timeInterval"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "addComponent"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isNaN"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isZero"]
+- !private ["s29CustomPlaygroundQuickLookableP", "nan"]
+- !private ["s29CustomPlaygroundQuickLookableP", "timeInterval"]
+- !private ["s29CustomPlaygroundQuickLookableP", "timeIntervalSince1970"]
+- ["s17CustomReflectableP", "Component"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "addComponent"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isNaN"]
+- !private ["s17CustomReflectableP", "isZero"]
+- !private ["s17CustomReflectableP", "nan"]
+- !private ["s17CustomReflectableP", "timeInterval"]
+- !private ["s17CustomReflectableP", "timeIntervalSince1970"]
+- ["s23CustomStringConvertibleP", "Component"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addComponent"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "firstInit"]
+- !private ["s23CustomStringConvertibleP", "firstVisible"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isNaN"]
+- !private ["s23CustomStringConvertibleP", "isZero"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "nan"]
+- !private ["s23CustomStringConvertibleP", "screenLength"]
+- !private ["s23CustomStringConvertibleP", "timeInterval"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSince1970"]
+- !private ["10Foundation4DateV", "addComponent"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["10Foundation4DateV", "timeInterval"]
+- !private ["10Foundation4DateV", "timeIntervalSince1970"]
+- ["s9DecodableP", "Component"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "addComponent"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "isNaN"]
+- !private ["s9DecodableP", "isZero"]
+- !private ["s9DecodableP", "nan"]
+- !private ["s9DecodableP", "timeInterval"]
+- !private ["s9DecodableP", "timeIntervalSince1970"]
+- !private ["Sd", "init"]
+- !private ["Sd", "isNaN"]
+- !private ["Sd", "isZero"]
+- !private ["Sd", "nan"]
+- ["s9EncodableP", "Component"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "addComponent"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "isNaN"]
+- !private ["s9EncodableP", "isZero"]
+- !private ["s9EncodableP", "nan"]
+- !private ["s9EncodableP", "timeInterval"]
+- !private ["s9EncodableP", "timeIntervalSince1970"]
+- ["s9EquatableP", "Component"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addComponent"]
+- !private ["s9EquatableP", "halve"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isNaN"]
+- !private ["s9EquatableP", "isZero"]
+- !private ["s9EquatableP", "nan"]
+- !private ["s9EquatableP", "timeInterval"]
+- !private ["s9EquatableP", "timeIntervalSince1970"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "isNaN"]
+- !private ["s25ExpressibleByFloatLiteralP", "isZero"]
+- !private ["s25ExpressibleByFloatLiteralP", "nan"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "isNaN"]
+- !private ["s27ExpressibleByIntegerLiteralP", "isZero"]
+- !private ["s27ExpressibleByIntegerLiteralP", "nan"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s13FloatingPointP", "isNaN"]
+- !private ["s13FloatingPointP", "isZero"]
+- !private ["s13FloatingPointP", "nan"]
+- ["s8HashableP", "Component"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addComponent"]
+- !private ["s8HashableP", "halve"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isNaN"]
+- !private ["s8HashableP", "isZero"]
+- !private ["s8HashableP", "nan"]
+- !private ["s8HashableP", "timeInterval"]
+- !private ["s8HashableP", "timeIntervalSince1970"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isNaN"]
+- !private ["s25LosslessStringConvertibleP", "isZero"]
+- !private ["s25LosslessStringConvertibleP", "nan"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s7NumericP", "init"]
+- !private ["s7NumericP", "isNaN"]
+- !private ["s7NumericP", "isZero"]
+- !private ["s7NumericP", "nan"]
+- ["10Foundation20ReferenceConvertibleP", "Component"]
+- !private ["10Foundation20ReferenceConvertibleP", "addComponent"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeInterval"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSince1970"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "isNaN"]
+- !private ["s13SignedNumericP", "isZero"]
+- !private ["s13SignedNumericP", "nan"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["s10StrideableP", "isNaN"]
+- !private ["s10StrideableP", "isZero"]
+- !private ["s10StrideableP", "nan"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s15_CVarArgAlignedP", "isNaN"]
+- !private ["s15_CVarArgAlignedP", "isZero"]
+- !private ["s15_CVarArgAlignedP", "nan"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "isNaN"]
+- !private ["s22_CVarArgPassedAsDoubleP", "isZero"]
+- !private ["s22_CVarArgPassedAsDoubleP", "nan"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "isNaN"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "isZero"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "nan"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "isNaN"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "isZero"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "nan"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["10Foundation14_MutableBoxingP", "Component"]
+- ["s21_ObjectiveCBridgeableP", "Component"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "addComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isNaN"]
+- !private ["s21_ObjectiveCBridgeableP", "isZero"]
+- !private ["s21_ObjectiveCBridgeableP", "nan"]
+- !private ["s21_ObjectiveCBridgeableP", "timeInterval"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSince1970"]
+depends-nominal:
+- !private "s19BinaryFloatingPointP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "12CoreGraphics7CGFloatV"
+- !private "s7CVarArgP"
+- "10Foundation8CalendarV"
+- !private "11SwiftCharts9ChartAxisC"
+- "11SwiftCharts28ChartAxisGeneratorMultiplierC"
+- !private "11SwiftCharts38ChartAxisGeneratorMultiplierUpdateModeO"
+- "11SwiftCharts24ChartAxisValuesGeneratorP"
+- "11SwiftCharts28ChartAxisValuesGeneratorDateC"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- "s9DecodableP"
+- !private "Sd"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "s13FloatingPointP"
+- "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s7NumericP"
+- "10Foundation20ReferenceConvertibleP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation14_MutableBoxingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/Target Support Files/SwiftCharts/SwiftCharts-umbrella.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SwiftCharts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "6ccbf5f20acf0b406d2d5257264b5107"

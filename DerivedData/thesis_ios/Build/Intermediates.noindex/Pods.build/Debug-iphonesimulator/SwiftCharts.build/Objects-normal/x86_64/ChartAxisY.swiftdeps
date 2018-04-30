@@ -1,0 +1,261 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChartAxisY"
+provides-nominal:
+- "11SwiftCharts10ChartAxisYC"
+provides-member:
+- ["11SwiftCharts10ChartAxisYC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "/"
+- !private "<"
+- !private "<="
+- !private ">"
+- !private ">="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "CGFloat"
+- "CGSize"
+- "ChartAxis"
+- "ChartAxisY"
+- "Double"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "TernaryPrecedence"
+- !private "max"
+- !private "min"
+depends-member:
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["SC6CGSizeV", "height"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- ["11SwiftCharts9ChartAxisC", "Bool"]
+- ["11SwiftCharts9ChartAxisC", "CGFloat"]
+- ["11SwiftCharts9ChartAxisC", "CGSize"]
+- ["11SwiftCharts9ChartAxisC", "Double"]
+- ["11SwiftCharts9ChartAxisC", ""]
+- !private ["11SwiftCharts9ChartAxisC", "first"]
+- !private ["11SwiftCharts9ChartAxisC", "firstInit"]
+- ["11SwiftCharts9ChartAxisC", "firstModelValueInBounds"]
+- !private ["11SwiftCharts9ChartAxisC", "firstScreen"]
+- !private ["11SwiftCharts9ChartAxisC", "firstScreenInit"]
+- !private ["11SwiftCharts9ChartAxisC", "firstVisible"]
+- !private ["11SwiftCharts9ChartAxisC", "firstVisibleScreen"]
+- !private ["11SwiftCharts9ChartAxisC", "fixedPaddingFirstScreen"]
+- !private ["11SwiftCharts9ChartAxisC", "fixedPaddingLastScreen"]
+- ["11SwiftCharts9ChartAxisC", "init"]
+- !private ["11SwiftCharts9ChartAxisC", "innerRatio"]
+- ["11SwiftCharts9ChartAxisC", "innerScalarForScreenLoc"]
+- ["11SwiftCharts9ChartAxisC", "innerScreenLocForScalar"]
+- !private ["11SwiftCharts9ChartAxisC", "internalScreenLocForScalar"]
+- ["11SwiftCharts9ChartAxisC", "isInBoundaries"]
+- ["11SwiftCharts9ChartAxisC", "keepInBoundaries"]
+- !private ["11SwiftCharts9ChartAxisC", "last"]
+- !private ["11SwiftCharts9ChartAxisC", "lastInit"]
+- ["11SwiftCharts9ChartAxisC", "lastModelValueInBounds"]
+- !private ["11SwiftCharts9ChartAxisC", "lastScreen"]
+- !private ["11SwiftCharts9ChartAxisC", "lastScreenInit"]
+- !private ["11SwiftCharts9ChartAxisC", "lastVisible"]
+- !private ["11SwiftCharts9ChartAxisC", "lastVisibleScreen"]
+- ["11SwiftCharts9ChartAxisC", "length"]
+- !private ["11SwiftCharts9ChartAxisC", "max"]
+- !private ["11SwiftCharts9ChartAxisC", "min"]
+- ["11SwiftCharts9ChartAxisC", "modelToScreenLength"]
+- !private ["11SwiftCharts9ChartAxisC", "modelToScreenRatio"]
+- !private ["11SwiftCharts9ChartAxisC", "paddingFirstScreen"]
+- !private ["11SwiftCharts9ChartAxisC", "paddingLastScreen"]
+- ["11SwiftCharts9ChartAxisC", "pan"]
+- ["11SwiftCharts9ChartAxisC", "scalarForScreenLoc"]
+- ["11SwiftCharts9ChartAxisC", "screenLength"]
+- ["11SwiftCharts9ChartAxisC", "screenLengthInit"]
+- ["11SwiftCharts9ChartAxisC", "screenLocForScalar"]
+- ["11SwiftCharts9ChartAxisC", "screenToModelLength"]
+- ["11SwiftCharts9ChartAxisC", "toModelInner"]
+- ["11SwiftCharts9ChartAxisC", "visibleLength"]
+- ["11SwiftCharts9ChartAxisC", "visibleScreenLength"]
+- ["11SwiftCharts9ChartAxisC", "zoom"]
+- !private ["11SwiftCharts9ChartAxisC", "zoomFactor"]
+- ["11SwiftCharts10ChartAxisYC", "Bool"]
+- ["11SwiftCharts10ChartAxisYC", "CGFloat"]
+- ["11SwiftCharts10ChartAxisYC", "CGSize"]
+- ["11SwiftCharts10ChartAxisYC", "Double"]
+- ["11SwiftCharts10ChartAxisYC", "deinit"]
+- !private ["11SwiftCharts10ChartAxisYC", "first"]
+- !private ["11SwiftCharts10ChartAxisYC", "firstInit"]
+- ["11SwiftCharts10ChartAxisYC", "firstModelValueInBounds"]
+- !private ["11SwiftCharts10ChartAxisYC", "firstScreen"]
+- !private ["11SwiftCharts10ChartAxisYC", "firstScreenInit"]
+- !private ["11SwiftCharts10ChartAxisYC", "firstVisible"]
+- !private ["11SwiftCharts10ChartAxisYC", "firstVisibleScreen"]
+- !private ["11SwiftCharts10ChartAxisYC", "fixedPaddingFirstScreen"]
+- !private ["11SwiftCharts10ChartAxisYC", "fixedPaddingLastScreen"]
+- ["11SwiftCharts10ChartAxisYC", "init"]
+- !private ["11SwiftCharts10ChartAxisYC", "innerRatio"]
+- ["11SwiftCharts10ChartAxisYC", "innerScalarForScreenLoc"]
+- ["11SwiftCharts10ChartAxisYC", "innerScreenLocForScalar"]
+- !private ["11SwiftCharts10ChartAxisYC", "internalScreenLocForScalar"]
+- ["11SwiftCharts10ChartAxisYC", "isInBoundaries"]
+- ["11SwiftCharts10ChartAxisYC", "keepInBoundaries"]
+- !private ["11SwiftCharts10ChartAxisYC", "last"]
+- !private ["11SwiftCharts10ChartAxisYC", "lastInit"]
+- ["11SwiftCharts10ChartAxisYC", "lastModelValueInBounds"]
+- !private ["11SwiftCharts10ChartAxisYC", "lastScreen"]
+- !private ["11SwiftCharts10ChartAxisYC", "lastScreenInit"]
+- !private ["11SwiftCharts10ChartAxisYC", "lastVisible"]
+- !private ["11SwiftCharts10ChartAxisYC", "lastVisibleScreen"]
+- ["11SwiftCharts10ChartAxisYC", "length"]
+- !private ["11SwiftCharts10ChartAxisYC", "max"]
+- !private ["11SwiftCharts10ChartAxisYC", "min"]
+- ["11SwiftCharts10ChartAxisYC", "modelToScreenLength"]
+- !private ["11SwiftCharts10ChartAxisYC", "modelToScreenRatio"]
+- !private ["11SwiftCharts10ChartAxisYC", "paddingFirstScreen"]
+- !private ["11SwiftCharts10ChartAxisYC", "paddingLastScreen"]
+- ["11SwiftCharts10ChartAxisYC", "pan"]
+- ["11SwiftCharts10ChartAxisYC", "scalarForScreenLoc"]
+- ["11SwiftCharts10ChartAxisYC", "screenLength"]
+- ["11SwiftCharts10ChartAxisYC", "screenLengthInit"]
+- ["11SwiftCharts10ChartAxisYC", "screenLocForScalar"]
+- ["11SwiftCharts10ChartAxisYC", "screenToModelLength"]
+- ["11SwiftCharts10ChartAxisYC", "toModelInner"]
+- ["11SwiftCharts10ChartAxisYC", "visibleLength"]
+- ["11SwiftCharts10ChartAxisYC", "visibleScreenLength"]
+- ["11SwiftCharts10ChartAxisYC", "zoom"]
+- !private ["11SwiftCharts10ChartAxisYC", "zoomFactor"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "CGFloat"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "firstInit"]
+- !private ["s23CustomStringConvertibleP", "firstScreen"]
+- !private ["s23CustomStringConvertibleP", "firstScreenInit"]
+- !private ["s23CustomStringConvertibleP", "firstVisible"]
+- !private ["s23CustomStringConvertibleP", "firstVisibleScreen"]
+- !private ["s23CustomStringConvertibleP", "fixedPaddingFirstScreen"]
+- !private ["s23CustomStringConvertibleP", "fixedPaddingLastScreen"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "innerRatio"]
+- !private ["s23CustomStringConvertibleP", "internalScreenLocForScalar"]
+- !private ["s23CustomStringConvertibleP", "keepInBoundaries"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "lastInit"]
+- !private ["s23CustomStringConvertibleP", "lastScreen"]
+- !private ["s23CustomStringConvertibleP", "lastScreenInit"]
+- !private ["s23CustomStringConvertibleP", "lastVisible"]
+- !private ["s23CustomStringConvertibleP", "lastVisibleScreen"]
+- !private ["s23CustomStringConvertibleP", "length"]
+- !private ["s23CustomStringConvertibleP", "max"]
+- !private ["s23CustomStringConvertibleP", "min"]
+- !private ["s23CustomStringConvertibleP", "modelToScreenLength"]
+- !private ["s23CustomStringConvertibleP", "modelToScreenRatio"]
+- !private ["s23CustomStringConvertibleP", "paddingFirstScreen"]
+- !private ["s23CustomStringConvertibleP", "paddingLastScreen"]
+- !private ["s23CustomStringConvertibleP", "screenLength"]
+- !private ["s23CustomStringConvertibleP", "screenToModelLength"]
+- !private ["s23CustomStringConvertibleP", "zoom"]
+- !private ["s23CustomStringConvertibleP", "zoomFactor"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "height"]
+- !private ["s9DecodableP", "init"]
+- !private ["Sd", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "height"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "height"]
+- !private ["s9EquatableP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s7NumericP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "s19BinaryFloatingPointP"
+- !private "Sb"
+- !private "12CoreGraphics7CGFloatV"
+- !private "SC6CGSizeV"
+- !private "s7CVarArgP"
+- "11SwiftCharts9ChartAxisC"
+- "11SwiftCharts10ChartAxisYC"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "Sd"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s13FloatingPointP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s7NumericP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/Target Support Files/SwiftCharts/SwiftCharts-umbrella.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SwiftCharts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "1089384a96fc8ad448f802cf8d63fa88"

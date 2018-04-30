@@ -1,0 +1,516 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PieCustomViewsLayerSettings"
+- "PieCustomViewsLayer"
+provides-nominal:
+- "9PieCharts0A24CustomViewsLayerSettingsC"
+- "9PieCharts0A16CustomViewsLayerC"
+provides-member:
+- ["9PieCharts0A24CustomViewsLayerSettingsC", ""]
+- ["9PieCharts0A16CustomViewsLayerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "-"
+- !private "=="
+- !private "??"
+- "AlphaPieViewLayerAnimator"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CGFloat"
+- "CGPoint"
+- "CGSize"
+- "PieChart"
+- "PieChartLayer"
+- "PieCustomViewsLayer"
+- "PieCustomViewsLayerSettings"
+- "PieSlice"
+- "PieViewLayerAnimator"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "UIView"
+- "Void"
+- !private "print"
+- !private "||"
+depends-member:
+- ["9PieCharts05AlphaA17ViewLayerAnimatorV", "deinit"]
+- ["9PieCharts05AlphaA17ViewLayerAnimatorV", "init"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So19CAAnimationDelegateP", "arcCenter"]
+- !private ["So19CAAnimationDelegateP", "calculatePosition"]
+- !private ["So19CAAnimationDelegateP", "maxRectWidth"]
+- !private ["So19CAAnimationDelegateP", "midAngle"]
+- !private ["So19CAAnimationDelegateP", "midPoint"]
+- !private ["So19CAAnimationDelegateP", "selectedOffset"]
+- !private ["So7CALayerC", "arcCenter"]
+- !private ["So7CALayerC", "calculatePosition"]
+- !private ["So7CALayerC", "maxRectWidth"]
+- !private ["So7CALayerC", "midAngle"]
+- !private ["So7CALayerC", "midPoint"]
+- !private ["So7CALayerC", "selectedOffset"]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "animate"]
+- !private ["So15CALayerDelegateP", "center"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "removeFromSuperview"]
+- !private ["So13CAMediaTimingP", "arcCenter"]
+- !private ["So13CAMediaTimingP", "calculatePosition"]
+- !private ["So13CAMediaTimingP", "maxRectWidth"]
+- !private ["So13CAMediaTimingP", "midAngle"]
+- !private ["So13CAMediaTimingP", "midPoint"]
+- !private ["So13CAMediaTimingP", "selectedOffset"]
+- !private ["SC6CGRectV", "size"]
+- !private ["SC6CGSizeV", "contains"]
+- !private ["SC6CGSizeV", "height"]
+- !private ["SC6CGSizeV", "init"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "animate"]
+- !private ["s7CVarArgP", "arcCenter"]
+- !private ["s7CVarArgP", "calculatePosition"]
+- !private ["s7CVarArgP", "center"]
+- !private ["s7CVarArgP", "frame"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "maxRectWidth"]
+- !private ["s7CVarArgP", "midAngle"]
+- !private ["s7CVarArgP", "midPoint"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "removeFromSuperview"]
+- !private ["s7CVarArgP", "selectedOffset"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "removeAll"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "animate"]
+- !private ["s28CustomDebugStringConvertibleP", "arcCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "calculatePosition"]
+- !private ["s28CustomDebugStringConvertibleP", "center"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "maxRectWidth"]
+- !private ["s28CustomDebugStringConvertibleP", "midAngle"]
+- !private ["s28CustomDebugStringConvertibleP", "midPoint"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "removeFromSuperview"]
+- !private ["s28CustomDebugStringConvertibleP", "selectedOffset"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "contains"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "size"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "height"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s17CustomReflectableP", "size"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "animate"]
+- !private ["s23CustomStringConvertibleP", "arcCenter"]
+- !private ["s23CustomStringConvertibleP", "calculatePosition"]
+- !private ["s23CustomStringConvertibleP", "center"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "maxRectWidth"]
+- !private ["s23CustomStringConvertibleP", "midAngle"]
+- !private ["s23CustomStringConvertibleP", "midPoint"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "removeFromSuperview"]
+- !private ["s23CustomStringConvertibleP", "selectedOffset"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "contains"]
+- !private ["s9DecodableP", "height"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "map"]
+- !private ["s9DecodableP", "removeAll"]
+- !private ["s9DecodableP", "size"]
+- !private ["s9DecodableP", "subscript"]
+- ["s10DictionaryV", "init"]
+- !private ["s10DictionaryV", "removeAll"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "contains"]
+- !private ["s9EncodableP", "height"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EncodableP", "removeAll"]
+- !private ["s9EncodableP", "size"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addSubview"]
+- !private ["s9EquatableP", "animate"]
+- !private ["s9EquatableP", "arcCenter"]
+- !private ["s9EquatableP", "calculatePosition"]
+- !private ["s9EquatableP", "center"]
+- !private ["s9EquatableP", "contains"]
+- !private ["s9EquatableP", "frame"]
+- !private ["s9EquatableP", "height"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "maxRectWidth"]
+- !private ["s9EquatableP", "midAngle"]
+- !private ["s9EquatableP", "midPoint"]
+- !private ["s9EquatableP", "removeAll"]
+- !private ["s9EquatableP", "removeFromSuperview"]
+- !private ["s9EquatableP", "selectedOffset"]
+- !private ["s9EquatableP", "size"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "view"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "removeAll"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addSubview"]
+- !private ["s8HashableP", "animate"]
+- !private ["s8HashableP", "arcCenter"]
+- !private ["s8HashableP", "calculatePosition"]
+- !private ["s8HashableP", "center"]
+- !private ["s8HashableP", "frame"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "maxRectWidth"]
+- !private ["s8HashableP", "midAngle"]
+- !private ["s8HashableP", "midPoint"]
+- !private ["s8HashableP", "removeFromSuperview"]
+- !private ["s8HashableP", "selectedOffset"]
+- !private ["s8HashableP", "view"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "animate"]
+- !private ["So8NSCodingP", "arcCenter"]
+- !private ["So8NSCodingP", "calculatePosition"]
+- !private ["So8NSCodingP", "center"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "maxRectWidth"]
+- !private ["So8NSCodingP", "midAngle"]
+- !private ["So8NSCodingP", "midPoint"]
+- !private ["So8NSCodingP", "removeFromSuperview"]
+- !private ["So8NSCodingP", "selectedOffset"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "animate"]
+- !private ["So8NSObjectC", "arcCenter"]
+- !private ["So8NSObjectC", "calculatePosition"]
+- !private ["So8NSObjectC", "center"]
+- !private ["So8NSObjectC", "frame"]
+- !private ["So8NSObjectC", "maxRectWidth"]
+- !private ["So8NSObjectC", "midAngle"]
+- !private ["So8NSObjectC", "midPoint"]
+- !private ["So8NSObjectC", "removeFromSuperview"]
+- !private ["So8NSObjectC", "selectedOffset"]
+- !private ["So16NSObjectProtocolP", "addSubview"]
+- !private ["So16NSObjectProtocolP", "animate"]
+- !private ["So16NSObjectProtocolP", "arcCenter"]
+- !private ["So16NSObjectProtocolP", "calculatePosition"]
+- !private ["So16NSObjectProtocolP", "center"]
+- !private ["So16NSObjectProtocolP", "frame"]
+- !private ["So16NSObjectProtocolP", "maxRectWidth"]
+- !private ["So16NSObjectProtocolP", "midAngle"]
+- !private ["So16NSObjectProtocolP", "midPoint"]
+- !private ["So16NSObjectProtocolP", "removeFromSuperview"]
+- !private ["So16NSObjectProtocolP", "selectedOffset"]
+- !private ["So14NSSecureCodingP", "arcCenter"]
+- !private ["So14NSSecureCodingP", "calculatePosition"]
+- !private ["So14NSSecureCodingP", "maxRectWidth"]
+- !private ["So14NSSecureCodingP", "midAngle"]
+- !private ["So14NSSecureCodingP", "midPoint"]
+- !private ["So14NSSecureCodingP", "selectedOffset"]
+- !private ["Sq", "map"]
+- !private ["9PieCharts0A5ChartC", "addSubview"]
+- ["9PieCharts0A13ChartDelegateP", "AlphaPieViewLayerAnimator"]
+- !private ["9PieCharts0A13ChartDelegateP", "CGSize"]
+- ["9PieCharts0A13ChartDelegateP", "PieCustomViewsLayerSettings"]
+- ["9PieCharts0A13ChartDelegateP", "PieSlice"]
+- ["9PieCharts0A13ChartDelegateP", "UIView"]
+- ["9PieCharts0A13ChartDelegateP", ""]
+- ["9PieCharts0A13ChartDelegateP", "addItems"]
+- !private ["9PieCharts0A13ChartDelegateP", "animator"]
+- ["9PieCharts0A13ChartDelegateP", "chart"]
+- ["9PieCharts0A13ChartDelegateP", "clear"]
+- ["9PieCharts0A13ChartDelegateP", "onEndAnimation"]
+- ["9PieCharts0A13ChartDelegateP", "onGenerateSlice"]
+- !private ["9PieCharts0A13ChartDelegateP", "onNotEnoughSpace"]
+- ["9PieCharts0A13ChartDelegateP", "onSelected"]
+- ["9PieCharts0A13ChartDelegateP", "onStartAnimation"]
+- !private ["9PieCharts0A13ChartDelegateP", "print"]
+- !private ["9PieCharts0A13ChartDelegateP", "settings"]
+- !private ["9PieCharts0A13ChartDelegateP", "sliceViews"]
+- !private ["9PieCharts0A13ChartDelegateP", "viewGenerator"]
+- ["9PieCharts0A10ChartLayerP", "AlphaPieViewLayerAnimator"]
+- !private ["9PieCharts0A10ChartLayerP", "CGSize"]
+- ["9PieCharts0A10ChartLayerP", "PieCustomViewsLayerSettings"]
+- ["9PieCharts0A10ChartLayerP", "PieSlice"]
+- ["9PieCharts0A10ChartLayerP", "UIView"]
+- ["9PieCharts0A10ChartLayerP", ""]
+- ["9PieCharts0A10ChartLayerP", "addItems"]
+- !private ["9PieCharts0A10ChartLayerP", "animator"]
+- ["9PieCharts0A10ChartLayerP", "chart"]
+- ["9PieCharts0A10ChartLayerP", "clear"]
+- ["9PieCharts0A10ChartLayerP", "onEndAnimation"]
+- ["9PieCharts0A10ChartLayerP", "onGenerateSlice"]
+- !private ["9PieCharts0A10ChartLayerP", "onNotEnoughSpace"]
+- ["9PieCharts0A10ChartLayerP", "onSelected"]
+- ["9PieCharts0A10ChartLayerP", "onStartAnimation"]
+- !private ["9PieCharts0A10ChartLayerP", "print"]
+- !private ["9PieCharts0A10ChartLayerP", "settings"]
+- !private ["9PieCharts0A10ChartLayerP", "sliceViews"]
+- !private ["9PieCharts0A10ChartLayerP", "viewGenerator"]
+- ["9PieCharts0A16CustomViewsLayerC", "AlphaPieViewLayerAnimator"]
+- ["9PieCharts0A16CustomViewsLayerC", "Bool"]
+- ["9PieCharts0A16CustomViewsLayerC", "CGPoint"]
+- ["9PieCharts0A16CustomViewsLayerC", "CGSize"]
+- ["9PieCharts0A16CustomViewsLayerC", "PieChart"]
+- ["9PieCharts0A16CustomViewsLayerC", "PieCustomViewsLayerSettings"]
+- ["9PieCharts0A16CustomViewsLayerC", "PieSlice"]
+- ["9PieCharts0A16CustomViewsLayerC", "PieViewLayerAnimator"]
+- ["9PieCharts0A16CustomViewsLayerC", "UIView"]
+- ["9PieCharts0A16CustomViewsLayerC", "Void"]
+- ["9PieCharts0A16CustomViewsLayerC", "addItems"]
+- ["9PieCharts0A16CustomViewsLayerC", "animator"]
+- ["9PieCharts0A16CustomViewsLayerC", "chart"]
+- ["9PieCharts0A16CustomViewsLayerC", "clear"]
+- ["9PieCharts0A16CustomViewsLayerC", "deinit"]
+- ["9PieCharts0A16CustomViewsLayerC", "init"]
+- ["9PieCharts0A16CustomViewsLayerC", "onEndAnimation"]
+- ["9PieCharts0A16CustomViewsLayerC", "onGenerateSlice"]
+- ["9PieCharts0A16CustomViewsLayerC", "onNotEnoughSpace"]
+- ["9PieCharts0A16CustomViewsLayerC", "onSelected"]
+- ["9PieCharts0A16CustomViewsLayerC", "onStartAnimation"]
+- !private ["9PieCharts0A16CustomViewsLayerC", "print"]
+- ["9PieCharts0A16CustomViewsLayerC", "settings"]
+- !private ["9PieCharts0A16CustomViewsLayerC", "sliceViews"]
+- ["9PieCharts0A16CustomViewsLayerC", "viewGenerator"]
+- ["9PieCharts0A24CustomViewsLayerSettingsC", "CGFloat"]
+- ["9PieCharts0A24CustomViewsLayerSettingsC", "deinit"]
+- ["9PieCharts0A24CustomViewsLayerSettingsC", "hideOnOverflow"]
+- ["9PieCharts0A24CustomViewsLayerSettingsC", "init"]
+- ["9PieCharts0A24CustomViewsLayerSettingsC", "viewRadius"]
+- ["9PieCharts0A5SliceV", "deinit"]
+- !private ["9PieCharts0A5SliceV", "view"]
+- !private ["9PieCharts0A13SliceDelegateP", "addSubview"]
+- !private ["9PieCharts0A10SliceLayerC", "arcCenter"]
+- !private ["9PieCharts0A10SliceLayerC", "calculatePosition"]
+- !private ["9PieCharts0A10SliceLayerC", "maxRectWidth"]
+- !private ["9PieCharts0A10SliceLayerC", "midAngle"]
+- !private ["9PieCharts0A10SliceLayerC", "midPoint"]
+- !private ["9PieCharts0A10SliceLayerC", "selectedOffset"]
+- !private ["9PieCharts0A17ViewLayerAnimatorP", "animate"]
+- ["9PieCharts0A17ViewLayerAnimatorP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "removeAll"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "animate"]
+- !private ["So29UIAccessibilityIdentificationP", "center"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "removeFromSuperview"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "animate"]
+- !private ["So12UIAppearanceP", "center"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "removeFromSuperview"]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "animate"]
+- !private ["So21UIAppearanceContainerP", "center"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "removeFromSuperview"]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "animate"]
+- !private ["So17UICoordinateSpaceP", "center"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "removeFromSuperview"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "animate"]
+- !private ["So13UIDynamicItemP", "center"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "removeFromSuperview"]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "animate"]
+- !private ["So18UIFocusEnvironmentP", "center"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "removeFromSuperview"]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "animate"]
+- !private ["So11UIFocusItemP", "center"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "removeFromSuperview"]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "animate"]
+- !private ["So30UIPasteConfigurationSupportingP", "center"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "removeFromSuperview"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "animate"]
+- !private ["So11UIResponderC", "center"]
+- !private ["So11UIResponderC", "frame"]
+- !private ["So11UIResponderC", "removeFromSuperview"]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "animate"]
+- !private ["So30UIResponderStandardEditActionsP", "center"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "removeFromSuperview"]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "animate"]
+- !private ["So18UITraitEnvironmentP", "center"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "removeFromSuperview"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "animate"]
+- !private ["So6UIViewC", "center"]
+- !private ["So6UIViewC", "frame"]
+- !private ["So6UIViewC", "removeFromSuperview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "animate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "center"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "removeFromSuperview"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "arcCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "calculatePosition"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "center"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maxRectWidth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "midAngle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "midPoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeFromSuperview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectedOffset"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "9PieCharts05AlphaA17ViewLayerAnimatorV"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So19CAAnimationDelegateP"
+- !private "So7CALayerC"
+- !private "So15CALayerDelegateP"
+- !private "So13CAMediaTimingP"
+- !private "SC6CGRectV"
+- !private "SC6CGSizeV"
+- "s7CVarArgP"
+- "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s10DictionaryV"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "Sq"
+- !private "9PieCharts0A5ChartC"
+- "9PieCharts0A13ChartDelegateP"
+- "9PieCharts0A10ChartLayerP"
+- "9PieCharts0A16CustomViewsLayerC"
+- "9PieCharts0A24CustomViewsLayerSettingsC"
+- "9PieCharts0A5SliceV"
+- !private "9PieCharts0A13SliceDelegateP"
+- !private "9PieCharts0A10SliceLayerC"
+- "9PieCharts0A17ViewLayerAnimatorP"
+- !private "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/Target Support Files/PieCharts/PieCharts-umbrella.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/PieCharts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "5b08325e3958e6ddffce11b752abb6d5"

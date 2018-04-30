@@ -1,0 +1,16 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "977b477e8379995230204953cc70fbd4"
+build_time: [1525124019, 100955000]
+inputs:
+  "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/thesis_ios/Q2ResultsViewController.swift": [1525121880, 0]
+  "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/thesis_ios/StaticGuessEmotions/QuestionFourViewController.swift": [1525123503, 0]
+  "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/thesis_ios/Q3ResultsViewController.swift": [1525118967, 0]
+  "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/thesis_ios/ViewController.swift": [1525022123, 0]
+  "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/thesis_ios/AppDelegate.swift": [1524720489, 0]
+  "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/thesis_ios/Database/DatabaseManager.swift": [1524457598, 0]
+  "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/thesis_ios/GifIndexViewController.swift": [1524457793, 0]
+  "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/thesis_ios/StaticGuessEmotions/QuestionThreeViewController.swift": [1525120359, 0]
+  "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/thesis_ios/StaticGuessEmotions/QuestionTwoViewController.swift": [1525120299, 0]
+  "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/thesis_ios/StaticGuessEmotions/QuestionOneViewController.swift": [1525120169, 0]
+  "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/thesis_ios/Q4ResultsViewController.swift": [1525124018, 0]
+  "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/thesis_ios/Q1ResultsViewController.swift": [1525118500, 0]

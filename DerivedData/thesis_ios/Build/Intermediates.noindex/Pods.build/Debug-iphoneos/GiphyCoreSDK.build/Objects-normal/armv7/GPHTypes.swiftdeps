@@ -1,0 +1,472 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GPHMediaType"
+- "GPHRenditionType"
+- "GPHLanguageType"
+- "GPHRatingType"
+provides-nominal:
+- "12GiphyCoreSDK12GPHMediaTypeO"
+- "12GiphyCoreSDK16GPHRenditionTypeO"
+- "12GiphyCoreSDK15GPHLanguageTypeO"
+- "12GiphyCoreSDK13GPHRatingTypeO"
+provides-member:
+- ["12GiphyCoreSDK12GPHMediaTypeO", ""]
+- ["12GiphyCoreSDK16GPHRenditionTypeO", ""]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", ""]
+- ["12GiphyCoreSDK13GPHRatingTypeO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "FloatLiteralType"
+- "GPHLanguageType"
+- "GPHMediaType"
+- "GPHRatingType"
+- "GPHRenditionType"
+- "Int"
+- "IntegerLiteralType"
+- "RawRepresentable"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "~="
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "lowercased"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lowercased"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "lowercased"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "lowercased"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lowercased"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "lowercased"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "lowercased"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lowercased"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "lowercased"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "lowercased"]
+- ["s9EquatableP", "RawValue"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "arabic"]
+- ["s9EquatableP", "bengali"]
+- ["s9EquatableP", "chineseSimplified"]
+- ["s9EquatableP", "chineseTraditional"]
+- ["s9EquatableP", "czech"]
+- ["s9EquatableP", "danish"]
+- ["s9EquatableP", "downsized"]
+- ["s9EquatableP", "downsizedLarge"]
+- ["s9EquatableP", "downsizedMedium"]
+- ["s9EquatableP", "downsizedSmall"]
+- ["s9EquatableP", "downsizedStill"]
+- ["s9EquatableP", "dutch"]
+- ["s9EquatableP", "english"]
+- ["s9EquatableP", "farsi"]
+- ["s9EquatableP", "filipino"]
+- ["s9EquatableP", "finnish"]
+- ["s9EquatableP", "fixedHeight"]
+- ["s9EquatableP", "fixedHeightDownsampled"]
+- ["s9EquatableP", "fixedHeightSmall"]
+- ["s9EquatableP", "fixedHeightSmallStill"]
+- ["s9EquatableP", "fixedHeightStill"]
+- ["s9EquatableP", "fixedWidth"]
+- ["s9EquatableP", "fixedWidthDownsampled"]
+- ["s9EquatableP", "fixedWidthSmall"]
+- ["s9EquatableP", "fixedWidthSmallStill"]
+- ["s9EquatableP", "fixedWidthStill"]
+- ["s9EquatableP", "french"]
+- ["s9EquatableP", "german"]
+- ["s9EquatableP", "gif"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "hebrew"]
+- ["s9EquatableP", "hindi"]
+- ["s9EquatableP", "hungarian"]
+- ["s9EquatableP", "indonesian"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "italian"]
+- ["s9EquatableP", "japanese"]
+- ["s9EquatableP", "korean"]
+- ["s9EquatableP", "looping"]
+- !private ["s9EquatableP", "lowercased"]
+- ["s9EquatableP", "malay"]
+- ["s9EquatableP", "norwegian"]
+- ["s9EquatableP", "nsfw"]
+- ["s9EquatableP", "original"]
+- ["s9EquatableP", "originalStill"]
+- ["s9EquatableP", "polish"]
+- ["s9EquatableP", "portuguese"]
+- ["s9EquatableP", "preview"]
+- ["s9EquatableP", "ratedG"]
+- ["s9EquatableP", "ratedPG"]
+- ["s9EquatableP", "ratedPG13"]
+- ["s9EquatableP", "ratedR"]
+- ["s9EquatableP", "ratedY"]
+- ["s9EquatableP", "rawValue"]
+- ["s9EquatableP", "romanian"]
+- ["s9EquatableP", "russian"]
+- ["s9EquatableP", "spanish"]
+- ["s9EquatableP", "sticker"]
+- ["s9EquatableP", "swedish"]
+- ["s9EquatableP", "thai"]
+- ["s9EquatableP", "turkish"]
+- ["s9EquatableP", "ukrainian"]
+- ["s9EquatableP", "unrated"]
+- ["s9EquatableP", "vietnamese"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "lowercased"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lowercased"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "RawValue"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "String"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "arabic"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "bengali"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "chineseSimplified"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "chineseTraditional"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "czech"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "danish"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "deinit"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "dutch"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "english"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "farsi"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "filipino"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "finnish"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "french"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "german"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "hashValue"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "hebrew"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "hindi"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "hungarian"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "indonesian"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "init"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "italian"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "japanese"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "korean"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "malay"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "norwegian"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "polish"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "portuguese"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "rawValue"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "romanian"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "russian"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "spanish"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "swedish"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "thai"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "turkish"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "ukrainian"]
+- ["12GiphyCoreSDK15GPHLanguageTypeO", "vietnamese"]
+- ["12GiphyCoreSDK12GPHMediaTypeO", "RawValue"]
+- ["12GiphyCoreSDK12GPHMediaTypeO", "String"]
+- ["12GiphyCoreSDK12GPHMediaTypeO", "deinit"]
+- ["12GiphyCoreSDK12GPHMediaTypeO", "gif"]
+- ["12GiphyCoreSDK12GPHMediaTypeO", "hashValue"]
+- ["12GiphyCoreSDK12GPHMediaTypeO", "init"]
+- ["12GiphyCoreSDK12GPHMediaTypeO", "rawValue"]
+- ["12GiphyCoreSDK12GPHMediaTypeO", "sticker"]
+- ["12GiphyCoreSDK13GPHRatingTypeO", "RawValue"]
+- ["12GiphyCoreSDK13GPHRatingTypeO", "String"]
+- ["12GiphyCoreSDK13GPHRatingTypeO", "deinit"]
+- ["12GiphyCoreSDK13GPHRatingTypeO", "hashValue"]
+- ["12GiphyCoreSDK13GPHRatingTypeO", "init"]
+- ["12GiphyCoreSDK13GPHRatingTypeO", "nsfw"]
+- ["12GiphyCoreSDK13GPHRatingTypeO", "ratedG"]
+- ["12GiphyCoreSDK13GPHRatingTypeO", "ratedPG"]
+- ["12GiphyCoreSDK13GPHRatingTypeO", "ratedPG13"]
+- ["12GiphyCoreSDK13GPHRatingTypeO", "ratedR"]
+- ["12GiphyCoreSDK13GPHRatingTypeO", "ratedY"]
+- ["12GiphyCoreSDK13GPHRatingTypeO", "rawValue"]
+- ["12GiphyCoreSDK13GPHRatingTypeO", "unrated"]
+- ["12GiphyCoreSDK16GPHRenditionTypeO", "RawValue"]
+- ["12GiphyCoreSDK16GPHRenditionTypeO", "String"]
+- ["12GiphyCoreSDK16GPHRenditionTypeO", "deinit"]
+- ["12GiphyCoreSDK16GPHRenditionTypeO", "downsized"]
+- ["12GiphyCoreSDK16GPHRenditionTypeO", "downsizedLarge"]
+- ["12GiphyCoreSDK16GPHRenditionTypeO", "downsizedMedium"]
+- ["12GiphyCoreSDK16GPHRenditionTypeO", "downsizedSmall"]
+- ["12GiphyCoreSDK16GPHRenditionTypeO", "downsizedStill"]
+- ["12GiphyCoreSDK16GPHRenditionTypeO", "fixedHeight"]
+- ["12GiphyCoreSDK16GPHRenditionTypeO", "fixedHeightDownsampled"]
+- ["12GiphyCoreSDK16GPHRenditionTypeO", "fixedHeightSmall"]
+- ["12GiphyCoreSDK16GPHRenditionTypeO", "fixedHeightSmallStill"]
+- ["12GiphyCoreSDK16GPHRenditionTypeO", "fixedHeightStill"]
+- ["12GiphyCoreSDK16GPHRenditionTypeO", "fixedWidth"]
+- ["12GiphyCoreSDK16GPHRenditionTypeO", "fixedWidthDownsampled"]
+- ["12GiphyCoreSDK16GPHRenditionTypeO", "fixedWidthSmall"]
+- ["12GiphyCoreSDK16GPHRenditionTypeO", "fixedWidthSmallStill"]
+- ["12GiphyCoreSDK16GPHRenditionTypeO", "fixedWidthStill"]
+- ["12GiphyCoreSDK16GPHRenditionTypeO", "hashValue"]
+- ["12GiphyCoreSDK16GPHRenditionTypeO", "init"]
+- ["12GiphyCoreSDK16GPHRenditionTypeO", "looping"]
+- ["12GiphyCoreSDK16GPHRenditionTypeO", "original"]
+- ["12GiphyCoreSDK16GPHRenditionTypeO", "originalStill"]
+- ["12GiphyCoreSDK16GPHRenditionTypeO", "preview"]
+- ["12GiphyCoreSDK16GPHRenditionTypeO", "rawValue"]
+- ["s8HashableP", "RawValue"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "arabic"]
+- ["s8HashableP", "bengali"]
+- ["s8HashableP", "chineseSimplified"]
+- ["s8HashableP", "chineseTraditional"]
+- ["s8HashableP", "czech"]
+- ["s8HashableP", "danish"]
+- ["s8HashableP", "downsized"]
+- ["s8HashableP", "downsizedLarge"]
+- ["s8HashableP", "downsizedMedium"]
+- ["s8HashableP", "downsizedSmall"]
+- ["s8HashableP", "downsizedStill"]
+- ["s8HashableP", "dutch"]
+- ["s8HashableP", "english"]
+- ["s8HashableP", "farsi"]
+- ["s8HashableP", "filipino"]
+- ["s8HashableP", "finnish"]
+- ["s8HashableP", "fixedHeight"]
+- ["s8HashableP", "fixedHeightDownsampled"]
+- ["s8HashableP", "fixedHeightSmall"]
+- ["s8HashableP", "fixedHeightSmallStill"]
+- ["s8HashableP", "fixedHeightStill"]
+- ["s8HashableP", "fixedWidth"]
+- ["s8HashableP", "fixedWidthDownsampled"]
+- ["s8HashableP", "fixedWidthSmall"]
+- ["s8HashableP", "fixedWidthSmallStill"]
+- ["s8HashableP", "fixedWidthStill"]
+- ["s8HashableP", "french"]
+- ["s8HashableP", "german"]
+- ["s8HashableP", "gif"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "hebrew"]
+- ["s8HashableP", "hindi"]
+- ["s8HashableP", "hungarian"]
+- ["s8HashableP", "indonesian"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "italian"]
+- ["s8HashableP", "japanese"]
+- ["s8HashableP", "korean"]
+- ["s8HashableP", "looping"]
+- !private ["s8HashableP", "lowercased"]
+- ["s8HashableP", "malay"]
+- ["s8HashableP", "norwegian"]
+- ["s8HashableP", "nsfw"]
+- ["s8HashableP", "original"]
+- ["s8HashableP", "originalStill"]
+- ["s8HashableP", "polish"]
+- ["s8HashableP", "portuguese"]
+- ["s8HashableP", "preview"]
+- ["s8HashableP", "ratedG"]
+- ["s8HashableP", "ratedPG"]
+- ["s8HashableP", "ratedPG13"]
+- ["s8HashableP", "ratedR"]
+- ["s8HashableP", "ratedY"]
+- ["s8HashableP", "rawValue"]
+- ["s8HashableP", "romanian"]
+- ["s8HashableP", "russian"]
+- ["s8HashableP", "spanish"]
+- ["s8HashableP", "sticker"]
+- ["s8HashableP", "swedish"]
+- ["s8HashableP", "thai"]
+- ["s8HashableP", "turkish"]
+- ["s8HashableP", "ukrainian"]
+- ["s8HashableP", "unrated"]
+- ["s8HashableP", "vietnamese"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "lowercased"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "lowercased"]
+- !private ["So8NSCodingP", "lowercased"]
+- !private ["So9NSCopyingP", "lowercased"]
+- !private ["So21NSItemProviderReadingP", "lowercased"]
+- !private ["So21NSItemProviderWritingP", "lowercased"]
+- !private ["So16NSMutableCopyingP", "lowercased"]
+- !private ["So8NSObjectC", "lowercased"]
+- !private ["So16NSObjectProtocolP", "lowercased"]
+- !private ["So14NSSecureCodingP", "lowercased"]
+- !private ["So8NSStringC", "lowercased"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "lowercased"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", ""]
+- ["s16RawRepresentableP", "arabic"]
+- ["s16RawRepresentableP", "bengali"]
+- ["s16RawRepresentableP", "chineseSimplified"]
+- ["s16RawRepresentableP", "chineseTraditional"]
+- ["s16RawRepresentableP", "czech"]
+- ["s16RawRepresentableP", "danish"]
+- ["s16RawRepresentableP", "downsized"]
+- ["s16RawRepresentableP", "downsizedLarge"]
+- ["s16RawRepresentableP", "downsizedMedium"]
+- ["s16RawRepresentableP", "downsizedSmall"]
+- ["s16RawRepresentableP", "downsizedStill"]
+- ["s16RawRepresentableP", "dutch"]
+- ["s16RawRepresentableP", "english"]
+- ["s16RawRepresentableP", "farsi"]
+- ["s16RawRepresentableP", "filipino"]
+- ["s16RawRepresentableP", "finnish"]
+- ["s16RawRepresentableP", "fixedHeight"]
+- ["s16RawRepresentableP", "fixedHeightDownsampled"]
+- ["s16RawRepresentableP", "fixedHeightSmall"]
+- ["s16RawRepresentableP", "fixedHeightSmallStill"]
+- ["s16RawRepresentableP", "fixedHeightStill"]
+- ["s16RawRepresentableP", "fixedWidth"]
+- ["s16RawRepresentableP", "fixedWidthDownsampled"]
+- ["s16RawRepresentableP", "fixedWidthSmall"]
+- ["s16RawRepresentableP", "fixedWidthSmallStill"]
+- ["s16RawRepresentableP", "fixedWidthStill"]
+- ["s16RawRepresentableP", "french"]
+- ["s16RawRepresentableP", "german"]
+- ["s16RawRepresentableP", "gif"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "hebrew"]
+- ["s16RawRepresentableP", "hindi"]
+- ["s16RawRepresentableP", "hungarian"]
+- ["s16RawRepresentableP", "indonesian"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "italian"]
+- ["s16RawRepresentableP", "japanese"]
+- ["s16RawRepresentableP", "korean"]
+- ["s16RawRepresentableP", "looping"]
+- ["s16RawRepresentableP", "malay"]
+- ["s16RawRepresentableP", "norwegian"]
+- ["s16RawRepresentableP", "nsfw"]
+- ["s16RawRepresentableP", "original"]
+- ["s16RawRepresentableP", "originalStill"]
+- ["s16RawRepresentableP", "polish"]
+- ["s16RawRepresentableP", "portuguese"]
+- ["s16RawRepresentableP", "preview"]
+- ["s16RawRepresentableP", "ratedG"]
+- ["s16RawRepresentableP", "ratedPG"]
+- ["s16RawRepresentableP", "ratedPG13"]
+- ["s16RawRepresentableP", "ratedR"]
+- ["s16RawRepresentableP", "ratedY"]
+- ["s16RawRepresentableP", "rawValue"]
+- ["s16RawRepresentableP", "romanian"]
+- ["s16RawRepresentableP", "russian"]
+- ["s16RawRepresentableP", "spanish"]
+- ["s16RawRepresentableP", "sticker"]
+- ["s16RawRepresentableP", "swedish"]
+- ["s16RawRepresentableP", "thai"]
+- ["s16RawRepresentableP", "turkish"]
+- ["s16RawRepresentableP", "ukrainian"]
+- ["s16RawRepresentableP", "unrated"]
+- ["s16RawRepresentableP", "vietnamese"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "lowercased"]
+- !private ["SS", "init"]
+- !private ["SS", "lowercased"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "lowercased"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "lowercased"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "lowercased"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "lowercased"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "lowercased"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "lowercased"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "lowercased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "lowercased"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lowercased"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "lowercased"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "lowercased"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "12GiphyCoreSDK15GPHLanguageTypeO"
+- "12GiphyCoreSDK12GPHMediaTypeO"
+- "12GiphyCoreSDK13GPHRatingTypeO"
+- "12GiphyCoreSDK16GPHRenditionTypeO"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/Target Support Files/GiphyCoreSDK/GiphyCoreSDK-umbrella.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/GiphyCoreSDK.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "2c5e714c6956ee38f9898cdc8682a97b"

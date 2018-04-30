@@ -1,0 +1,655 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChartPointsTrackerLayer"
+provides-nominal:
+- "11SwiftCharts23ChartPointsTrackerLayerC"
+provides-member:
+- ["11SwiftCharts23ChartPointsTrackerLayerC", ""]
+provides-dynamic-lookup:
+- "touchesBegan"
+- "touchesMoved"
+depends-top-level:
+- !private "+"
+- !private "-"
+- !private "/"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CGFloat"
+- "CGPoint"
+- "CGRect"
+- "Chart"
+- "ChartAxis"
+- "ChartPoint"
+- "ChartPointsLayer"
+- "ChartPointsTrackerLayer"
+- "NSCoder"
+- "Set"
+- !private "StringLiteralType"
+- "TrackerView"
+- "UIColor"
+- "UIEvent"
+- "UITouch"
+- "UIView"
+- !private "fatalError"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "center"]
+- !private ["So15CALayerDelegateP", "fatalError"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "isUserInteractionEnabled"]
+- !private ["So15CALayerDelegateP", "updateFunc"]
+- !private ["SC7CGPointV", "x"]
+- !private ["SC6CGRectV", "init"]
+- !private ["SC6CGRectV", "origin"]
+- !private ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "TrackerView"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "UIView"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "black"]
+- !private ["s7CVarArgP", "center"]
+- !private ["s7CVarArgP", "currentPositionLineOverlay"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isUserInteractionEnabled"]
+- !private ["s7CVarArgP", "lineColor"]
+- !private ["s7CVarArgP", "lineWidth"]
+- !private ["s7CVarArgP", "locChangedFunc"]
+- !private ["s7CVarArgP", "location"]
+- !private ["s7CVarArgP", "modelLocToScreenLoc"]
+- !private ["s7CVarArgP", "updateFunc"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "yAxis"]
+- !private ["11SwiftCharts5ChartC", "addSubview"]
+- !private ["11SwiftCharts5ChartC", "bounds"]
+- !private ["11SwiftCharts5ChartC", "containerFrame"]
+- !private ["11SwiftCharts9ChartAxisC", "first"]
+- !private ["11SwiftCharts9ChartAxisC", "last"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "CGFloat"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "CGPoint"]
+- !private ["11SwiftCharts21ChartCoordsSpaceLayerC", "CGRect"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "Chart"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartAxis"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "T"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "TrackerView"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "UIColor"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "UIView"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "currentPositionLineOverlay"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "currentPositionLineOverlay.storage"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "display"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "lineColor"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "lineWidth"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "locChangedFunc"]
+- !private ["11SwiftCharts21ChartCoordsSpaceLayerC", "modelLocToScreenLoc"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "view"]
+- !private ["11SwiftCharts21ChartCoordsSpaceLayerC", "yAxis"]
+- !private ["11SwiftCharts10ChartLayerP", "CGRect"]
+- !private ["11SwiftCharts10ChartLayerP", "TrackerView"]
+- !private ["11SwiftCharts10ChartLayerP", "UIColor"]
+- !private ["11SwiftCharts10ChartLayerP", "UIView"]
+- ["11SwiftCharts10ChartLayerP", ""]
+- !private ["11SwiftCharts10ChartLayerP", "currentPositionLineOverlay"]
+- !private ["11SwiftCharts10ChartLayerP", "init"]
+- !private ["11SwiftCharts10ChartLayerP", "lineColor"]
+- !private ["11SwiftCharts10ChartLayerP", "lineWidth"]
+- !private ["11SwiftCharts10ChartLayerP", "locChangedFunc"]
+- !private ["11SwiftCharts10ChartLayerP", "modelLocToScreenLoc"]
+- !private ["11SwiftCharts10ChartLayerP", "view"]
+- !private ["11SwiftCharts10ChartLayerP", "yAxis"]
+- ["11SwiftCharts14ChartLayerBaseC", "CGFloat"]
+- ["11SwiftCharts14ChartLayerBaseC", "CGPoint"]
+- !private ["11SwiftCharts14ChartLayerBaseC", "CGRect"]
+- ["11SwiftCharts14ChartLayerBaseC", "Chart"]
+- ["11SwiftCharts14ChartLayerBaseC", "ChartAxis"]
+- ["11SwiftCharts14ChartLayerBaseC", "T"]
+- ["11SwiftCharts14ChartLayerBaseC", "TrackerView"]
+- ["11SwiftCharts14ChartLayerBaseC", "UIColor"]
+- ["11SwiftCharts14ChartLayerBaseC", "UIView"]
+- ["11SwiftCharts14ChartLayerBaseC", "currentPositionLineOverlay"]
+- ["11SwiftCharts14ChartLayerBaseC", "currentPositionLineOverlay.storage"]
+- ["11SwiftCharts14ChartLayerBaseC", "display"]
+- ["11SwiftCharts14ChartLayerBaseC", "lineColor"]
+- ["11SwiftCharts14ChartLayerBaseC", "lineWidth"]
+- ["11SwiftCharts14ChartLayerBaseC", "locChangedFunc"]
+- !private ["11SwiftCharts14ChartLayerBaseC", "modelLocToScreenLoc"]
+- ["11SwiftCharts14ChartLayerBaseC", "view"]
+- !private ["11SwiftCharts14ChartLayerBaseC", "yAxis"]
+- ["11SwiftCharts16ChartPointsLayerC", "CGFloat"]
+- ["11SwiftCharts16ChartPointsLayerC", "CGPoint"]
+- !private ["11SwiftCharts16ChartPointsLayerC", "CGRect"]
+- ["11SwiftCharts16ChartPointsLayerC", "Chart"]
+- ["11SwiftCharts16ChartPointsLayerC", "ChartAxis"]
+- ["11SwiftCharts16ChartPointsLayerC", "T"]
+- ["11SwiftCharts16ChartPointsLayerC", "TrackerView"]
+- ["11SwiftCharts16ChartPointsLayerC", "UIColor"]
+- ["11SwiftCharts16ChartPointsLayerC", "UIView"]
+- ["11SwiftCharts16ChartPointsLayerC", ""]
+- ["11SwiftCharts16ChartPointsLayerC", "currentPositionLineOverlay"]
+- ["11SwiftCharts16ChartPointsLayerC", "currentPositionLineOverlay.storage"]
+- ["11SwiftCharts16ChartPointsLayerC", "display"]
+- ["11SwiftCharts16ChartPointsLayerC", "init"]
+- ["11SwiftCharts16ChartPointsLayerC", "lineColor"]
+- ["11SwiftCharts16ChartPointsLayerC", "lineWidth"]
+- ["11SwiftCharts16ChartPointsLayerC", "locChangedFunc"]
+- !private ["11SwiftCharts16ChartPointsLayerC", "modelLocToScreenLoc"]
+- ["11SwiftCharts16ChartPointsLayerC", "view"]
+- !private ["11SwiftCharts16ChartPointsLayerC", "yAxis"]
+- ["11SwiftCharts23ChartPointsTrackerLayerC", "CGFloat"]
+- ["11SwiftCharts23ChartPointsTrackerLayerC", "CGPoint"]
+- !private ["11SwiftCharts23ChartPointsTrackerLayerC", "CGRect"]
+- ["11SwiftCharts23ChartPointsTrackerLayerC", "Chart"]
+- ["11SwiftCharts23ChartPointsTrackerLayerC", "ChartAxis"]
+- ["11SwiftCharts23ChartPointsTrackerLayerC", "T"]
+- ["11SwiftCharts23ChartPointsTrackerLayerC", "TrackerView"]
+- ["11SwiftCharts23ChartPointsTrackerLayerC", "UIColor"]
+- ["11SwiftCharts23ChartPointsTrackerLayerC", "UIView"]
+- !private ["11SwiftCharts23ChartPointsTrackerLayerC", "currentPositionLineOverlay"]
+- !private ["11SwiftCharts23ChartPointsTrackerLayerC", "currentPositionLineOverlay.storage"]
+- ["11SwiftCharts23ChartPointsTrackerLayerC", "deinit"]
+- ["11SwiftCharts23ChartPointsTrackerLayerC", "display"]
+- ["11SwiftCharts23ChartPointsTrackerLayerC", "init"]
+- !private ["11SwiftCharts23ChartPointsTrackerLayerC", "lineColor"]
+- !private ["11SwiftCharts23ChartPointsTrackerLayerC", "lineWidth"]
+- !private ["11SwiftCharts23ChartPointsTrackerLayerC", "locChangedFunc"]
+- !private ["11SwiftCharts23ChartPointsTrackerLayerC", "modelLocToScreenLoc"]
+- !private ["11SwiftCharts23ChartPointsTrackerLayerC", "view"]
+- !private ["11SwiftCharts23ChartPointsTrackerLayerC", "yAxis"]
+- !private ["s10CollectionP", "first"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "TrackerView"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UIView"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "black"]
+- !private ["s28CustomDebugStringConvertibleP", "center"]
+- !private ["s28CustomDebugStringConvertibleP", "currentPositionLineOverlay"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isUserInteractionEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "lineColor"]
+- !private ["s28CustomDebugStringConvertibleP", "lineWidth"]
+- !private ["s28CustomDebugStringConvertibleP", "locChangedFunc"]
+- !private ["s28CustomDebugStringConvertibleP", "location"]
+- !private ["s28CustomDebugStringConvertibleP", "modelLocToScreenLoc"]
+- !private ["s28CustomDebugStringConvertibleP", "origin"]
+- !private ["s28CustomDebugStringConvertibleP", "updateFunc"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "x"]
+- !private ["s28CustomDebugStringConvertibleP", "yAxis"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "origin"]
+- !private ["s29CustomPlaygroundQuickLookableP", "x"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "origin"]
+- !private ["s17CustomReflectableP", "x"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "TrackerView"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "UIView"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "black"]
+- !private ["s23CustomStringConvertibleP", "center"]
+- !private ["s23CustomStringConvertibleP", "currentPositionLineOverlay"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isUserInteractionEnabled"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "lineColor"]
+- !private ["s23CustomStringConvertibleP", "lineWidth"]
+- !private ["s23CustomStringConvertibleP", "locChangedFunc"]
+- !private ["s23CustomStringConvertibleP", "location"]
+- !private ["s23CustomStringConvertibleP", "modelLocToScreenLoc"]
+- !private ["s23CustomStringConvertibleP", "updateFunc"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "yAxis"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "first"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "origin"]
+- !private ["s9DecodableP", "x"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "first"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "origin"]
+- !private ["s9EncodableP", "x"]
+- !private ["s9EquatableP", "CGRect"]
+- !private ["s9EquatableP", "TrackerView"]
+- !private ["s9EquatableP", "UIColor"]
+- !private ["s9EquatableP", "UIView"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addSubview"]
+- !private ["s9EquatableP", "backgroundColor"]
+- !private ["s9EquatableP", "black"]
+- !private ["s9EquatableP", "center"]
+- !private ["s9EquatableP", "currentPositionLineOverlay"]
+- !private ["s9EquatableP", "fatalError"]
+- !private ["s9EquatableP", "first"]
+- !private ["s9EquatableP", "frame"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isUserInteractionEnabled"]
+- !private ["s9EquatableP", "lineColor"]
+- !private ["s9EquatableP", "lineWidth"]
+- !private ["s9EquatableP", "locChangedFunc"]
+- !private ["s9EquatableP", "location"]
+- !private ["s9EquatableP", "modelLocToScreenLoc"]
+- !private ["s9EquatableP", "origin"]
+- !private ["s9EquatableP", "updateFunc"]
+- !private ["s9EquatableP", "view"]
+- !private ["s9EquatableP", "x"]
+- !private ["s9EquatableP", "yAxis"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "CGRect"]
+- !private ["s8HashableP", "TrackerView"]
+- !private ["s8HashableP", "UIColor"]
+- !private ["s8HashableP", "UIView"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addSubview"]
+- !private ["s8HashableP", "backgroundColor"]
+- !private ["s8HashableP", "black"]
+- !private ["s8HashableP", "center"]
+- !private ["s8HashableP", "currentPositionLineOverlay"]
+- !private ["s8HashableP", "fatalError"]
+- !private ["s8HashableP", "first"]
+- !private ["s8HashableP", "frame"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isUserInteractionEnabled"]
+- !private ["s8HashableP", "lineColor"]
+- !private ["s8HashableP", "lineWidth"]
+- !private ["s8HashableP", "locChangedFunc"]
+- !private ["s8HashableP", "location"]
+- !private ["s8HashableP", "modelLocToScreenLoc"]
+- !private ["s8HashableP", "updateFunc"]
+- !private ["s8HashableP", "view"]
+- !private ["s8HashableP", "yAxis"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "black"]
+- !private ["So8NSCodingP", "center"]
+- !private ["So8NSCodingP", "fatalError"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isUserInteractionEnabled"]
+- !private ["So8NSCodingP", "updateFunc"]
+- !private ["So9NSCopyingP", "black"]
+- !private ["So21NSItemProviderReadingP", "black"]
+- !private ["So21NSItemProviderWritingP", "black"]
+- ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "CGPoint"]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "Chart"]
+- ["So8NSObjectC", "ChartAxis"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "Set"]
+- ["So8NSObjectC", "T"]
+- ["So8NSObjectC", "TrackerView"]
+- ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UIEvent"]
+- ["So8NSObjectC", "UITouch"]
+- ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "black"]
+- !private ["So8NSObjectC", "center"]
+- ["So8NSObjectC", "currentPositionLineOverlay"]
+- ["So8NSObjectC", "currentPositionLineOverlay.storage"]
+- ["So8NSObjectC", "display"]
+- !private ["So8NSObjectC", "fatalError"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isUserInteractionEnabled"]
+- ["So8NSObjectC", "lineColor"]
+- ["So8NSObjectC", "lineWidth"]
+- ["So8NSObjectC", "locChangedFunc"]
+- !private ["So8NSObjectC", "location"]
+- !private ["So8NSObjectC", "modelLocToScreenLoc"]
+- ["So8NSObjectC", "touchesBegan"]
+- ["So8NSObjectC", "touchesMoved"]
+- ["So8NSObjectC", "updateFunc"]
+- ["So8NSObjectC", "view"]
+- !private ["So8NSObjectC", "yAxis"]
+- !private ["So16NSObjectProtocolP", "CGRect"]
+- !private ["So16NSObjectProtocolP", "TrackerView"]
+- !private ["So16NSObjectProtocolP", "UIColor"]
+- !private ["So16NSObjectProtocolP", "UIView"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addSubview"]
+- !private ["So16NSObjectProtocolP", "backgroundColor"]
+- !private ["So16NSObjectProtocolP", "black"]
+- !private ["So16NSObjectProtocolP", "center"]
+- !private ["So16NSObjectProtocolP", "currentPositionLineOverlay"]
+- !private ["So16NSObjectProtocolP", "fatalError"]
+- !private ["So16NSObjectProtocolP", "frame"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isUserInteractionEnabled"]
+- !private ["So16NSObjectProtocolP", "lineColor"]
+- !private ["So16NSObjectProtocolP", "lineWidth"]
+- !private ["So16NSObjectProtocolP", "locChangedFunc"]
+- !private ["So16NSObjectProtocolP", "location"]
+- !private ["So16NSObjectProtocolP", "modelLocToScreenLoc"]
+- !private ["So16NSObjectProtocolP", "updateFunc"]
+- !private ["So16NSObjectProtocolP", "view"]
+- !private ["So16NSObjectProtocolP", "yAxis"]
+- !private ["So14NSSecureCodingP", "black"]
+- !private ["11SwiftCharts8PannableP", "addSubview"]
+- !private ["11SwiftCharts8PannableP", "bounds"]
+- !private ["11SwiftCharts8PannableP", "containerFrame"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "first"]
+- !private ["s8SequenceP", "init"]
+- !private ["s3SetV", "first"]
+- !private ["s10SetAlgebraP", "first"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["11SwiftCharts10StringTypeP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "center"]
+- !private ["So29UIAccessibilityIdentificationP", "fatalError"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isUserInteractionEnabled"]
+- !private ["So29UIAccessibilityIdentificationP", "updateFunc"]
+- !private ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "center"]
+- !private ["So12UIAppearanceP", "fatalError"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "isUserInteractionEnabled"]
+- !private ["So12UIAppearanceP", "updateFunc"]
+- !private ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "center"]
+- !private ["So21UIAppearanceContainerP", "fatalError"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isUserInteractionEnabled"]
+- !private ["So21UIAppearanceContainerP", "updateFunc"]
+- !private ["So7UIColorC", "black"]
+- !private ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "center"]
+- !private ["So17UICoordinateSpaceP", "fatalError"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "isUserInteractionEnabled"]
+- !private ["So17UICoordinateSpaceP", "updateFunc"]
+- !private ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "center"]
+- !private ["So13UIDynamicItemP", "fatalError"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "isUserInteractionEnabled"]
+- !private ["So13UIDynamicItemP", "updateFunc"]
+- !private ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "center"]
+- !private ["So18UIFocusEnvironmentP", "fatalError"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isUserInteractionEnabled"]
+- !private ["So18UIFocusEnvironmentP", "updateFunc"]
+- !private ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "center"]
+- !private ["So11UIFocusItemP", "fatalError"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "isUserInteractionEnabled"]
+- !private ["So11UIFocusItemP", "updateFunc"]
+- !private ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "center"]
+- !private ["So30UIPasteConfigurationSupportingP", "fatalError"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isUserInteractionEnabled"]
+- !private ["So30UIPasteConfigurationSupportingP", "updateFunc"]
+- ["So11UIResponderC", "CGPoint"]
+- ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "NSCoder"]
+- ["So11UIResponderC", "Set"]
+- ["So11UIResponderC", "UIEvent"]
+- ["So11UIResponderC", "UITouch"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- !private ["So11UIResponderC", "center"]
+- !private ["So11UIResponderC", "fatalError"]
+- !private ["So11UIResponderC", "frame"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isUserInteractionEnabled"]
+- ["So11UIResponderC", "touchesBegan"]
+- ["So11UIResponderC", "touchesMoved"]
+- ["So11UIResponderC", "updateFunc"]
+- !private ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "center"]
+- !private ["So30UIResponderStandardEditActionsP", "fatalError"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isUserInteractionEnabled"]
+- !private ["So30UIResponderStandardEditActionsP", "updateFunc"]
+- !private ["So7UITouchC", "location"]
+- !private ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "center"]
+- !private ["So18UITraitEnvironmentP", "fatalError"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isUserInteractionEnabled"]
+- !private ["So18UITraitEnvironmentP", "updateFunc"]
+- ["So6UIViewC", "CGPoint"]
+- ["So6UIViewC", "CGRect"]
+- ["So6UIViewC", "NSCoder"]
+- ["So6UIViewC", "Set"]
+- ["So6UIViewC", "UIEvent"]
+- ["So6UIViewC", "UITouch"]
+- !private ["So6UIViewC", ""]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "backgroundColor"]
+- !private ["So6UIViewC", "center"]
+- !private ["So6UIViewC", "fatalError"]
+- !private ["So6UIViewC", "frame"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "isUserInteractionEnabled"]
+- ["So6UIViewC", "touchesBegan"]
+- ["So6UIViewC", "touchesMoved"]
+- ["So6UIViewC", "updateFunc"]
+- !private ["11SwiftCharts8ZoomableP", "addSubview"]
+- !private ["11SwiftCharts8ZoomableP", "bounds"]
+- !private ["11SwiftCharts8ZoomableP", "containerFrame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "center"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "fatalError"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isUserInteractionEnabled"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "updateFunc"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "black"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TrackerView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "black"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "center"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentPositionLineOverlay"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isUserInteractionEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lineColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lineWidth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locChangedFunc"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "location"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "modelLocToScreenLoc"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateFunc"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "yAxis"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "origin"]
+- !private ["s21_ObjectiveCBridgeableP", "x"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- !private "SC7CGPointV"
+- !private "SC6CGRectV"
+- "s7CVarArgP"
+- !private "11SwiftCharts5ChartC"
+- !private "11SwiftCharts9ChartAxisC"
+- "11SwiftCharts21ChartCoordsSpaceLayerC"
+- "11SwiftCharts10ChartLayerP"
+- "11SwiftCharts14ChartLayerBaseC"
+- "11SwiftCharts16ChartPointsLayerC"
+- "11SwiftCharts23ChartPointsTrackerLayerC"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "11SwiftCharts8PannableP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s3SetV"
+- !private "s10SetAlgebraP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "11SwiftCharts10StringTypeP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So7UITouchC"
+- !private "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- !private "11SwiftCharts8ZoomableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/Target Support Files/SwiftCharts/SwiftCharts-umbrella.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SwiftCharts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "c36cd107ed42b7388f336bed93007db2"

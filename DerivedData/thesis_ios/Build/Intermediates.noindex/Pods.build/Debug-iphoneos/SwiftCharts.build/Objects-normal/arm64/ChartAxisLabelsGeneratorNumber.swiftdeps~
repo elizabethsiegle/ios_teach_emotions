@@ -1,0 +1,170 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChartAxisLabelsGeneratorNumber"
+provides-nominal:
+- "11SwiftCharts30ChartAxisLabelsGeneratorNumberC"
+provides-member:
+- ["11SwiftCharts30ChartAxisLabelsGeneratorNumberC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "ChartAxisLabel"
+- "ChartAxisLabelsGeneratorBase"
+- "ChartAxisLabelsGeneratorNumber"
+- "ChartLabelSettings"
+- "Double"
+- !private "NSNumber"
+- "NumberFormatter"
+- !private "StringLiteralType"
+- "UIFont"
+depends-member:
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "maximumFractionDigits"]
+- !private ["s7CVarArgP", "string"]
+- !private ["11SwiftCharts14ChartAxisLabelC", "init"]
+- !private ["11SwiftCharts24ChartAxisLabelsGeneratorP", "ChartAxisLabel"]
+- !private ["11SwiftCharts24ChartAxisLabelsGeneratorP", "ChartAxisLabelsGeneratorNumber"]
+- !private ["11SwiftCharts24ChartAxisLabelsGeneratorP", "NSNumber"]
+- ["11SwiftCharts24ChartAxisLabelsGeneratorP", "NumberFormatter"]
+- ["11SwiftCharts24ChartAxisLabelsGeneratorP", ""]
+- !private ["11SwiftCharts24ChartAxisLabelsGeneratorP", "defaultFormatter"]
+- !private ["11SwiftCharts24ChartAxisLabelsGeneratorP", "formatter"]
+- !private ["11SwiftCharts24ChartAxisLabelsGeneratorP", "init"]
+- !private ["11SwiftCharts24ChartAxisLabelsGeneratorP", "labelSettings"]
+- ["11SwiftCharts28ChartAxisLabelsGeneratorBaseC", "ChartAxisLabel"]
+- !private ["11SwiftCharts28ChartAxisLabelsGeneratorBaseC", "ChartAxisLabelsGeneratorNumber"]
+- ["11SwiftCharts28ChartAxisLabelsGeneratorBaseC", "ChartLabelSettings"]
+- ["11SwiftCharts28ChartAxisLabelsGeneratorBaseC", "Double"]
+- !private ["11SwiftCharts28ChartAxisLabelsGeneratorBaseC", "NSNumber"]
+- ["11SwiftCharts28ChartAxisLabelsGeneratorBaseC", "NumberFormatter"]
+- ["11SwiftCharts28ChartAxisLabelsGeneratorBaseC", "UIFont"]
+- ["11SwiftCharts28ChartAxisLabelsGeneratorBaseC", ""]
+- ["11SwiftCharts28ChartAxisLabelsGeneratorBaseC", "defaultFormatter"]
+- ["11SwiftCharts28ChartAxisLabelsGeneratorBaseC", "fonts"]
+- ["11SwiftCharts28ChartAxisLabelsGeneratorBaseC", "formatter"]
+- ["11SwiftCharts28ChartAxisLabelsGeneratorBaseC", "generate"]
+- ["11SwiftCharts28ChartAxisLabelsGeneratorBaseC", "init"]
+- ["11SwiftCharts28ChartAxisLabelsGeneratorBaseC", "labelSettings"]
+- ["11SwiftCharts30ChartAxisLabelsGeneratorNumberC", "ChartAxisLabel"]
+- !private ["11SwiftCharts30ChartAxisLabelsGeneratorNumberC", "ChartAxisLabelsGeneratorNumber"]
+- ["11SwiftCharts30ChartAxisLabelsGeneratorNumberC", "ChartLabelSettings"]
+- ["11SwiftCharts30ChartAxisLabelsGeneratorNumberC", "Double"]
+- !private ["11SwiftCharts30ChartAxisLabelsGeneratorNumberC", "NSNumber"]
+- ["11SwiftCharts30ChartAxisLabelsGeneratorNumberC", "NumberFormatter"]
+- ["11SwiftCharts30ChartAxisLabelsGeneratorNumberC", "UIFont"]
+- ["11SwiftCharts30ChartAxisLabelsGeneratorNumberC", "defaultFormatter"]
+- ["11SwiftCharts30ChartAxisLabelsGeneratorNumberC", "deinit"]
+- ["11SwiftCharts30ChartAxisLabelsGeneratorNumberC", "fonts"]
+- ["11SwiftCharts30ChartAxisLabelsGeneratorNumberC", "formatter"]
+- ["11SwiftCharts30ChartAxisLabelsGeneratorNumberC", "generate"]
+- ["11SwiftCharts30ChartAxisLabelsGeneratorNumberC", "init"]
+- ["11SwiftCharts30ChartAxisLabelsGeneratorNumberC", "labelSettings"]
+- !private ["11SwiftCharts18ChartLabelSettingsV", "font"]
+- !private ["s28CustomDebugStringConvertibleP", "font"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "maximumFractionDigits"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "maximumFractionDigits"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "maximumFractionDigits"]
+- !private ["s9EquatableP", "string"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["So9FormatterC", "init"]
+- ["So9FormatterC", "maximumFractionDigits"]
+- !private ["So9FormatterC", "string"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "maximumFractionDigits"]
+- !private ["s8HashableP", "string"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "maximumFractionDigits"]
+- !private ["So8NSCodingP", "string"]
+- ["So9NSCopyingP", "init"]
+- ["So9NSCopyingP", "maximumFractionDigits"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So8NSNumberC", "init"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "maximumFractionDigits"]
+- !private ["So8NSObjectC", "string"]
+- ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", "maximumFractionDigits"]
+- !private ["So16NSObjectProtocolP", "string"]
+- !private ["So14NSSecureCodingP", "init"]
+- ["So15NumberFormatterC", "init"]
+- ["So15NumberFormatterC", "maximumFractionDigits"]
+- !private ["So15NumberFormatterC", "string"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "maximumFractionDigits"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+depends-nominal:
+- "s7CVarArgP"
+- !private "11SwiftCharts14ChartAxisLabelC"
+- "11SwiftCharts24ChartAxisLabelsGeneratorP"
+- "11SwiftCharts28ChartAxisLabelsGeneratorBaseC"
+- "11SwiftCharts30ChartAxisLabelsGeneratorNumberC"
+- !private "11SwiftCharts18ChartLabelSettingsV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "So9FormatterC"
+- "s8HashableP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- "So15NumberFormatterC"
+- !private "s12StaticStringV"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/Target Support Files/SwiftCharts/SwiftCharts-umbrella.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftCharts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "06907194bccedf2277e80361e54ae21e"

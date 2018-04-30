@@ -1,0 +1,10 @@
+framework module GiphyCoreSDK {
+  umbrella header "GiphyCoreSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module GiphyCoreSDK.__Swift {
+    exclude header "GiphyCoreSDK-Swift.h"
+}

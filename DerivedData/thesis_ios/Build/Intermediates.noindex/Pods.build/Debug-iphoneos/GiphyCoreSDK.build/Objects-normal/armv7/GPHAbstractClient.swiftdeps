@@ -1,0 +1,579 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GPHAbstractClient"
+provides-nominal:
+- "12GiphyCoreSDK17GPHAbstractClientC"
+provides-member:
+- ["12GiphyCoreSDK17GPHAbstractClientC", ""]
+provides-dynamic-lookup:
+- "_apiKey"
+- "encodedStringForUrl"
+- "getRequest"
+- "httpRequest"
+- "listCategoriesRequest"
+- "listRequest"
+- "listTermSuggestionsRequest"
+- "timeout"
+- "useReachability"
+depends-top-level:
+- !private "!"
+- !private "*"
+- !private "+"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "Bundle"
+- "CastingPrecedence"
+- !private "Foundation"
+- "GPHAbstractClient"
+- "GPHCategory"
+- "GPHCompletionHandler"
+- "GPHJSONCompletionHandler"
+- !private "GPHJSONMappingError"
+- "GPHListCategoryResponse"
+- "GPHListMediaResponse"
+- "GPHListTermSuggestionResponse"
+- "GPHMappable"
+- "GPHMediaResponse"
+- "GPHMediaType"
+- "GPHNetworkReachability"
+- "GPHRenditionType"
+- !private "GPHRequest"
+- "GPHRequestType"
+- "GPHResponse"
+- "NSObject"
+- "Operation"
+- "OperationQueue"
+- "String"
+- !private "StringLiteralType"
+- "TimeInterval"
+- "URLRequest"
+- "URLSession"
+- !private "URLSessionConfiguration"
+- !private "||"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "addingPercentEncoding"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["So6BundleC", "infoDictionary"]
+- !private ["So6BundleC", "main"]
+- !private ["s7CVarArgP", "Bundle"]
+- !private ["s7CVarArgP", "Foundation"]
+- !private ["s7CVarArgP", "GPHAbstractClient"]
+- !private ["s7CVarArgP", "GPHJSONMappingError"]
+- !private ["s7CVarArgP", "GPHMappableObject"]
+- ["s7CVarArgP", "GPHNetworkReachability"]
+- !private ["s7CVarArgP", "GPHRequest"]
+- !private ["s7CVarArgP", "OperationQueue"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "URLSessionConfiguration"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_apiKey"]
+- !private ["s7CVarArgP", "addOperation"]
+- !private ["s7CVarArgP", "addingPercentEncoding"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "defaultUserAgent"]
+- !private ["s7CVarArgP", "httpAdditionalHeaders"]
+- !private ["s7CVarArgP", "httpMaximumConnectionsPerHost"]
+- !private ["s7CVarArgP", "httpRequest"]
+- !private ["s7CVarArgP", "infoDictionary"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "mapData"]
+- !private ["s7CVarArgP", "maxConcurrentOperationCount"]
+- !private ["s7CVarArgP", "maxConcurrentRequestsPerConnection"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "parseJSONResponse"]
+- !private ["s7CVarArgP", "reachability"]
+- !private ["s7CVarArgP", "requestQueue"]
+- !private ["s7CVarArgP", "session"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "useReachability"]
+- !private ["10Foundation12CharacterSetV", "urlHostAllowed"]
+- !private ["s10CollectionP", "addingPercentEncoding"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "addingPercentEncoding"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "Foundation"]
+- !private ["s28CustomDebugStringConvertibleP", "GPHAbstractClient"]
+- !private ["s28CustomDebugStringConvertibleP", "GPHJSONMappingError"]
+- !private ["s28CustomDebugStringConvertibleP", "GPHMappableObject"]
+- ["s28CustomDebugStringConvertibleP", "GPHNetworkReachability"]
+- !private ["s28CustomDebugStringConvertibleP", "GPHRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "OperationQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "URLSessionConfiguration"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "_apiKey"]
+- !private ["s28CustomDebugStringConvertibleP", "addOperation"]
+- !private ["s28CustomDebugStringConvertibleP", "addingPercentEncoding"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "defaultUserAgent"]
+- !private ["s28CustomDebugStringConvertibleP", "httpAdditionalHeaders"]
+- !private ["s28CustomDebugStringConvertibleP", "httpMaximumConnectionsPerHost"]
+- !private ["s28CustomDebugStringConvertibleP", "httpRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "infoDictionary"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "mapData"]
+- !private ["s28CustomDebugStringConvertibleP", "maxConcurrentOperationCount"]
+- !private ["s28CustomDebugStringConvertibleP", "maxConcurrentRequestsPerConnection"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "parseJSONResponse"]
+- !private ["s28CustomDebugStringConvertibleP", "reachability"]
+- !private ["s28CustomDebugStringConvertibleP", "requestQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "session"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "urlHostAllowed"]
+- !private ["s28CustomDebugStringConvertibleP", "useReachability"]
+- !private ["10Foundation13CustomNSErrorP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "addingPercentEncoding"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "addingPercentEncoding"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- !private ["s23CustomStringConvertibleP", "Foundation"]
+- !private ["s23CustomStringConvertibleP", "GPHAbstractClient"]
+- !private ["s23CustomStringConvertibleP", "GPHJSONMappingError"]
+- !private ["s23CustomStringConvertibleP", "GPHMappableObject"]
+- ["s23CustomStringConvertibleP", "GPHNetworkReachability"]
+- !private ["s23CustomStringConvertibleP", "GPHRequest"]
+- !private ["s23CustomStringConvertibleP", "OperationQueue"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "URLSessionConfiguration"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_apiKey"]
+- !private ["s23CustomStringConvertibleP", "addOperation"]
+- !private ["s23CustomStringConvertibleP", "addingPercentEncoding"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "defaultUserAgent"]
+- !private ["s23CustomStringConvertibleP", "httpAdditionalHeaders"]
+- !private ["s23CustomStringConvertibleP", "httpMaximumConnectionsPerHost"]
+- !private ["s23CustomStringConvertibleP", "httpRequest"]
+- !private ["s23CustomStringConvertibleP", "infoDictionary"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "mapData"]
+- !private ["s23CustomStringConvertibleP", "maxConcurrentOperationCount"]
+- !private ["s23CustomStringConvertibleP", "maxConcurrentRequestsPerConnection"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "parseJSONResponse"]
+- !private ["s23CustomStringConvertibleP", "reachability"]
+- !private ["s23CustomStringConvertibleP", "requestQueue"]
+- !private ["s23CustomStringConvertibleP", "session"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "urlHostAllowed"]
+- !private ["s23CustomStringConvertibleP", "useReachability"]
+- !private ["s9DecodableP", "addingPercentEncoding"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "urlHostAllowed"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "addingPercentEncoding"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "urlHostAllowed"]
+- !private ["s9EquatableP", "Bundle"]
+- !private ["s9EquatableP", "Foundation"]
+- !private ["s9EquatableP", "GPHAbstractClient"]
+- !private ["s9EquatableP", "GPHJSONMappingError"]
+- !private ["s9EquatableP", "GPHMappableObject"]
+- ["s9EquatableP", "GPHNetworkReachability"]
+- !private ["s9EquatableP", "GPHRequest"]
+- !private ["s9EquatableP", "OperationQueue"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "URLSessionConfiguration"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_apiKey"]
+- !private ["s9EquatableP", "addOperation"]
+- !private ["s9EquatableP", "addingPercentEncoding"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "defaultUserAgent"]
+- !private ["s9EquatableP", "httpAdditionalHeaders"]
+- !private ["s9EquatableP", "httpMaximumConnectionsPerHost"]
+- !private ["s9EquatableP", "httpRequest"]
+- !private ["s9EquatableP", "infoDictionary"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "mapData"]
+- !private ["s9EquatableP", "maxConcurrentOperationCount"]
+- !private ["s9EquatableP", "maxConcurrentRequestsPerConnection"]
+- !private ["s9EquatableP", "name"]
+- !private ["s9EquatableP", "original"]
+- !private ["s9EquatableP", "parseJSONResponse"]
+- !private ["s9EquatableP", "reachability"]
+- !private ["s9EquatableP", "requestQueue"]
+- !private ["s9EquatableP", "session"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "urlHostAllowed"]
+- !private ["s9EquatableP", "useReachability"]
+- !private ["s5ErrorP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "urlHostAllowed"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "addingPercentEncoding"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "addingPercentEncoding"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "addingPercentEncoding"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "Bool"]
+- !private ["12GiphyCoreSDK17GPHAbstractClientC", "Bundle"]
+- !private ["12GiphyCoreSDK17GPHAbstractClientC", "Foundation"]
+- !private ["12GiphyCoreSDK17GPHAbstractClientC", "GPHAbstractClient"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "GPHCategory"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "GPHCompletionHandler"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "GPHJSONCompletionHandler"]
+- !private ["12GiphyCoreSDK17GPHAbstractClientC", "GPHJSONMappingError"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "GPHListCategoryResponse"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "GPHListMediaResponse"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "GPHListTermSuggestionResponse"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "GPHMappable"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "GPHMediaResponse"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "GPHMediaType"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "GPHNetworkReachability"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "GPHRenditionType"]
+- !private ["12GiphyCoreSDK17GPHAbstractClientC", "GPHRequest"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "GPHRequestType"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "GPHResponse"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "Operation"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "OperationQueue"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "String"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "TimeInterval"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "URLRequest"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "URLSession"]
+- !private ["12GiphyCoreSDK17GPHAbstractClientC", "URLSessionConfiguration"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "_apiKey"]
+- !private ["12GiphyCoreSDK17GPHAbstractClientC", "defaultUserAgent"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "deinit"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "encodedStringForUrl"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "getRequest"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "httpRequest"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "init"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "isNetworkReachable"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "listCategoriesRequest"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "listRequest"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "listTermSuggestionsRequest"]
+- !private ["12GiphyCoreSDK17GPHAbstractClientC", "maxConcurrentRequestsPerConnection"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "parseJSONResponse"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "reachability"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "requestQueue"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "session"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "timeout"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "useReachability"]
+- !private ["12GiphyCoreSDK19GPHJSONMappingErrorV", "deinit"]
+- !private ["12GiphyCoreSDK19GPHJSONMappingErrorV", "init"]
+- !private ["12GiphyCoreSDK23GPHListCategoryResponseC", "deinit"]
+- !private ["12GiphyCoreSDK20GPHListMediaResponseC", "deinit"]
+- !private ["12GiphyCoreSDK29GPHListTermSuggestionResponseC", "deinit"]
+- !private ["12GiphyCoreSDK11GPHMappableP", "GPHMappableObject"]
+- !private ["12GiphyCoreSDK11GPHMappableP", "mapData"]
+- !private ["12GiphyCoreSDK16GPHMediaResponseC", "deinit"]
+- ["12GiphyCoreSDK22GPHNetworkReachabilityC", "init"]
+- !private ["12GiphyCoreSDK22GPHNetworkReachabilityC", "isReachable"]
+- !private ["12GiphyCoreSDK16GPHRenditionTypeO", "original"]
+- !private ["12GiphyCoreSDK10GPHRequestC", "init"]
+- !private ["12GiphyCoreSDK11GPHResponseC", "GPHMappableObject"]
+- !private ["12GiphyCoreSDK11GPHResponseC", "mapData"]
+- !private ["s8HashableP", "Bundle"]
+- !private ["s8HashableP", "Foundation"]
+- !private ["s8HashableP", "GPHAbstractClient"]
+- !private ["s8HashableP", "GPHJSONMappingError"]
+- !private ["s8HashableP", "GPHMappableObject"]
+- ["s8HashableP", "GPHNetworkReachability"]
+- !private ["s8HashableP", "GPHRequest"]
+- !private ["s8HashableP", "OperationQueue"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "URLSessionConfiguration"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_apiKey"]
+- !private ["s8HashableP", "addOperation"]
+- !private ["s8HashableP", "addingPercentEncoding"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "defaultUserAgent"]
+- !private ["s8HashableP", "httpAdditionalHeaders"]
+- !private ["s8HashableP", "httpMaximumConnectionsPerHost"]
+- !private ["s8HashableP", "httpRequest"]
+- !private ["s8HashableP", "infoDictionary"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "mapData"]
+- !private ["s8HashableP", "maxConcurrentOperationCount"]
+- !private ["s8HashableP", "maxConcurrentRequestsPerConnection"]
+- !private ["s8HashableP", "name"]
+- !private ["s8HashableP", "original"]
+- !private ["s8HashableP", "parseJSONResponse"]
+- !private ["s8HashableP", "reachability"]
+- !private ["s8HashableP", "requestQueue"]
+- !private ["s8HashableP", "session"]
+- !private ["s8HashableP", "urlHostAllowed"]
+- !private ["s8HashableP", "useReachability"]
+- !private ["s25LosslessStringConvertibleP", "addingPercentEncoding"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "addingPercentEncoding"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "addingPercentEncoding"]
+- !private ["So9NSCopyingP", "addingPercentEncoding"]
+- !private ["So9NSCopyingP", "default"]
+- !private ["So9NSCopyingP", "httpAdditionalHeaders"]
+- !private ["So9NSCopyingP", "httpMaximumConnectionsPerHost"]
+- !private ["So21NSItemProviderReadingP", "addingPercentEncoding"]
+- !private ["So21NSItemProviderWritingP", "addingPercentEncoding"]
+- !private ["So16NSMutableCopyingP", "addingPercentEncoding"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "Bundle"]
+- !private ["So8NSObjectC", "Foundation"]
+- !private ["So8NSObjectC", "GPHAbstractClient"]
+- ["So8NSObjectC", "GPHCategory"]
+- ["So8NSObjectC", "GPHCompletionHandler"]
+- ["So8NSObjectC", "GPHJSONCompletionHandler"]
+- !private ["So8NSObjectC", "GPHJSONMappingError"]
+- ["So8NSObjectC", "GPHListCategoryResponse"]
+- ["So8NSObjectC", "GPHListMediaResponse"]
+- ["So8NSObjectC", "GPHListTermSuggestionResponse"]
+- ["So8NSObjectC", "GPHMappable"]
+- !private ["So8NSObjectC", "GPHMappableObject"]
+- ["So8NSObjectC", "GPHMediaResponse"]
+- ["So8NSObjectC", "GPHMediaType"]
+- ["So8NSObjectC", "GPHNetworkReachability"]
+- ["So8NSObjectC", "GPHRenditionType"]
+- !private ["So8NSObjectC", "GPHRequest"]
+- ["So8NSObjectC", "GPHRequestType"]
+- ["So8NSObjectC", "GPHResponse"]
+- ["So8NSObjectC", "Operation"]
+- ["So8NSObjectC", "OperationQueue"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "TimeInterval"]
+- ["So8NSObjectC", "URLRequest"]
+- ["So8NSObjectC", "URLSession"]
+- !private ["So8NSObjectC", "URLSessionConfiguration"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "_apiKey"]
+- !private ["So8NSObjectC", "addOperation"]
+- !private ["So8NSObjectC", "addingPercentEncoding"]
+- !private ["So8NSObjectC", "default"]
+- ["So8NSObjectC", "defaultUserAgent"]
+- ["So8NSObjectC", "encodedStringForUrl"]
+- ["So8NSObjectC", "getRequest"]
+- !private ["So8NSObjectC", "httpAdditionalHeaders"]
+- !private ["So8NSObjectC", "httpMaximumConnectionsPerHost"]
+- ["So8NSObjectC", "httpRequest"]
+- !private ["So8NSObjectC", "infoDictionary"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isNetworkReachable"]
+- ["So8NSObjectC", "listCategoriesRequest"]
+- ["So8NSObjectC", "listRequest"]
+- ["So8NSObjectC", "listTermSuggestionsRequest"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "mapData"]
+- !private ["So8NSObjectC", "maxConcurrentOperationCount"]
+- ["So8NSObjectC", "maxConcurrentRequestsPerConnection"]
+- !private ["So8NSObjectC", "name"]
+- ["So8NSObjectC", "parseJSONResponse"]
+- ["So8NSObjectC", "reachability"]
+- ["So8NSObjectC", "requestQueue"]
+- ["So8NSObjectC", "session"]
+- ["So8NSObjectC", "timeout"]
+- ["So8NSObjectC", "useReachability"]
+- !private ["So16NSObjectProtocolP", "Bundle"]
+- !private ["So16NSObjectProtocolP", "Foundation"]
+- !private ["So16NSObjectProtocolP", "GPHAbstractClient"]
+- !private ["So16NSObjectProtocolP", "GPHJSONMappingError"]
+- !private ["So16NSObjectProtocolP", "GPHMappableObject"]
+- ["So16NSObjectProtocolP", "GPHNetworkReachability"]
+- !private ["So16NSObjectProtocolP", "GPHRequest"]
+- !private ["So16NSObjectProtocolP", "OperationQueue"]
+- !private ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "URLSessionConfiguration"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "_apiKey"]
+- !private ["So16NSObjectProtocolP", "addOperation"]
+- !private ["So16NSObjectProtocolP", "addingPercentEncoding"]
+- !private ["So16NSObjectProtocolP", "default"]
+- !private ["So16NSObjectProtocolP", "defaultUserAgent"]
+- !private ["So16NSObjectProtocolP", "httpAdditionalHeaders"]
+- !private ["So16NSObjectProtocolP", "httpMaximumConnectionsPerHost"]
+- !private ["So16NSObjectProtocolP", "httpRequest"]
+- !private ["So16NSObjectProtocolP", "infoDictionary"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "mapData"]
+- !private ["So16NSObjectProtocolP", "maxConcurrentOperationCount"]
+- !private ["So16NSObjectProtocolP", "maxConcurrentRequestsPerConnection"]
+- !private ["So16NSObjectProtocolP", "name"]
+- !private ["So16NSObjectProtocolP", "parseJSONResponse"]
+- !private ["So16NSObjectProtocolP", "reachability"]
+- !private ["So16NSObjectProtocolP", "requestQueue"]
+- !private ["So16NSObjectProtocolP", "session"]
+- !private ["So16NSObjectProtocolP", "useReachability"]
+- !private ["So14NSSecureCodingP", "addingPercentEncoding"]
+- !private ["So8NSStringC", "addingPercentEncoding"]
+- !private ["So14OperationQueueC", "addOperation"]
+- !private ["So14OperationQueueC", "init"]
+- !private ["So14OperationQueueC", "maxConcurrentOperationCount"]
+- !private ["So14OperationQueueC", "name"]
+- !private ["s26RangeReplaceableCollectionP", "addingPercentEncoding"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "original"]
+- !private ["10Foundation20ReferenceConvertibleP", "urlHostAllowed"]
+- !private ["s8SequenceP", "addingPercentEncoding"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s10SetAlgebraP", "urlHostAllowed"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "addingPercentEncoding"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "addingPercentEncoding"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "addingPercentEncoding"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "addingPercentEncoding"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So10URLSessionC", "init"]
+- !private ["So23URLSessionConfigurationC", "default"]
+- !private ["So23URLSessionConfigurationC", "httpAdditionalHeaders"]
+- !private ["So23URLSessionConfigurationC", "httpMaximumConnectionsPerHost"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "addingPercentEncoding"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "addingPercentEncoding"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "addingPercentEncoding"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "addingPercentEncoding"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "addingPercentEncoding"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "addingPercentEncoding"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Foundation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "GPHAbstractClient"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "GPHJSONMappingError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "GPHMappableObject"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "GPHNetworkReachability"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "GPHRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "OperationQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLSessionConfiguration"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_apiKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addOperation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addingPercentEncoding"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "defaultUserAgent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "httpAdditionalHeaders"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "httpMaximumConnectionsPerHost"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "httpRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "infoDictionary"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mapData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maxConcurrentOperationCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maxConcurrentRequestsPerConnection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "parseJSONResponse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reachability"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "session"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "useReachability"]
+- !private ["s21_ObjectiveCBridgeableP", "addingPercentEncoding"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "urlHostAllowed"]
+- !private ["s16_SwiftStringViewP", "addingPercentEncoding"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "So6BundleC"
+- "s7CVarArgP"
+- !private "10Foundation12CharacterSetV"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "10Foundation13CustomNSErrorP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "12GiphyCoreSDK17GPHAbstractClientC"
+- !private "12GiphyCoreSDK19GPHJSONMappingErrorV"
+- !private "12GiphyCoreSDK23GPHListCategoryResponseC"
+- !private "12GiphyCoreSDK20GPHListMediaResponseC"
+- !private "12GiphyCoreSDK29GPHListTermSuggestionResponseC"
+- !private "12GiphyCoreSDK11GPHMappableP"
+- !private "12GiphyCoreSDK16GPHMediaResponseC"
+- "12GiphyCoreSDK22GPHNetworkReachabilityC"
+- !private "12GiphyCoreSDK16GPHRenditionTypeO"
+- !private "12GiphyCoreSDK10GPHRequestC"
+- !private "12GiphyCoreSDK11GPHResponseC"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So14OperationQueueC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So10URLSessionC"
+- !private "So23URLSessionConfigurationC"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/Target Support Files/GiphyCoreSDK/GiphyCoreSDK-umbrella.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/GiphyCoreSDK.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "5803a8c2bf6e98240e5ebb98b1143991"

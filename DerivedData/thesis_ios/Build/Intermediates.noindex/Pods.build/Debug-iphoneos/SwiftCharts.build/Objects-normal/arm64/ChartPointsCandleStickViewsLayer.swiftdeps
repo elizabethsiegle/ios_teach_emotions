@@ -1,0 +1,246 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChartPointsCandleStickViewsLayer"
+provides-nominal:
+- "11SwiftCharts32ChartPointsCandleStickViewsLayerC"
+provides-member:
+- ["11SwiftCharts32ChartPointsCandleStickViewsLayerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- !private "+"
+- !private "<"
+- !private ">"
+- "AssignmentPrecedence"
+- "CGPoint"
+- "CGRect"
+- "ChartAxis"
+- "ChartCandleStickView"
+- "ChartPointCandleStick"
+- "ChartPointsCandleStickViewsLayer"
+- "ChartPointsViewsLayer"
+- !private "StringLiteralType"
+depends-member:
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "highlighted"]
+- !private ["SC7CGPointV", "x"]
+- !private ["SC6CGRectV", "origin"]
+- !private ["SC6CGRectV", "width"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "highlighted"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "viewsWithChartPoints"]
+- !private ["11SwiftCharts20ChartCandleStickViewC", "frame"]
+- !private ["11SwiftCharts20ChartCandleStickViewC", "highlighted"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "CGPoint"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "CGRect"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartAxis"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartPointViewGenerator"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "T"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "highlightChartpointView"]
+- !private ["11SwiftCharts21ChartCoordsSpaceLayerC", "viewsWithChartPoints"]
+- ["11SwiftCharts10ChartLayerP", ""]
+- !private ["11SwiftCharts10ChartLayerP", "init"]
+- !private ["11SwiftCharts10ChartLayerP", "viewsWithChartPoints"]
+- ["11SwiftCharts14ChartLayerBaseC", "CGPoint"]
+- ["11SwiftCharts14ChartLayerBaseC", "CGRect"]
+- ["11SwiftCharts14ChartLayerBaseC", "ChartAxis"]
+- ["11SwiftCharts14ChartLayerBaseC", "ChartPointViewGenerator"]
+- ["11SwiftCharts14ChartLayerBaseC", "T"]
+- ["11SwiftCharts14ChartLayerBaseC", "highlightChartpointView"]
+- !private ["11SwiftCharts14ChartLayerBaseC", "viewsWithChartPoints"]
+- ["11SwiftCharts32ChartPointsCandleStickViewsLayerC", "CGPoint"]
+- ["11SwiftCharts32ChartPointsCandleStickViewsLayerC", "CGRect"]
+- ["11SwiftCharts32ChartPointsCandleStickViewsLayerC", "ChartAxis"]
+- ["11SwiftCharts32ChartPointsCandleStickViewsLayerC", "ChartPointViewGenerator"]
+- ["11SwiftCharts32ChartPointsCandleStickViewsLayerC", "T"]
+- ["11SwiftCharts32ChartPointsCandleStickViewsLayerC", "deinit"]
+- ["11SwiftCharts32ChartPointsCandleStickViewsLayerC", "highlightChartpointView"]
+- ["11SwiftCharts32ChartPointsCandleStickViewsLayerC", "init"]
+- !private ["11SwiftCharts32ChartPointsCandleStickViewsLayerC", "viewsWithChartPoints"]
+- ["11SwiftCharts16ChartPointsLayerC", "CGPoint"]
+- ["11SwiftCharts16ChartPointsLayerC", "CGRect"]
+- ["11SwiftCharts16ChartPointsLayerC", "ChartAxis"]
+- ["11SwiftCharts16ChartPointsLayerC", "ChartPointViewGenerator"]
+- ["11SwiftCharts16ChartPointsLayerC", "T"]
+- ["11SwiftCharts16ChartPointsLayerC", "highlightChartpointView"]
+- !private ["11SwiftCharts16ChartPointsLayerC", "viewsWithChartPoints"]
+- ["11SwiftCharts21ChartPointsViewsLayerC", "CGPoint"]
+- ["11SwiftCharts21ChartPointsViewsLayerC", "CGRect"]
+- ["11SwiftCharts21ChartPointsViewsLayerC", "ChartAxis"]
+- ["11SwiftCharts21ChartPointsViewsLayerC", "ChartPointViewGenerator"]
+- ["11SwiftCharts21ChartPointsViewsLayerC", "T"]
+- ["11SwiftCharts21ChartPointsViewsLayerC", ""]
+- ["11SwiftCharts21ChartPointsViewsLayerC", "highlightChartpointView"]
+- ["11SwiftCharts21ChartPointsViewsLayerC", "init"]
+- !private ["11SwiftCharts21ChartPointsViewsLayerC", "viewsWithChartPoints"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "highlighted"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "origin"]
+- !private ["s28CustomDebugStringConvertibleP", "viewsWithChartPoints"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s28CustomDebugStringConvertibleP", "x"]
+- !private ["s29CustomPlaygroundQuickLookableP", "origin"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "x"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "origin"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s17CustomReflectableP", "x"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "highlighted"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "viewsWithChartPoints"]
+- !private ["s9DecodableP", "origin"]
+- !private ["s9DecodableP", "width"]
+- !private ["s9DecodableP", "x"]
+- !private ["s9EncodableP", "origin"]
+- !private ["s9EncodableP", "width"]
+- !private ["s9EncodableP", "x"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "frame"]
+- !private ["s9EquatableP", "highlighted"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "origin"]
+- !private ["s9EquatableP", "viewsWithChartPoints"]
+- !private ["s9EquatableP", "width"]
+- !private ["s9EquatableP", "x"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "frame"]
+- !private ["s8HashableP", "highlighted"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "viewsWithChartPoints"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "highlighted"]
+- ["So8NSObjectC", "CGPoint"]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "ChartAxis"]
+- ["So8NSObjectC", "ChartPointViewGenerator"]
+- ["So8NSObjectC", "T"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "highlightChartpointView"]
+- !private ["So8NSObjectC", "highlighted"]
+- !private ["So8NSObjectC", "viewsWithChartPoints"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "frame"]
+- !private ["So16NSObjectProtocolP", "highlighted"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "viewsWithChartPoints"]
+- !private ["s12StaticStringV", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "highlighted"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "highlighted"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "highlighted"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "highlighted"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "highlighted"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "highlighted"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "highlighted"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "highlighted"]
+- !private ["So11UIResponderC", "frame"]
+- !private ["So11UIResponderC", "highlighted"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "highlighted"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "highlighted"]
+- !private ["So6UIViewC", "frame"]
+- !private ["So6UIViewC", "highlighted"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "highlighted"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "highlighted"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewsWithChartPoints"]
+- !private ["s21_ObjectiveCBridgeableP", "origin"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s21_ObjectiveCBridgeableP", "x"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- !private "SC7CGPointV"
+- !private "SC6CGRectV"
+- "s7CVarArgP"
+- !private "11SwiftCharts20ChartCandleStickViewC"
+- "11SwiftCharts21ChartCoordsSpaceLayerC"
+- "11SwiftCharts10ChartLayerP"
+- "11SwiftCharts14ChartLayerBaseC"
+- "11SwiftCharts32ChartPointsCandleStickViewsLayerC"
+- "11SwiftCharts16ChartPointsLayerC"
+- "11SwiftCharts21ChartPointsViewsLayerC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s12StaticStringV"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/Target Support Files/SwiftCharts/SwiftCharts-umbrella.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftCharts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "6667d77cbb9e7c3e36cb2a1cff6646e4"

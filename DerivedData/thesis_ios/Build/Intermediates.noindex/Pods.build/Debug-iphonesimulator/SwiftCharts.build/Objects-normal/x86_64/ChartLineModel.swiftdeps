@@ -1,0 +1,114 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChartLineModel"
+provides-nominal:
+- "11SwiftCharts14ChartLineModelV"
+provides-member:
+- ["11SwiftCharts14ChartLineModelV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- "CGFloat"
+- "ChartLineModel"
+- "ChartPoint"
+- "Double"
+- "Float"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "LineCap"
+- "LineJoin"
+- "UIColor"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s7CVarArgP", "count"]
+- ["11SwiftCharts14ChartLineModelV", "CGFloat"]
+- ["11SwiftCharts14ChartLineModelV", "Double"]
+- ["11SwiftCharts14ChartLineModelV", "Float"]
+- ["11SwiftCharts14ChartLineModelV", "Int"]
+- ["11SwiftCharts14ChartLineModelV", "LineCap"]
+- ["11SwiftCharts14ChartLineModelV", "LineJoin"]
+- ["11SwiftCharts14ChartLineModelV", "T"]
+- ["11SwiftCharts14ChartLineModelV", "UIColor"]
+- ["11SwiftCharts14ChartLineModelV", "animDelay"]
+- ["11SwiftCharts14ChartLineModelV", "animDuration"]
+- ["11SwiftCharts14ChartLineModelV", "chartPoints"]
+- ["11SwiftCharts14ChartLineModelV", "chartPointsCount"]
+- ["11SwiftCharts14ChartLineModelV", "dashPattern"]
+- ["11SwiftCharts14ChartLineModelV", "init"]
+- ["11SwiftCharts14ChartLineModelV", "lineCap"]
+- ["11SwiftCharts14ChartLineModelV", "lineColors"]
+- ["11SwiftCharts14ChartLineModelV", "lineJoin"]
+- ["11SwiftCharts14ChartLineModelV", "lineWidth"]
+- !private ["s10CollectionP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "round"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s8HashableP", "round"]
+- !private ["11SwiftCharts7LineCapO", "round"]
+- !private ["11SwiftCharts8LineJoinO", "round"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s8SequenceP", "count"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "s7CVarArgP"
+- "11SwiftCharts14ChartLineModelV"
+- !private "s10CollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s8HashableP"
+- !private "11SwiftCharts7LineCapO"
+- !private "11SwiftCharts8LineJoinO"
+- !private "s17MutableCollectionP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/Target Support Files/SwiftCharts/SwiftCharts-umbrella.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SwiftCharts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "d43dbfda9bec891e2e4e756df16cab46"

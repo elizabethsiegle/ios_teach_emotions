@@ -1,0 +1,396 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GPHJSONObject"
+- "GPHJSONCompletionHandler"
+- "GPHCompletionHandler"
+- "GPHClient"
+provides-nominal:
+- "12GiphyCoreSDK9GPHClientC"
+provides-member:
+- ["12GiphyCoreSDK9GPHClientC", ""]
+provides-dynamic-lookup:
+- "apiKey"
+- "categoriesForGifs"
+- "gifByID"
+- "gifsByCategory"
+- "gifsByIDs"
+- "random"
+- "search"
+- "subCategoriesForGifs"
+- "termSuggestions"
+- "translate"
+- "trending"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Error"
+- "GPHAbstractClient"
+- !private "GPHCategory"
+- "GPHClient"
+- "GPHCompletionHandler"
+- "GPHJSONCompletionHandler"
+- "GPHJSONObject"
+- "GPHLanguageType"
+- "GPHListCategoryResponse"
+- "GPHListMediaResponse"
+- "GPHListTermSuggestionResponse"
+- "GPHMediaResponse"
+- "GPHMediaType"
+- "GPHRatingType"
+- !private "GPHRequestRouter"
+- "Int"
+- "Operation"
+- "String"
+- "StringLiteralType"
+- "URLResponse"
+- !private "UnicodeScalarType"
+- "Void"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s7CVarArgP", "GPHCategory"]
+- !private ["s7CVarArgP", "GPHRequestRouter"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_apiKey"]
+- !private ["s7CVarArgP", "apiKey"]
+- !private ["s7CVarArgP", "encodedPath"]
+- !private ["s7CVarArgP", "encodedStringForUrl"]
+- !private ["s7CVarArgP", "getRequest"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "listCategoriesRequest"]
+- !private ["s7CVarArgP", "listRequest"]
+- !private ["s7CVarArgP", "listTermSuggestionsRequest"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "GPHCategory"]
+- !private ["s28CustomDebugStringConvertibleP", "GPHRequestRouter"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "_apiKey"]
+- !private ["s28CustomDebugStringConvertibleP", "apiKey"]
+- !private ["s28CustomDebugStringConvertibleP", "encodedPath"]
+- !private ["s28CustomDebugStringConvertibleP", "encodedStringForUrl"]
+- !private ["s28CustomDebugStringConvertibleP", "getRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "listCategoriesRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "listRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "listTermSuggestionsRequest"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "GPHCategory"]
+- !private ["s23CustomStringConvertibleP", "GPHRequestRouter"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_apiKey"]
+- !private ["s23CustomStringConvertibleP", "apiKey"]
+- !private ["s23CustomStringConvertibleP", "encodedPath"]
+- !private ["s23CustomStringConvertibleP", "encodedStringForUrl"]
+- !private ["s23CustomStringConvertibleP", "getRequest"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "listCategoriesRequest"]
+- !private ["s23CustomStringConvertibleP", "listRequest"]
+- !private ["s23CustomStringConvertibleP", "listTermSuggestionsRequest"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "GPHCategory"]
+- !private ["s9EquatableP", "GPHRequestRouter"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_apiKey"]
+- !private ["s9EquatableP", "apiKey"]
+- !private ["s9EquatableP", "categories"]
+- !private ["s9EquatableP", "categoryContent"]
+- !private ["s9EquatableP", "encodedPath"]
+- !private ["s9EquatableP", "encodedStringForUrl"]
+- !private ["s9EquatableP", "english"]
+- !private ["s9EquatableP", "get"]
+- !private ["s9EquatableP", "getAll"]
+- !private ["s9EquatableP", "getRequest"]
+- !private ["s9EquatableP", "gif"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "listCategoriesRequest"]
+- !private ["s9EquatableP", "listRequest"]
+- !private ["s9EquatableP", "listTermSuggestionsRequest"]
+- !private ["s9EquatableP", "random"]
+- !private ["s9EquatableP", "ratedR"]
+- !private ["s9EquatableP", "search"]
+- !private ["s9EquatableP", "subCategories"]
+- !private ["s9EquatableP", "termSuggestions"]
+- !private ["s9EquatableP", "translate"]
+- !private ["s9EquatableP", "trending"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["12GiphyCoreSDK17GPHAbstractClientC", "GPHCategory"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "GPHCompletionHandler"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "GPHLanguageType"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "GPHListCategoryResponse"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "GPHListMediaResponse"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "GPHListTermSuggestionResponse"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "GPHMediaResponse"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "GPHMediaType"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "GPHRatingType"]
+- !private ["12GiphyCoreSDK17GPHAbstractClientC", "GPHRequestRouter"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "Int"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "Operation"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "String"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", ""]
+- !private ["12GiphyCoreSDK17GPHAbstractClientC", "_apiKey"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "apiKey"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "categoriesForGifs"]
+- !private ["12GiphyCoreSDK17GPHAbstractClientC", "encodedStringForUrl"]
+- !private ["12GiphyCoreSDK17GPHAbstractClientC", "getRequest"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "gifByID"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "gifsByCategory"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "gifsByIDs"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "init"]
+- !private ["12GiphyCoreSDK17GPHAbstractClientC", "listCategoriesRequest"]
+- !private ["12GiphyCoreSDK17GPHAbstractClientC", "listRequest"]
+- !private ["12GiphyCoreSDK17GPHAbstractClientC", "listTermSuggestionsRequest"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "random"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "search"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "subCategoriesForGifs"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "termSuggestions"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "translate"]
+- ["12GiphyCoreSDK17GPHAbstractClientC", "trending"]
+- !private ["12GiphyCoreSDK11GPHCategoryC", "encodedPath"]
+- !private ["12GiphyCoreSDK11GPHCategoryC", "init"]
+- !private ["12GiphyCoreSDK9GPHClientC", "GPHCategory"]
+- ["12GiphyCoreSDK9GPHClientC", "GPHCompletionHandler"]
+- ["12GiphyCoreSDK9GPHClientC", "GPHLanguageType"]
+- ["12GiphyCoreSDK9GPHClientC", "GPHListCategoryResponse"]
+- ["12GiphyCoreSDK9GPHClientC", "GPHListMediaResponse"]
+- ["12GiphyCoreSDK9GPHClientC", "GPHListTermSuggestionResponse"]
+- ["12GiphyCoreSDK9GPHClientC", "GPHMediaResponse"]
+- ["12GiphyCoreSDK9GPHClientC", "GPHMediaType"]
+- ["12GiphyCoreSDK9GPHClientC", "GPHRatingType"]
+- !private ["12GiphyCoreSDK9GPHClientC", "GPHRequestRouter"]
+- ["12GiphyCoreSDK9GPHClientC", "Int"]
+- ["12GiphyCoreSDK9GPHClientC", "Operation"]
+- ["12GiphyCoreSDK9GPHClientC", "String"]
+- !private ["12GiphyCoreSDK9GPHClientC", "_apiKey"]
+- ["12GiphyCoreSDK9GPHClientC", "apiKey"]
+- ["12GiphyCoreSDK9GPHClientC", "categoriesForGifs"]
+- ["12GiphyCoreSDK9GPHClientC", "deinit"]
+- !private ["12GiphyCoreSDK9GPHClientC", "encodedStringForUrl"]
+- !private ["12GiphyCoreSDK9GPHClientC", "getRequest"]
+- ["12GiphyCoreSDK9GPHClientC", "gifByID"]
+- ["12GiphyCoreSDK9GPHClientC", "gifsByCategory"]
+- ["12GiphyCoreSDK9GPHClientC", "gifsByIDs"]
+- ["12GiphyCoreSDK9GPHClientC", "init"]
+- !private ["12GiphyCoreSDK9GPHClientC", "listCategoriesRequest"]
+- !private ["12GiphyCoreSDK9GPHClientC", "listRequest"]
+- !private ["12GiphyCoreSDK9GPHClientC", "listTermSuggestionsRequest"]
+- ["12GiphyCoreSDK9GPHClientC", "random"]
+- ["12GiphyCoreSDK9GPHClientC", "search"]
+- ["12GiphyCoreSDK9GPHClientC", "subCategoriesForGifs"]
+- ["12GiphyCoreSDK9GPHClientC", "termSuggestions"]
+- ["12GiphyCoreSDK9GPHClientC", "translate"]
+- ["12GiphyCoreSDK9GPHClientC", "trending"]
+- !private ["12GiphyCoreSDK15GPHLanguageTypeO", "english"]
+- !private ["12GiphyCoreSDK11GPHMappableP", "encodedPath"]
+- !private ["12GiphyCoreSDK11GPHMappableP", "init"]
+- !private ["12GiphyCoreSDK12GPHMediaTypeO", "gif"]
+- !private ["12GiphyCoreSDK13GPHRatingTypeO", "ratedR"]
+- !private ["12GiphyCoreSDK16GPHRequestRouterO", "asURLRequest"]
+- !private ["12GiphyCoreSDK16GPHRequestRouterO", "categories"]
+- !private ["12GiphyCoreSDK16GPHRequestRouterO", "categoryContent"]
+- !private ["12GiphyCoreSDK16GPHRequestRouterO", "get"]
+- !private ["12GiphyCoreSDK16GPHRequestRouterO", "getAll"]
+- !private ["12GiphyCoreSDK16GPHRequestRouterO", "random"]
+- !private ["12GiphyCoreSDK16GPHRequestRouterO", "search"]
+- !private ["12GiphyCoreSDK16GPHRequestRouterO", "subCategories"]
+- !private ["12GiphyCoreSDK16GPHRequestRouterO", "termSuggestions"]
+- !private ["12GiphyCoreSDK16GPHRequestRouterO", "translate"]
+- !private ["12GiphyCoreSDK16GPHRequestRouterO", "trending"]
+- !private ["12GiphyCoreSDK14GPHRequestTypeO", "categories"]
+- !private ["12GiphyCoreSDK14GPHRequestTypeO", "categoryContent"]
+- !private ["12GiphyCoreSDK14GPHRequestTypeO", "get"]
+- !private ["12GiphyCoreSDK14GPHRequestTypeO", "getAll"]
+- !private ["12GiphyCoreSDK14GPHRequestTypeO", "random"]
+- !private ["12GiphyCoreSDK14GPHRequestTypeO", "search"]
+- !private ["12GiphyCoreSDK14GPHRequestTypeO", "subCategories"]
+- !private ["12GiphyCoreSDK14GPHRequestTypeO", "termSuggestions"]
+- !private ["12GiphyCoreSDK14GPHRequestTypeO", "translate"]
+- !private ["12GiphyCoreSDK14GPHRequestTypeO", "trending"]
+- !private ["s8HashableP", "GPHCategory"]
+- !private ["s8HashableP", "GPHRequestRouter"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_apiKey"]
+- !private ["s8HashableP", "apiKey"]
+- !private ["s8HashableP", "categories"]
+- !private ["s8HashableP", "categoryContent"]
+- !private ["s8HashableP", "encodedPath"]
+- !private ["s8HashableP", "encodedStringForUrl"]
+- !private ["s8HashableP", "english"]
+- !private ["s8HashableP", "get"]
+- !private ["s8HashableP", "getAll"]
+- !private ["s8HashableP", "getRequest"]
+- !private ["s8HashableP", "gif"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "listCategoriesRequest"]
+- !private ["s8HashableP", "listRequest"]
+- !private ["s8HashableP", "listTermSuggestionsRequest"]
+- !private ["s8HashableP", "random"]
+- !private ["s8HashableP", "ratedR"]
+- !private ["s8HashableP", "search"]
+- !private ["s8HashableP", "subCategories"]
+- !private ["s8HashableP", "termSuggestions"]
+- !private ["s8HashableP", "translate"]
+- !private ["s8HashableP", "trending"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "encodedPath"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSObjectC", "GPHCategory"]
+- ["So8NSObjectC", "GPHCompletionHandler"]
+- ["So8NSObjectC", "GPHLanguageType"]
+- ["So8NSObjectC", "GPHListCategoryResponse"]
+- ["So8NSObjectC", "GPHListMediaResponse"]
+- ["So8NSObjectC", "GPHListTermSuggestionResponse"]
+- ["So8NSObjectC", "GPHMediaResponse"]
+- ["So8NSObjectC", "GPHMediaType"]
+- ["So8NSObjectC", "GPHRatingType"]
+- !private ["So8NSObjectC", "GPHRequestRouter"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "Operation"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "_apiKey"]
+- ["So8NSObjectC", "apiKey"]
+- ["So8NSObjectC", "categoriesForGifs"]
+- !private ["So8NSObjectC", "encodedPath"]
+- !private ["So8NSObjectC", "encodedStringForUrl"]
+- !private ["So8NSObjectC", "getRequest"]
+- ["So8NSObjectC", "gifByID"]
+- ["So8NSObjectC", "gifsByCategory"]
+- ["So8NSObjectC", "gifsByIDs"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "listCategoriesRequest"]
+- !private ["So8NSObjectC", "listRequest"]
+- !private ["So8NSObjectC", "listTermSuggestionsRequest"]
+- ["So8NSObjectC", "random"]
+- ["So8NSObjectC", "search"]
+- ["So8NSObjectC", "subCategoriesForGifs"]
+- ["So8NSObjectC", "termSuggestions"]
+- ["So8NSObjectC", "translate"]
+- ["So8NSObjectC", "trending"]
+- !private ["So16NSObjectProtocolP", "GPHCategory"]
+- !private ["So16NSObjectProtocolP", "GPHRequestRouter"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "_apiKey"]
+- !private ["So16NSObjectProtocolP", "apiKey"]
+- !private ["So16NSObjectProtocolP", "encodedPath"]
+- !private ["So16NSObjectProtocolP", "encodedStringForUrl"]
+- !private ["So16NSObjectProtocolP", "getRequest"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "listCategoriesRequest"]
+- !private ["So16NSObjectProtocolP", "listRequest"]
+- !private ["So16NSObjectProtocolP", "listTermSuggestionsRequest"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "categories"]
+- !private ["s16RawRepresentableP", "categoryContent"]
+- !private ["s16RawRepresentableP", "english"]
+- !private ["s16RawRepresentableP", "get"]
+- !private ["s16RawRepresentableP", "getAll"]
+- !private ["s16RawRepresentableP", "gif"]
+- !private ["s16RawRepresentableP", "random"]
+- !private ["s16RawRepresentableP", "ratedR"]
+- !private ["s16RawRepresentableP", "search"]
+- !private ["s16RawRepresentableP", "subCategories"]
+- !private ["s16RawRepresentableP", "termSuggestions"]
+- !private ["s16RawRepresentableP", "translate"]
+- !private ["s16RawRepresentableP", "trending"]
+- !private ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "GPHCategory"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "GPHRequestRouter"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_apiKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "apiKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "encodedPath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "encodedStringForUrl"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "listCategoriesRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "listRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "listTermSuggestionsRequest"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "12GiphyCoreSDK17GPHAbstractClientC"
+- !private "12GiphyCoreSDK11GPHCategoryC"
+- "12GiphyCoreSDK9GPHClientC"
+- !private "12GiphyCoreSDK15GPHLanguageTypeO"
+- !private "12GiphyCoreSDK11GPHMappableP"
+- !private "12GiphyCoreSDK12GPHMediaTypeO"
+- !private "12GiphyCoreSDK13GPHRatingTypeO"
+- !private "12GiphyCoreSDK16GPHRequestRouterO"
+- !private "12GiphyCoreSDK14GPHRequestTypeO"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/Target Support Files/GiphyCoreSDK/GiphyCoreSDK-umbrella.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/GiphyCoreSDK.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "e81148d5d7a2ef6647088a470235f2af"

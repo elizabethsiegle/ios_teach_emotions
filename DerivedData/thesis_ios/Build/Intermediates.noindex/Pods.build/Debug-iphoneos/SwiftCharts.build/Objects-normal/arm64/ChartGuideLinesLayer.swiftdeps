@@ -1,0 +1,619 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChartGuideLinesLayerSettings"
+- "ChartGuideLinesDottedLayerSettings"
+- "ChartGuideLinesLayerAxis"
+- "ChartGuideLinesLayerAbstract"
+- "ChartGuideLinesLayer"
+- "ChartGuideLinesLayer_"
+- "ChartGuideLinesDottedLayer"
+- "ChartGuideLinesDottedLayer_"
+- "ChartGuideLinesForValuesLayerAbstract"
+- "ChartGuideLinesForValuesLayer"
+- "ChartGuideLinesForValuesLayer_"
+- "ChartGuideLinesForValuesDottedLayer"
+- "ChartGuideLinesForValuesDottedLayer_"
+provides-nominal:
+- "11SwiftCharts28ChartGuideLinesLayerSettingsC"
+- "11SwiftCharts34ChartGuideLinesDottedLayerSettingsC"
+- "11SwiftCharts24ChartGuideLinesLayerAxisO"
+- "11SwiftCharts28ChartGuideLinesLayerAbstractC"
+- "11SwiftCharts21ChartGuideLinesLayer_C"
+- "11SwiftCharts27ChartGuideLinesDottedLayer_C"
+- "11SwiftCharts37ChartGuideLinesForValuesLayerAbstractC"
+- "11SwiftCharts30ChartGuideLinesForValuesLayer_C"
+- "11SwiftCharts36ChartGuideLinesForValuesDottedLayer_C"
+provides-member:
+- ["11SwiftCharts28ChartGuideLinesLayerSettingsC", ""]
+- ["11SwiftCharts34ChartGuideLinesDottedLayerSettingsC", ""]
+- ["11SwiftCharts24ChartGuideLinesLayerAxisO", ""]
+- ["11SwiftCharts28ChartGuideLinesLayerAbstractC", ""]
+- ["11SwiftCharts21ChartGuideLinesLayer_C", ""]
+- ["11SwiftCharts27ChartGuideLinesDottedLayer_C", ""]
+- ["11SwiftCharts37ChartGuideLinesForValuesLayerAbstractC", ""]
+- ["11SwiftCharts30ChartGuideLinesForValuesLayer_C", ""]
+- ["11SwiftCharts36ChartGuideLinesForValuesDottedLayer_C", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "+"
+- !private "<"
+- "=="
+- !private ">"
+- "AssignmentPrecedence"
+- "CGContext"
+- "CGFloat"
+- "CGPoint"
+- "Chart"
+- "ChartAxis"
+- "ChartAxisLayer"
+- "ChartAxisValue"
+- "ChartCoordsSpaceLayer"
+- !private "ChartDrawDottedLine"
+- !private "ChartDrawLine"
+- "ChartGuideLinesDottedLayer"
+- "ChartGuideLinesDottedLayerSettings"
+- "ChartGuideLinesDottedLayer_"
+- "ChartGuideLinesForValuesDottedLayer"
+- "ChartGuideLinesForValuesDottedLayer_"
+- "ChartGuideLinesForValuesLayer"
+- "ChartGuideLinesForValuesLayerAbstract"
+- "ChartGuideLinesForValuesLayer_"
+- "ChartGuideLinesLayer"
+- "ChartGuideLinesLayerAbstract"
+- "ChartGuideLinesLayerAxis"
+- "ChartGuideLinesLayerSettings"
+- "ChartGuideLinesLayer_"
+- !private "StringLiteralType"
+- "UIColor"
+- !private "fatalError"
+- !private "||"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["SC7CGPointV", "init"]
+- !private ["SC7CGPointV", "x"]
+- !private ["SC7CGPointV", "y"]
+- !private ["SC6CGRectV", "height"]
+- !private ["SC6CGRectV", "maxX"]
+- !private ["SC6CGRectV", "maxY"]
+- !private ["SC6CGRectV", "minX"]
+- !private ["SC6CGRectV", "minY"]
+- !private ["SC6CGRectV", "origin"]
+- !private ["SC6CGRectV", "width"]
+- !private ["s7CVarArgP", "CGPoint"]
+- !private ["s7CVarArgP", "ChartDrawDottedLine"]
+- !private ["s7CVarArgP", "ChartDrawLine"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "axis"]
+- !private ["s7CVarArgP", "axisValuesX"]
+- !private ["s7CVarArgP", "axisValuesY"]
+- !private ["s7CVarArgP", "drawGuideline"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "gray"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "settings"]
+- !private ["s7CVarArgP", "xAxis"]
+- !private ["s7CVarArgP", "xAxisLayer"]
+- !private ["s7CVarArgP", "yAxis"]
+- !private ["s7CVarArgP", "yAxisLayer"]
+- !private ["11SwiftCharts5ChartC", "containerFrame"]
+- !private ["11SwiftCharts9ChartAxisC", "screenLocForScalar"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "axis"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "axisValuesScreenLocs"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "frame"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "low"]
+- !private ["11SwiftCharts14ChartAxisValueC", "scalar"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "CGContext"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "CGFloat"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "CGPoint"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "Chart"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartAxis"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartAxisLayer"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartAxisValue"]
+- !private ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartDrawDottedLine"]
+- !private ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartDrawLine"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartGuideLinesDottedLayerSettings"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartGuideLinesLayerAxis"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartGuideLinesLayerSettings"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "T"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "UIColor"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", ""]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "axis"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "axisValuesX"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "axisValuesY"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "chartViewDrawing"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "drawGuideline"]
+- !private ["11SwiftCharts21ChartCoordsSpaceLayerC", "fatalError"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "init"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "settings"]
+- !private ["11SwiftCharts21ChartCoordsSpaceLayerC", "xAxis"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "xAxisLayer"]
+- !private ["11SwiftCharts21ChartCoordsSpaceLayerC", "yAxis"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "yAxisLayer"]
+- ["11SwiftCharts34ChartGuideLinesDottedLayerSettingsC", "CGFloat"]
+- ["11SwiftCharts34ChartGuideLinesDottedLayerSettingsC", "UIColor"]
+- ["11SwiftCharts34ChartGuideLinesDottedLayerSettingsC", "deinit"]
+- ["11SwiftCharts34ChartGuideLinesDottedLayerSettingsC", "dotSpacing"]
+- ["11SwiftCharts34ChartGuideLinesDottedLayerSettingsC", "dotWidth"]
+- ["11SwiftCharts34ChartGuideLinesDottedLayerSettingsC", "init"]
+- !private ["11SwiftCharts34ChartGuideLinesDottedLayerSettingsC", "linesColor"]
+- !private ["11SwiftCharts34ChartGuideLinesDottedLayerSettingsC", "linesWidth"]
+- ["11SwiftCharts27ChartGuideLinesDottedLayer_C", "CGContext"]
+- ["11SwiftCharts27ChartGuideLinesDottedLayer_C", "CGPoint"]
+- ["11SwiftCharts27ChartGuideLinesDottedLayer_C", "ChartAxisLayer"]
+- !private ["11SwiftCharts27ChartGuideLinesDottedLayer_C", "ChartDrawDottedLine"]
+- ["11SwiftCharts27ChartGuideLinesDottedLayer_C", "ChartGuideLinesDottedLayerSettings"]
+- ["11SwiftCharts27ChartGuideLinesDottedLayer_C", "ChartGuideLinesLayerAxis"]
+- ["11SwiftCharts27ChartGuideLinesDottedLayer_C", "deinit"]
+- !private ["11SwiftCharts27ChartGuideLinesDottedLayer_C", "drawGuideline"]
+- ["11SwiftCharts27ChartGuideLinesDottedLayer_C", "init"]
+- !private ["11SwiftCharts27ChartGuideLinesDottedLayer_C", "settings"]
+- ["11SwiftCharts36ChartGuideLinesForValuesDottedLayer_C", "CGContext"]
+- ["11SwiftCharts36ChartGuideLinesForValuesDottedLayer_C", "CGPoint"]
+- ["11SwiftCharts36ChartGuideLinesForValuesDottedLayer_C", "ChartAxis"]
+- ["11SwiftCharts36ChartGuideLinesForValuesDottedLayer_C", "ChartAxisValue"]
+- !private ["11SwiftCharts36ChartGuideLinesForValuesDottedLayer_C", "ChartDrawDottedLine"]
+- ["11SwiftCharts36ChartGuideLinesForValuesDottedLayer_C", "ChartGuideLinesDottedLayerSettings"]
+- ["11SwiftCharts36ChartGuideLinesForValuesDottedLayer_C", "deinit"]
+- !private ["11SwiftCharts36ChartGuideLinesForValuesDottedLayer_C", "drawGuideline"]
+- ["11SwiftCharts36ChartGuideLinesForValuesDottedLayer_C", "init"]
+- !private ["11SwiftCharts36ChartGuideLinesForValuesDottedLayer_C", "settings"]
+- ["11SwiftCharts37ChartGuideLinesForValuesLayerAbstractC", "CGContext"]
+- ["11SwiftCharts37ChartGuideLinesForValuesLayerAbstractC", "CGFloat"]
+- ["11SwiftCharts37ChartGuideLinesForValuesLayerAbstractC", "CGPoint"]
+- ["11SwiftCharts37ChartGuideLinesForValuesLayerAbstractC", "Chart"]
+- ["11SwiftCharts37ChartGuideLinesForValuesLayerAbstractC", "ChartAxis"]
+- ["11SwiftCharts37ChartGuideLinesForValuesLayerAbstractC", "ChartAxisValue"]
+- !private ["11SwiftCharts37ChartGuideLinesForValuesLayerAbstractC", "ChartDrawDottedLine"]
+- !private ["11SwiftCharts37ChartGuideLinesForValuesLayerAbstractC", "ChartDrawLine"]
+- ["11SwiftCharts37ChartGuideLinesForValuesLayerAbstractC", "ChartGuideLinesDottedLayerSettings"]
+- ["11SwiftCharts37ChartGuideLinesForValuesLayerAbstractC", "ChartGuideLinesLayerSettings"]
+- ["11SwiftCharts37ChartGuideLinesForValuesLayerAbstractC", "T"]
+- ["11SwiftCharts37ChartGuideLinesForValuesLayerAbstractC", "UIColor"]
+- ["11SwiftCharts37ChartGuideLinesForValuesLayerAbstractC", ""]
+- !private ["11SwiftCharts37ChartGuideLinesForValuesLayerAbstractC", "axisValuesX"]
+- !private ["11SwiftCharts37ChartGuideLinesForValuesLayerAbstractC", "axisValuesY"]
+- ["11SwiftCharts37ChartGuideLinesForValuesLayerAbstractC", "chartViewDrawing"]
+- ["11SwiftCharts37ChartGuideLinesForValuesLayerAbstractC", "deinit"]
+- ["11SwiftCharts37ChartGuideLinesForValuesLayerAbstractC", "drawGuideline"]
+- !private ["11SwiftCharts37ChartGuideLinesForValuesLayerAbstractC", "fatalError"]
+- ["11SwiftCharts37ChartGuideLinesForValuesLayerAbstractC", "init"]
+- !private ["11SwiftCharts37ChartGuideLinesForValuesLayerAbstractC", "settings"]
+- !private ["11SwiftCharts37ChartGuideLinesForValuesLayerAbstractC", "xAxis"]
+- !private ["11SwiftCharts37ChartGuideLinesForValuesLayerAbstractC", "yAxis"]
+- ["11SwiftCharts30ChartGuideLinesForValuesLayer_C", "CGContext"]
+- ["11SwiftCharts30ChartGuideLinesForValuesLayer_C", "CGPoint"]
+- ["11SwiftCharts30ChartGuideLinesForValuesLayer_C", "ChartAxis"]
+- ["11SwiftCharts30ChartGuideLinesForValuesLayer_C", "ChartAxisValue"]
+- !private ["11SwiftCharts30ChartGuideLinesForValuesLayer_C", "ChartDrawLine"]
+- ["11SwiftCharts30ChartGuideLinesForValuesLayer_C", "ChartGuideLinesLayerSettings"]
+- ["11SwiftCharts30ChartGuideLinesForValuesLayer_C", "deinit"]
+- !private ["11SwiftCharts30ChartGuideLinesForValuesLayer_C", "drawGuideline"]
+- ["11SwiftCharts30ChartGuideLinesForValuesLayer_C", "init"]
+- !private ["11SwiftCharts30ChartGuideLinesForValuesLayer_C", "settings"]
+- ["11SwiftCharts28ChartGuideLinesLayerAbstractC", "CGContext"]
+- ["11SwiftCharts28ChartGuideLinesLayerAbstractC", "CGPoint"]
+- ["11SwiftCharts28ChartGuideLinesLayerAbstractC", "Chart"]
+- ["11SwiftCharts28ChartGuideLinesLayerAbstractC", "ChartAxisLayer"]
+- !private ["11SwiftCharts28ChartGuideLinesLayerAbstractC", "ChartDrawDottedLine"]
+- !private ["11SwiftCharts28ChartGuideLinesLayerAbstractC", "ChartDrawLine"]
+- ["11SwiftCharts28ChartGuideLinesLayerAbstractC", "ChartGuideLinesDottedLayerSettings"]
+- ["11SwiftCharts28ChartGuideLinesLayerAbstractC", "ChartGuideLinesLayerAxis"]
+- ["11SwiftCharts28ChartGuideLinesLayerAbstractC", "ChartGuideLinesLayerSettings"]
+- ["11SwiftCharts28ChartGuideLinesLayerAbstractC", "T"]
+- ["11SwiftCharts28ChartGuideLinesLayerAbstractC", ""]
+- !private ["11SwiftCharts28ChartGuideLinesLayerAbstractC", "axis"]
+- ["11SwiftCharts28ChartGuideLinesLayerAbstractC", "chartViewDrawing"]
+- ["11SwiftCharts28ChartGuideLinesLayerAbstractC", "deinit"]
+- ["11SwiftCharts28ChartGuideLinesLayerAbstractC", "drawGuideline"]
+- !private ["11SwiftCharts28ChartGuideLinesLayerAbstractC", "fatalError"]
+- ["11SwiftCharts28ChartGuideLinesLayerAbstractC", "init"]
+- !private ["11SwiftCharts28ChartGuideLinesLayerAbstractC", "settings"]
+- !private ["11SwiftCharts28ChartGuideLinesLayerAbstractC", "xAxisLayer"]
+- !private ["11SwiftCharts28ChartGuideLinesLayerAbstractC", "yAxisLayer"]
+- ["11SwiftCharts24ChartGuideLinesLayerAxisO", "__derived_enum_equals"]
+- ["11SwiftCharts24ChartGuideLinesLayerAxisO", "deinit"]
+- ["11SwiftCharts24ChartGuideLinesLayerAxisO", "hashValue"]
+- ["11SwiftCharts24ChartGuideLinesLayerAxisO", "x"]
+- ["11SwiftCharts24ChartGuideLinesLayerAxisO", "xAndY"]
+- ["11SwiftCharts24ChartGuideLinesLayerAxisO", "y"]
+- ["11SwiftCharts28ChartGuideLinesLayerSettingsC", "CGFloat"]
+- ["11SwiftCharts28ChartGuideLinesLayerSettingsC", "UIColor"]
+- ["11SwiftCharts28ChartGuideLinesLayerSettingsC", ""]
+- ["11SwiftCharts28ChartGuideLinesLayerSettingsC", "deinit"]
+- ["11SwiftCharts28ChartGuideLinesLayerSettingsC", "dotSpacing"]
+- ["11SwiftCharts28ChartGuideLinesLayerSettingsC", "dotWidth"]
+- ["11SwiftCharts28ChartGuideLinesLayerSettingsC", "init"]
+- ["11SwiftCharts28ChartGuideLinesLayerSettingsC", "linesColor"]
+- ["11SwiftCharts28ChartGuideLinesLayerSettingsC", "linesWidth"]
+- ["11SwiftCharts21ChartGuideLinesLayer_C", "CGContext"]
+- ["11SwiftCharts21ChartGuideLinesLayer_C", "CGPoint"]
+- ["11SwiftCharts21ChartGuideLinesLayer_C", "ChartAxisLayer"]
+- !private ["11SwiftCharts21ChartGuideLinesLayer_C", "ChartDrawLine"]
+- ["11SwiftCharts21ChartGuideLinesLayer_C", "ChartGuideLinesLayerAxis"]
+- ["11SwiftCharts21ChartGuideLinesLayer_C", "ChartGuideLinesLayerSettings"]
+- ["11SwiftCharts21ChartGuideLinesLayer_C", "deinit"]
+- !private ["11SwiftCharts21ChartGuideLinesLayer_C", "drawGuideline"]
+- ["11SwiftCharts21ChartGuideLinesLayer_C", "init"]
+- !private ["11SwiftCharts21ChartGuideLinesLayer_C", "settings"]
+- !private ["11SwiftCharts10ChartLayerP", "CGPoint"]
+- !private ["11SwiftCharts10ChartLayerP", "ChartDrawDottedLine"]
+- !private ["11SwiftCharts10ChartLayerP", "ChartDrawLine"]
+- ["11SwiftCharts10ChartLayerP", ""]
+- !private ["11SwiftCharts10ChartLayerP", "axis"]
+- !private ["11SwiftCharts10ChartLayerP", "axisValuesScreenLocs"]
+- !private ["11SwiftCharts10ChartLayerP", "axisValuesX"]
+- !private ["11SwiftCharts10ChartLayerP", "axisValuesY"]
+- !private ["11SwiftCharts10ChartLayerP", "drawGuideline"]
+- !private ["11SwiftCharts10ChartLayerP", "fatalError"]
+- !private ["11SwiftCharts10ChartLayerP", "frame"]
+- !private ["11SwiftCharts10ChartLayerP", "init"]
+- !private ["11SwiftCharts10ChartLayerP", "low"]
+- !private ["11SwiftCharts10ChartLayerP", "settings"]
+- !private ["11SwiftCharts10ChartLayerP", "xAxis"]
+- !private ["11SwiftCharts10ChartLayerP", "xAxisLayer"]
+- !private ["11SwiftCharts10ChartLayerP", "yAxis"]
+- !private ["11SwiftCharts10ChartLayerP", "yAxisLayer"]
+- ["11SwiftCharts14ChartLayerBaseC", "CGContext"]
+- ["11SwiftCharts14ChartLayerBaseC", "CGFloat"]
+- ["11SwiftCharts14ChartLayerBaseC", "CGPoint"]
+- ["11SwiftCharts14ChartLayerBaseC", "Chart"]
+- ["11SwiftCharts14ChartLayerBaseC", "ChartAxis"]
+- ["11SwiftCharts14ChartLayerBaseC", "ChartAxisLayer"]
+- ["11SwiftCharts14ChartLayerBaseC", "ChartAxisValue"]
+- !private ["11SwiftCharts14ChartLayerBaseC", "ChartDrawDottedLine"]
+- !private ["11SwiftCharts14ChartLayerBaseC", "ChartDrawLine"]
+- ["11SwiftCharts14ChartLayerBaseC", "ChartGuideLinesDottedLayerSettings"]
+- ["11SwiftCharts14ChartLayerBaseC", "ChartGuideLinesLayerAxis"]
+- ["11SwiftCharts14ChartLayerBaseC", "ChartGuideLinesLayerSettings"]
+- ["11SwiftCharts14ChartLayerBaseC", "T"]
+- ["11SwiftCharts14ChartLayerBaseC", "UIColor"]
+- ["11SwiftCharts14ChartLayerBaseC", "axis"]
+- ["11SwiftCharts14ChartLayerBaseC", "axisValuesX"]
+- ["11SwiftCharts14ChartLayerBaseC", "axisValuesY"]
+- ["11SwiftCharts14ChartLayerBaseC", "chartViewDrawing"]
+- ["11SwiftCharts14ChartLayerBaseC", "drawGuideline"]
+- !private ["11SwiftCharts14ChartLayerBaseC", "fatalError"]
+- ["11SwiftCharts14ChartLayerBaseC", "settings"]
+- !private ["11SwiftCharts14ChartLayerBaseC", "xAxis"]
+- ["11SwiftCharts14ChartLayerBaseC", "xAxisLayer"]
+- !private ["11SwiftCharts14ChartLayerBaseC", "yAxis"]
+- ["11SwiftCharts14ChartLayerBaseC", "yAxisLayer"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CGPoint"]
+- !private ["s28CustomDebugStringConvertibleP", "ChartDrawDottedLine"]
+- !private ["s28CustomDebugStringConvertibleP", "ChartDrawLine"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "axis"]
+- !private ["s28CustomDebugStringConvertibleP", "axisValuesX"]
+- !private ["s28CustomDebugStringConvertibleP", "axisValuesY"]
+- !private ["s28CustomDebugStringConvertibleP", "drawGuideline"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "gray"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "maxX"]
+- !private ["s28CustomDebugStringConvertibleP", "maxY"]
+- !private ["s28CustomDebugStringConvertibleP", "minX"]
+- !private ["s28CustomDebugStringConvertibleP", "minY"]
+- !private ["s28CustomDebugStringConvertibleP", "origin"]
+- !private ["s28CustomDebugStringConvertibleP", "settings"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s28CustomDebugStringConvertibleP", "x"]
+- !private ["s28CustomDebugStringConvertibleP", "xAxis"]
+- !private ["s28CustomDebugStringConvertibleP", "xAxisLayer"]
+- !private ["s28CustomDebugStringConvertibleP", "y"]
+- !private ["s28CustomDebugStringConvertibleP", "yAxis"]
+- !private ["s28CustomDebugStringConvertibleP", "yAxisLayer"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "maxX"]
+- !private ["s29CustomPlaygroundQuickLookableP", "maxY"]
+- !private ["s29CustomPlaygroundQuickLookableP", "minX"]
+- !private ["s29CustomPlaygroundQuickLookableP", "minY"]
+- !private ["s29CustomPlaygroundQuickLookableP", "origin"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "x"]
+- !private ["s29CustomPlaygroundQuickLookableP", "y"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "maxX"]
+- !private ["s17CustomReflectableP", "maxY"]
+- !private ["s17CustomReflectableP", "minX"]
+- !private ["s17CustomReflectableP", "minY"]
+- !private ["s17CustomReflectableP", "origin"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s17CustomReflectableP", "x"]
+- !private ["s17CustomReflectableP", "y"]
+- !private ["s23CustomStringConvertibleP", "CGPoint"]
+- !private ["s23CustomStringConvertibleP", "ChartDrawDottedLine"]
+- !private ["s23CustomStringConvertibleP", "ChartDrawLine"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "axis"]
+- !private ["s23CustomStringConvertibleP", "axisValuesX"]
+- !private ["s23CustomStringConvertibleP", "axisValuesY"]
+- !private ["s23CustomStringConvertibleP", "drawGuideline"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "gray"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "scalar"]
+- !private ["s23CustomStringConvertibleP", "screenLocForScalar"]
+- !private ["s23CustomStringConvertibleP", "settings"]
+- !private ["s23CustomStringConvertibleP", "xAxis"]
+- !private ["s23CustomStringConvertibleP", "xAxisLayer"]
+- !private ["s23CustomStringConvertibleP", "yAxis"]
+- !private ["s23CustomStringConvertibleP", "yAxisLayer"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "height"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "maxX"]
+- !private ["s9DecodableP", "maxY"]
+- !private ["s9DecodableP", "minX"]
+- !private ["s9DecodableP", "minY"]
+- !private ["s9DecodableP", "origin"]
+- !private ["s9DecodableP", "width"]
+- !private ["s9DecodableP", "x"]
+- !private ["s9DecodableP", "y"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "height"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "maxX"]
+- !private ["s9EncodableP", "maxY"]
+- !private ["s9EncodableP", "minX"]
+- !private ["s9EncodableP", "minY"]
+- !private ["s9EncodableP", "origin"]
+- !private ["s9EncodableP", "width"]
+- !private ["s9EncodableP", "x"]
+- !private ["s9EncodableP", "y"]
+- !private ["s9EquatableP", "CGPoint"]
+- !private ["s9EquatableP", "ChartDrawDottedLine"]
+- !private ["s9EquatableP", "ChartDrawLine"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "axis"]
+- !private ["s9EquatableP", "axisValuesX"]
+- !private ["s9EquatableP", "axisValuesY"]
+- !private ["s9EquatableP", "drawGuideline"]
+- !private ["s9EquatableP", "fatalError"]
+- !private ["s9EquatableP", "gray"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "height"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "maxX"]
+- !private ["s9EquatableP", "maxY"]
+- !private ["s9EquatableP", "minX"]
+- !private ["s9EquatableP", "minY"]
+- !private ["s9EquatableP", "origin"]
+- !private ["s9EquatableP", "scalar"]
+- !private ["s9EquatableP", "settings"]
+- !private ["s9EquatableP", "width"]
+- !private ["s9EquatableP", "x"]
+- !private ["s9EquatableP", "xAndY"]
+- !private ["s9EquatableP", "xAxis"]
+- !private ["s9EquatableP", "xAxisLayer"]
+- !private ["s9EquatableP", "y"]
+- !private ["s9EquatableP", "yAxis"]
+- !private ["s9EquatableP", "yAxisLayer"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "CGPoint"]
+- !private ["s8HashableP", "ChartDrawDottedLine"]
+- !private ["s8HashableP", "ChartDrawLine"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "axis"]
+- !private ["s8HashableP", "axisValuesX"]
+- !private ["s8HashableP", "axisValuesY"]
+- !private ["s8HashableP", "drawGuideline"]
+- !private ["s8HashableP", "fatalError"]
+- !private ["s8HashableP", "gray"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "scalar"]
+- !private ["s8HashableP", "settings"]
+- !private ["s8HashableP", "x"]
+- !private ["s8HashableP", "xAndY"]
+- !private ["s8HashableP", "xAxis"]
+- !private ["s8HashableP", "xAxisLayer"]
+- !private ["s8HashableP", "y"]
+- !private ["s8HashableP", "yAxis"]
+- !private ["s8HashableP", "yAxisLayer"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "gray"]
+- !private ["So9NSCopyingP", "gray"]
+- !private ["So21NSItemProviderReadingP", "gray"]
+- !private ["So21NSItemProviderWritingP", "gray"]
+- ["So8NSObjectC", "CGContext"]
+- ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "CGPoint"]
+- ["So8NSObjectC", "Chart"]
+- ["So8NSObjectC", "ChartAxis"]
+- ["So8NSObjectC", "ChartAxisLayer"]
+- ["So8NSObjectC", "ChartAxisValue"]
+- !private ["So8NSObjectC", "ChartDrawDottedLine"]
+- !private ["So8NSObjectC", "ChartDrawLine"]
+- ["So8NSObjectC", "ChartGuideLinesDottedLayerSettings"]
+- ["So8NSObjectC", "ChartGuideLinesLayerAxis"]
+- ["So8NSObjectC", "ChartGuideLinesLayerSettings"]
+- ["So8NSObjectC", "T"]
+- ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "axis"]
+- ["So8NSObjectC", "axisValuesX"]
+- ["So8NSObjectC", "axisValuesY"]
+- ["So8NSObjectC", "chartViewDrawing"]
+- ["So8NSObjectC", "drawGuideline"]
+- !private ["So8NSObjectC", "fatalError"]
+- !private ["So8NSObjectC", "gray"]
+- ["So8NSObjectC", "settings"]
+- !private ["So8NSObjectC", "xAxis"]
+- ["So8NSObjectC", "xAxisLayer"]
+- !private ["So8NSObjectC", "yAxis"]
+- ["So8NSObjectC", "yAxisLayer"]
+- !private ["So16NSObjectProtocolP", "CGPoint"]
+- !private ["So16NSObjectProtocolP", "ChartDrawDottedLine"]
+- !private ["So16NSObjectProtocolP", "ChartDrawLine"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "axis"]
+- !private ["So16NSObjectProtocolP", "axisValuesX"]
+- !private ["So16NSObjectProtocolP", "axisValuesY"]
+- !private ["So16NSObjectProtocolP", "drawGuideline"]
+- !private ["So16NSObjectProtocolP", "fatalError"]
+- !private ["So16NSObjectProtocolP", "gray"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "settings"]
+- !private ["So16NSObjectProtocolP", "xAxis"]
+- !private ["So16NSObjectProtocolP", "xAxisLayer"]
+- !private ["So16NSObjectProtocolP", "yAxis"]
+- !private ["So16NSObjectProtocolP", "yAxisLayer"]
+- !private ["So14NSSecureCodingP", "gray"]
+- !private ["11SwiftCharts8PannableP", "containerFrame"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["11SwiftCharts10StringTypeP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So7UIColorC", "gray"]
+- !private ["11SwiftCharts8ZoomableP", "containerFrame"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "gray"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGPoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ChartDrawDottedLine"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ChartDrawLine"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "axis"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "axisValuesX"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "axisValuesY"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "drawGuideline"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "gray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "settings"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "xAxis"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "xAxisLayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "yAxis"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "yAxisLayer"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "maxX"]
+- !private ["s21_ObjectiveCBridgeableP", "maxY"]
+- !private ["s21_ObjectiveCBridgeableP", "minX"]
+- !private ["s21_ObjectiveCBridgeableP", "minY"]
+- !private ["s21_ObjectiveCBridgeableP", "origin"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s21_ObjectiveCBridgeableP", "x"]
+- !private ["s21_ObjectiveCBridgeableP", "y"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "SC7CGPointV"
+- !private "SC6CGRectV"
+- "s7CVarArgP"
+- !private "11SwiftCharts5ChartC"
+- !private "11SwiftCharts9ChartAxisC"
+- !private "11SwiftCharts14ChartAxisLayerP"
+- !private "11SwiftCharts14ChartAxisValueC"
+- "11SwiftCharts21ChartCoordsSpaceLayerC"
+- "11SwiftCharts34ChartGuideLinesDottedLayerSettingsC"
+- "11SwiftCharts27ChartGuideLinesDottedLayer_C"
+- "11SwiftCharts36ChartGuideLinesForValuesDottedLayer_C"
+- "11SwiftCharts37ChartGuideLinesForValuesLayerAbstractC"
+- "11SwiftCharts30ChartGuideLinesForValuesLayer_C"
+- "11SwiftCharts28ChartGuideLinesLayerAbstractC"
+- "11SwiftCharts24ChartGuideLinesLayerAxisO"
+- "11SwiftCharts28ChartGuideLinesLayerSettingsC"
+- "11SwiftCharts21ChartGuideLinesLayer_C"
+- "11SwiftCharts10ChartLayerP"
+- "11SwiftCharts14ChartLayerBaseC"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "11SwiftCharts8PannableP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "11SwiftCharts10StringTypeP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So7UIColorC"
+- !private "11SwiftCharts8ZoomableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/Target Support Files/SwiftCharts/SwiftCharts-umbrella.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftCharts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "e1b3ebc4c1f7ba019ddc6fbe04657c5c"

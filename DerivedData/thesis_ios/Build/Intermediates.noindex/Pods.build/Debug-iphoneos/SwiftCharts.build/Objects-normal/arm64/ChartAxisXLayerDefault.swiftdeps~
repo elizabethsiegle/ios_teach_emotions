@@ -1,0 +1,660 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChartAxisXLayerDefault"
+provides-nominal:
+- "11SwiftCharts22ChartAxisXLayerDefaultC"
+provides-member:
+- ["11SwiftCharts22ChartAxisXLayerDefaultC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "+"
+- !private "-"
+- !private "..<"
+- !private "/"
+- !private "<"
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CGFloat"
+- "CGPoint"
+- "CGRect"
+- "ChartAxisLabel"
+- "ChartAxisLayerDefault"
+- "ChartAxisLayerWithFrameDelta"
+- "ChartAxisValueLabelDrawers"
+- "ChartAxisXLayerDefault"
+- "ChartLabelDrawer"
+- "ChartLineDrawer"
+- !private "Double"
+- "Int"
+- !private "StringLiteralType"
+- !private "TernaryPrecedence"
+- !private "fatalError"
+- !private "max"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "enumerated"]
+- !private ["Sa", "flatMap"]
+- !private ["Sa", "init"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "map"]
+- !private ["Sa", "reduce"]
+- !private ["Sa", "subscript"]
+- !private ["11SwiftCharts30AxisLabelsSpaceReservationModeO", "current"]
+- !private ["11SwiftCharts30AxisLabelsSpaceReservationModeO", "fixed"]
+- !private ["11SwiftCharts30AxisLabelsSpaceReservationModeO", "maxPresentedSize"]
+- !private ["11SwiftCharts30AxisLabelsSpaceReservationModeO", "minPresentedSize"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "enumerated"]
+- !private ["s23BidirectionalCollectionP", "flatMap"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "isEmpty"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["s23BidirectionalCollectionP", "reduce"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s23BidirectionalCollectionP", "textSize"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "setNeedsDisplay"]
+- !private ["SC7CGPointV", "init"]
+- !private ["SC6CGRectV", "init"]
+- !private ["SC6CGSizeV", "height"]
+- !private ["SC6CGSizeV", "width"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "enumerated"]
+- !private ["s7CVarArgP", "flatMap"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "reduce"]
+- !private ["s7CVarArgP", "setNeedsDisplay"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "textSize"]
+- !private ["11SwiftCharts5ChartC", "deinit"]
+- !private ["11SwiftCharts5ChartC", "view"]
+- !private ["11SwiftCharts5ChartC", "zoomPanSettings"]
+- !private ["11SwiftCharts9ChartAxisC", "firstScreen"]
+- !private ["11SwiftCharts9ChartAxisC", "firstScreenInit"]
+- !private ["11SwiftCharts9ChartAxisC", "firstVisibleScreen"]
+- !private ["11SwiftCharts9ChartAxisC", "lastScreen"]
+- !private ["11SwiftCharts9ChartAxisC", "lastScreenInit"]
+- !private ["11SwiftCharts9ChartAxisC", "lastVisibleScreen"]
+- !private ["11SwiftCharts9ChartAxisC", "offsetFirstScreen"]
+- !private ["11SwiftCharts9ChartAxisC", "offsetLastScreen"]
+- !private ["11SwiftCharts9ChartAxisC", "pan"]
+- !private ["11SwiftCharts9ChartAxisC", "screenLength"]
+- !private ["11SwiftCharts9ChartAxisC", "screenLocForScalar"]
+- !private ["11SwiftCharts9ChartAxisC", "visibleScreenLength"]
+- !private ["11SwiftCharts9ChartAxisC", "zoom"]
+- !private ["11SwiftCharts14ChartAxisLabelC", "hidden"]
+- !private ["11SwiftCharts14ChartAxisLabelC", "textSize"]
+- !private ["11SwiftCharts14ChartAxisLabelC", "textSizeNonRotated"]
+- !private ["11SwiftCharts24ChartAxisLabelsGeneratorP", "generate"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "Array"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "CGPoint"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "CGRect"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "ChartAxisValueLabelDrawers"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "ChartLabelDrawer"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "ChartLineDrawer"]
+- ["11SwiftCharts14ChartAxisLayerP", ""]
+- !private ["11SwiftCharts14ChartAxisLayerP", "axis"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "axisLineY"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "axisTitleLabels"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "axisTitleLabelsHeight"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "calculateRowHeights"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "calculateRowY"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "chart"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "currentAxisValues"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "fatalError"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "generateAxisTitleLabelsDrawers"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "handleAxisInnerFrameChange"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "height"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "init"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "initDrawers"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "labelSpaceReservationMode"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "labelsGenerator"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "labelsTotalHeight"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "max"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "maxTotalCalculatedRowHeights"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "minTotalCalculatedRowHeights"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "offset"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "rowHeights"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "rowHeightsForRows"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "settings"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "valuesGenerator"]
+- !private ["11SwiftCharts14ChartAxisLayerP", "width"]
+- !private ["11SwiftCharts21ChartAxisLayerDefaultC", "Array"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "CGFloat"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "CGPoint"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "CGRect"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "ChartAxisLabel"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "ChartAxisLayerWithFrameDelta"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "ChartAxisValueLabelDrawers"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "ChartLabelDrawer"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "ChartLineDrawer"]
+- !private ["11SwiftCharts21ChartAxisLayerDefaultC", "Double"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "Int"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", ""]
+- !private ["11SwiftCharts21ChartAxisLayerDefaultC", "axis"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "axisLineY"]
+- !private ["11SwiftCharts21ChartAxisLayerDefaultC", "axisTitleLabels"]
+- !private ["11SwiftCharts21ChartAxisLayerDefaultC", "axisTitleLabelsHeight"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "calculateRowHeights"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "calculateRowY"]
+- !private ["11SwiftCharts21ChartAxisLayerDefaultC", "chart"]
+- !private ["11SwiftCharts21ChartAxisLayerDefaultC", "currentAxisValues"]
+- !private ["11SwiftCharts21ChartAxisLayerDefaultC", "deinit"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "end"]
+- !private ["11SwiftCharts21ChartAxisLayerDefaultC", "fatalError"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "generateAxisTitleLabelsDrawers"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "generateDirectLabelDrawers"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "generateLineDrawer"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "handleAxisInnerFrameChange"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "height"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "heightWithoutLabels"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "init"]
+- !private ["11SwiftCharts21ChartAxisLayerDefaultC", "initDrawers"]
+- !private ["11SwiftCharts21ChartAxisLayerDefaultC", "labelSpaceReservationMode"]
+- !private ["11SwiftCharts21ChartAxisLayerDefaultC", "labelsGenerator"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "labelsTotalHeight"]
+- !private ["11SwiftCharts21ChartAxisLayerDefaultC", "max"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "maxTotalCalculatedRowHeights"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "minTotalCalculatedRowHeights"]
+- !private ["11SwiftCharts21ChartAxisLayerDefaultC", "offset"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "origin"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "pan"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "rowHeights"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "rowHeightsForRows"]
+- !private ["11SwiftCharts21ChartAxisLayerDefaultC", "settings"]
+- !private ["11SwiftCharts21ChartAxisLayerDefaultC", "valuesGenerator"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "visibleFrame"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "width"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "widthWithoutLabels"]
+- ["11SwiftCharts21ChartAxisLayerDefaultC", "zoom"]
+- !private ["11SwiftCharts28ChartAxisLayerWithFrameDeltaC", "delta"]
+- !private ["11SwiftCharts17ChartAxisSettingsC", "axisStrokeWidth"]
+- !private ["11SwiftCharts17ChartAxisSettingsC", "axisTitleLabelsToLabelsSpacing"]
+- !private ["11SwiftCharts17ChartAxisSettingsC", "labelsSpacing"]
+- !private ["11SwiftCharts17ChartAxisSettingsC", "labelsToAxisSpacingX"]
+- !private ["11SwiftCharts17ChartAxisSettingsC", "lineColor"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "generate"]
+- !private ["11SwiftCharts22ChartAxisXLayerDefaultC", "Array"]
+- ["11SwiftCharts22ChartAxisXLayerDefaultC", "CGFloat"]
+- ["11SwiftCharts22ChartAxisXLayerDefaultC", "CGPoint"]
+- ["11SwiftCharts22ChartAxisXLayerDefaultC", "CGRect"]
+- ["11SwiftCharts22ChartAxisXLayerDefaultC", "ChartAxisLabel"]
+- ["11SwiftCharts22ChartAxisXLayerDefaultC", "ChartAxisLayerWithFrameDelta"]
+- ["11SwiftCharts22ChartAxisXLayerDefaultC", "ChartAxisValueLabelDrawers"]
+- ["11SwiftCharts22ChartAxisXLayerDefaultC", "ChartLabelDrawer"]
+- ["11SwiftCharts22ChartAxisXLayerDefaultC", "ChartLineDrawer"]
+- !private ["11SwiftCharts22ChartAxisXLayerDefaultC", "Double"]
+- ["11SwiftCharts22ChartAxisXLayerDefaultC", "Int"]
+- !private ["11SwiftCharts22ChartAxisXLayerDefaultC", "axis"]
+- ["11SwiftCharts22ChartAxisXLayerDefaultC", "axisLineY"]
+- !private ["11SwiftCharts22ChartAxisXLayerDefaultC", "axisTitleLabels"]
+- !private ["11SwiftCharts22ChartAxisXLayerDefaultC", "axisTitleLabelsHeight"]
+- !private ["11SwiftCharts22ChartAxisXLayerDefaultC", "calculateRowHeights"]
+- !private ["11SwiftCharts22ChartAxisXLayerDefaultC", "calculateRowY"]
+- !private ["11SwiftCharts22ChartAxisXLayerDefaultC", "chart"]
+- !private ["11SwiftCharts22ChartAxisXLayerDefaultC", "currentAxisValues"]
+- ["11SwiftCharts22ChartAxisXLayerDefaultC", "deinit"]
+- ["11SwiftCharts22ChartAxisXLayerDefaultC", "end"]
+- !private ["11SwiftCharts22ChartAxisXLayerDefaultC", "fatalError"]
+- ["11SwiftCharts22ChartAxisXLayerDefaultC", "generateAxisTitleLabelsDrawers"]
+- ["11SwiftCharts22ChartAxisXLayerDefaultC", "generateDirectLabelDrawers"]
+- ["11SwiftCharts22ChartAxisXLayerDefaultC", "generateLineDrawer"]
+- ["11SwiftCharts22ChartAxisXLayerDefaultC", "handleAxisInnerFrameChange"]
+- ["11SwiftCharts22ChartAxisXLayerDefaultC", "height"]
+- ["11SwiftCharts22ChartAxisXLayerDefaultC", "heightWithoutLabels"]
+- ["11SwiftCharts22ChartAxisXLayerDefaultC", "init"]
+- !private ["11SwiftCharts22ChartAxisXLayerDefaultC", "initDrawers"]
+- !private ["11SwiftCharts22ChartAxisXLayerDefaultC", "labelSpaceReservationMode"]
+- !private ["11SwiftCharts22ChartAxisXLayerDefaultC", "labelsGenerator"]
+- ["11SwiftCharts22ChartAxisXLayerDefaultC", "labelsTotalHeight"]
+- !private ["11SwiftCharts22ChartAxisXLayerDefaultC", "max"]
+- !private ["11SwiftCharts22ChartAxisXLayerDefaultC", "maxTotalCalculatedRowHeights"]
+- !private ["11SwiftCharts22ChartAxisXLayerDefaultC", "minTotalCalculatedRowHeights"]
+- !private ["11SwiftCharts22ChartAxisXLayerDefaultC", "offset"]
+- ["11SwiftCharts22ChartAxisXLayerDefaultC", "origin"]
+- ["11SwiftCharts22ChartAxisXLayerDefaultC", "pan"]
+- ["11SwiftCharts22ChartAxisXLayerDefaultC", "rowHeights"]
+- !private ["11SwiftCharts22ChartAxisXLayerDefaultC", "rowHeightsForRows"]
+- !private ["11SwiftCharts22ChartAxisXLayerDefaultC", "settings"]
+- !private ["11SwiftCharts22ChartAxisXLayerDefaultC", "valuesGenerator"]
+- ["11SwiftCharts22ChartAxisXLayerDefaultC", "visibleFrame"]
+- ["11SwiftCharts22ChartAxisXLayerDefaultC", "width"]
+- ["11SwiftCharts22ChartAxisXLayerDefaultC", "widthWithoutLabels"]
+- ["11SwiftCharts22ChartAxisXLayerDefaultC", "zoom"]
+- !private ["11SwiftCharts18ChartContextDrawerC", "hidden"]
+- !private ["11SwiftCharts16ChartLabelDrawerC", "hidden"]
+- !private ["11SwiftCharts16ChartLabelDrawerC", "init"]
+- !private ["11SwiftCharts10ChartLayerP", "Array"]
+- !private ["11SwiftCharts10ChartLayerP", "CGPoint"]
+- !private ["11SwiftCharts10ChartLayerP", "CGRect"]
+- !private ["11SwiftCharts10ChartLayerP", "ChartAxisValueLabelDrawers"]
+- !private ["11SwiftCharts10ChartLayerP", "ChartLabelDrawer"]
+- !private ["11SwiftCharts10ChartLayerP", "ChartLineDrawer"]
+- ["11SwiftCharts10ChartLayerP", ""]
+- !private ["11SwiftCharts10ChartLayerP", "axis"]
+- !private ["11SwiftCharts10ChartLayerP", "axisLineY"]
+- !private ["11SwiftCharts10ChartLayerP", "axisTitleLabels"]
+- !private ["11SwiftCharts10ChartLayerP", "axisTitleLabelsHeight"]
+- !private ["11SwiftCharts10ChartLayerP", "calculateRowHeights"]
+- !private ["11SwiftCharts10ChartLayerP", "calculateRowY"]
+- !private ["11SwiftCharts10ChartLayerP", "chart"]
+- !private ["11SwiftCharts10ChartLayerP", "currentAxisValues"]
+- !private ["11SwiftCharts10ChartLayerP", "fatalError"]
+- !private ["11SwiftCharts10ChartLayerP", "generateAxisTitleLabelsDrawers"]
+- !private ["11SwiftCharts10ChartLayerP", "handleAxisInnerFrameChange"]
+- !private ["11SwiftCharts10ChartLayerP", "height"]
+- !private ["11SwiftCharts10ChartLayerP", "init"]
+- !private ["11SwiftCharts10ChartLayerP", "initDrawers"]
+- !private ["11SwiftCharts10ChartLayerP", "labelSpaceReservationMode"]
+- !private ["11SwiftCharts10ChartLayerP", "labelsGenerator"]
+- !private ["11SwiftCharts10ChartLayerP", "labelsTotalHeight"]
+- !private ["11SwiftCharts10ChartLayerP", "max"]
+- !private ["11SwiftCharts10ChartLayerP", "maxTotalCalculatedRowHeights"]
+- !private ["11SwiftCharts10ChartLayerP", "minTotalCalculatedRowHeights"]
+- !private ["11SwiftCharts10ChartLayerP", "offset"]
+- !private ["11SwiftCharts10ChartLayerP", "rowHeights"]
+- !private ["11SwiftCharts10ChartLayerP", "rowHeightsForRows"]
+- !private ["11SwiftCharts10ChartLayerP", "settings"]
+- !private ["11SwiftCharts10ChartLayerP", "valuesGenerator"]
+- !private ["11SwiftCharts10ChartLayerP", "width"]
+- !private ["11SwiftCharts15ChartLineDrawerC", "init"]
+- !private ["11SwiftCharts20ChartSettingsZoomPanV", "elastic"]
+- !private ["11SwiftCharts9ChartViewC", "setNeedsDisplay"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "enumerated"]
+- !private ["s10CollectionP", "flatMap"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "isEmpty"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "reduce"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10CollectionP", "textSize"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "textSize"]
+- !private ["s14CountableRangeV", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "hidden"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "maxOpt"]
+- !private ["s28CustomDebugStringConvertibleP", "minOpt"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "setNeedsDisplay"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "textSize"]
+- !private ["s28CustomDebugStringConvertibleP", "textSizeNonRotated"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "textSize"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "maxOpt"]
+- !private ["s17CustomReflectableP", "minOpt"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "textSize"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "firstScreen"]
+- !private ["s23CustomStringConvertibleP", "firstScreenInit"]
+- !private ["s23CustomStringConvertibleP", "firstVisibleScreen"]
+- !private ["s23CustomStringConvertibleP", "flatMap"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "lastScreen"]
+- !private ["s23CustomStringConvertibleP", "lastScreenInit"]
+- !private ["s23CustomStringConvertibleP", "lastVisibleScreen"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "offsetFirstScreen"]
+- !private ["s23CustomStringConvertibleP", "offsetLastScreen"]
+- !private ["s23CustomStringConvertibleP", "pan"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "screenLength"]
+- !private ["s23CustomStringConvertibleP", "screenLocForScalar"]
+- !private ["s23CustomStringConvertibleP", "setNeedsDisplay"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "textSize"]
+- !private ["s23CustomStringConvertibleP", "visibleScreenLength"]
+- !private ["s23CustomStringConvertibleP", "zoom"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "enumerated"]
+- !private ["s9DecodableP", "flatMap"]
+- !private ["s9DecodableP", "height"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "isEmpty"]
+- !private ["s9DecodableP", "map"]
+- !private ["s9DecodableP", "maxOpt"]
+- !private ["s9DecodableP", "minOpt"]
+- !private ["s9DecodableP", "reduce"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "textSize"]
+- !private ["s9DecodableP", "width"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "enumerated"]
+- !private ["s9EncodableP", "flatMap"]
+- !private ["s9EncodableP", "height"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "isEmpty"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EncodableP", "maxOpt"]
+- !private ["s9EncodableP", "minOpt"]
+- !private ["s9EncodableP", "reduce"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "textSize"]
+- !private ["s9EncodableP", "width"]
+- !private ["s18EnumeratedSequenceV", "map"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "enumerated"]
+- !private ["s9EquatableP", "flatMap"]
+- !private ["s9EquatableP", "height"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isEmpty"]
+- !private ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "maxOpt"]
+- !private ["s9EquatableP", "minOpt"]
+- !private ["s9EquatableP", "reduce"]
+- !private ["s9EquatableP", "setNeedsDisplay"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "textSize"]
+- !private ["s9EquatableP", "width"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s25ExpressibleByArrayLiteralP", "flatMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "textSize"]
+- !private ["s23ExpressibleByNilLiteralP", "maxOpt"]
+- !private ["s23ExpressibleByNilLiteralP", "minOpt"]
+- !private ["s23ExpressibleByNilLiteralP", "textSize"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "textSize"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "textSize"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "setNeedsDisplay"]
+- !private ["s8HashableP", "textSize"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "textSize"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "textSize"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "enumerated"]
+- !private ["s17MutableCollectionP", "flatMap"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "isEmpty"]
+- !private ["s17MutableCollectionP", "map"]
+- !private ["s17MutableCollectionP", "reduce"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "setNeedsDisplay"]
+- !private ["So8NSCodingP", "textSize"]
+- !private ["So9NSCopyingP", "textSize"]
+- !private ["So21NSItemProviderReadingP", "textSize"]
+- !private ["So21NSItemProviderWritingP", "textSize"]
+- !private ["So16NSMutableCopyingP", "textSize"]
+- !private ["So8NSObjectC", "setNeedsDisplay"]
+- !private ["So8NSObjectC", "textSize"]
+- !private ["So16NSObjectProtocolP", "setNeedsDisplay"]
+- !private ["So16NSObjectProtocolP", "textSize"]
+- !private ["So14NSSecureCodingP", "textSize"]
+- !private ["So8NSStringC", "textSize"]
+- !private ["Sq", "maxOpt"]
+- !private ["Sq", "minOpt"]
+- !private ["Sq", "textSize"]
+- !private ["11SwiftCharts8PannableP", "view"]
+- !private ["11SwiftCharts8PannableP", "zoomPanSettings"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "enumerated"]
+- !private ["s22RandomAccessCollectionP", "flatMap"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "isEmpty"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s22RandomAccessCollectionP", "reduce"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s5RangeV", "map"]
+- !private ["s15RangeExpressionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "enumerated"]
+- !private ["s26RangeReplaceableCollectionP", "flatMap"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "isEmpty"]
+- !private ["s26RangeReplaceableCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "reduce"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "textSize"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "enumerated"]
+- !private ["s8SequenceP", "flatMap"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "isEmpty"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "reduce"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s8SequenceP", "textSize"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "textSize"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "textSize"]
+- !private ["11SwiftCharts10StringTypeP", "init"]
+- !private ["11SwiftCharts10StringTypeP", "textSize"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "textSize"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "textSize"]
+- !private ["So29UIAccessibilityIdentificationP", "setNeedsDisplay"]
+- !private ["So12UIAppearanceP", "setNeedsDisplay"]
+- !private ["So21UIAppearanceContainerP", "setNeedsDisplay"]
+- !private ["So17UICoordinateSpaceP", "setNeedsDisplay"]
+- !private ["So13UIDynamicItemP", "setNeedsDisplay"]
+- !private ["So18UIFocusEnvironmentP", "setNeedsDisplay"]
+- !private ["So11UIFocusItemP", "setNeedsDisplay"]
+- !private ["So27UIGestureRecognizerDelegateP", "setNeedsDisplay"]
+- !private ["So30UIPasteConfigurationSupportingP", "setNeedsDisplay"]
+- !private ["So11UIResponderC", "setNeedsDisplay"]
+- !private ["So30UIResponderStandardEditActionsP", "setNeedsDisplay"]
+- !private ["So18UITraitEnvironmentP", "setNeedsDisplay"]
+- !private ["So6UIViewC", "setNeedsDisplay"]
+- !private ["11SwiftCharts8ZoomableP", "view"]
+- !private ["11SwiftCharts8ZoomableP", "zoomPanSettings"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- !private ["s14_ArrayProtocolP", "flatMap"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "reduce"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setNeedsDisplay"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s24_DestructorSafeContainerP", "flatMap"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "textSize"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "textSize"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "textSize"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "textSize"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "textSize"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "textSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setNeedsDisplay"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textSize"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "maxOpt"]
+- !private ["s21_ObjectiveCBridgeableP", "minOpt"]
+- !private ["s21_ObjectiveCBridgeableP", "reduce"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "textSize"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "textSize"]
+depends-nominal:
+- !private "Sa"
+- !private "11SwiftCharts30AxisLabelsSpaceReservationModeO"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- !private "SC7CGPointV"
+- !private "SC6CGRectV"
+- !private "SC6CGSizeV"
+- !private "s7CVarArgP"
+- !private "11SwiftCharts5ChartC"
+- !private "11SwiftCharts9ChartAxisC"
+- !private "11SwiftCharts14ChartAxisLabelC"
+- !private "11SwiftCharts24ChartAxisLabelsGeneratorP"
+- "11SwiftCharts14ChartAxisLayerP"
+- "11SwiftCharts21ChartAxisLayerDefaultC"
+- !private "11SwiftCharts28ChartAxisLayerWithFrameDeltaC"
+- !private "11SwiftCharts17ChartAxisSettingsC"
+- !private "11SwiftCharts24ChartAxisValuesGeneratorP"
+- "11SwiftCharts22ChartAxisXLayerDefaultC"
+- !private "11SwiftCharts18ChartContextDrawerC"
+- !private "11SwiftCharts16ChartLabelDrawerC"
+- "11SwiftCharts10ChartLayerP"
+- !private "11SwiftCharts15ChartLineDrawerC"
+- !private "11SwiftCharts20ChartSettingsZoomPanV"
+- !private "11SwiftCharts9ChartViewC"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s14CountableRangeV"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s18EnumeratedSequenceV"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sq"
+- !private "11SwiftCharts8PannableP"
+- !private "s22RandomAccessCollectionP"
+- !private "s5RangeV"
+- !private "s15RangeExpressionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "11SwiftCharts10StringTypeP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So27UIGestureRecognizerDelegateP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "11SwiftCharts8ZoomableP"
+- !private "s14_ArrayProtocolP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/Target Support Files/SwiftCharts/SwiftCharts-umbrella.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftCharts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "b5162f02a633ff7d8f265b5fdc475ffc"

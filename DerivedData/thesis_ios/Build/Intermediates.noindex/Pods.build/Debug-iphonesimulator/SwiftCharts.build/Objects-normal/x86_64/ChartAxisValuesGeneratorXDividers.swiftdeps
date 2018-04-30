@@ -1,0 +1,486 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChartAxisValuesGeneratorXDividers"
+provides-nominal:
+- "11SwiftCharts33ChartAxisValuesGeneratorXDividersC"
+provides-member:
+- ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "..<"
+- !private "/"
+- !private "<"
+- !private ">"
+- "AssignmentPrecedence"
+- "Bool"
+- "CGFloat"
+- "ChartAxis"
+- "ChartAxisGeneratorMultiplier"
+- "ChartAxisGeneratorMultiplierUpdateMode"
+- "ChartAxisValuesGeneratorXDividers"
+- "Double"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- !private "NSNumber"
+- "NumberFormatter"
+- "StringLiteralType"
+- "UIFont"
+- "UnicodeScalarType"
+- !private "abs"
+- !private "ceil"
+- !private "floor"
+- !private "log"
+- !private "log10"
+- !private "max"
+- !private "min"
+- !private "pow"
+- !private "round"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "reduce"]
+- !private ["s23BidirectionalCollectionP", "width"]
+- !private ["s19BinaryFloatingPointP", "greatestFiniteMagnitude"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["s13BinaryIntegerP", "primeFactors"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "greatestFiniteMagnitude"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "maximumFractionDigits"]
+- !private ["s7CVarArgP", "minimumFractionDigits"]
+- !private ["s7CVarArgP", "primeFactors"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "width"]
+- !private ["11SwiftCharts9ChartAxisC", "length"]
+- !private ["11SwiftCharts9ChartAxisC", "screenLength"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "Bool"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "CGFloat"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "ChartAxis"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "ChartAxisGeneratorMultiplierUpdateMode"]
+- !private ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "ChartAxisValuesGeneratorXDividers"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "Double"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "Int"]
+- !private ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "NSNumber"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "NumberFormatter"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "UIFont"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", ""]
+- !private ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "abs"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "axisInitialized"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "calculateFittingRangeAndFactor"]
+- !private ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "ceil"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "findFittingFactor"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "first"]
+- !private ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "floor"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "init"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "largestSize"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "last"]
+- !private ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "log"]
+- !private ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "log10"]
+- !private ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "max"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "maxTextSize"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "maxValue"]
+- !private ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "min"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "minSpace"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "minValue"]
+- !private ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "multiplier"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "nice"]
+- !private ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "pow"]
+- ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "preferredDividers"]
+- !private ["11SwiftCharts28ChartAxisGeneratorMultiplierC", "round"]
+- !private ["11SwiftCharts38ChartAxisGeneratorMultiplierUpdateModeO", "halve"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "CGFloat"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "ChartAxisValuesGeneratorXDividers"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "Double"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "Int"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "NSNumber"]
+- ["11SwiftCharts24ChartAxisValuesGeneratorP", ""]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "abs"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "calculateFittingRangeAndFactor"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "ceil"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "findFittingFactor"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "floor"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "init"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "largestSize"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "log"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "log10"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "max"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "maxTextSize"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "maxValue"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "min"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "minSpace"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "minValue"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "multiplier"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "nice"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "pow"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "preferredDividers"]
+- !private ["11SwiftCharts24ChartAxisValuesGeneratorP", "round"]
+- ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "Bool"]
+- ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "CGFloat"]
+- ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "ChartAxis"]
+- ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "ChartAxisGeneratorMultiplierUpdateMode"]
+- !private ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "ChartAxisValuesGeneratorXDividers"]
+- ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "Double"]
+- ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "Int"]
+- !private ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "NSNumber"]
+- ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "NumberFormatter"]
+- ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "UIFont"]
+- !private ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "abs"]
+- ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "axisInitialized"]
+- ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "calculateFittingRangeAndFactor"]
+- !private ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "ceil"]
+- ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "deinit"]
+- !private ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "findFittingFactor"]
+- ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "first"]
+- !private ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "floor"]
+- ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "init"]
+- !private ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "largestSize"]
+- ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "last"]
+- !private ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "log"]
+- !private ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "log10"]
+- !private ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "max"]
+- !private ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "maxTextSize"]
+- !private ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "maxValue"]
+- !private ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "min"]
+- !private ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "minSpace"]
+- !private ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "minValue"]
+- !private ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "multiplier"]
+- !private ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "nice"]
+- !private ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "pow"]
+- !private ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "preferredDividers"]
+- !private ["11SwiftCharts33ChartAxisValuesGeneratorXDividersC", "round"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "reduce"]
+- !private ["s10CollectionP", "width"]
+- !private ["s10ComparableP", "greatestFiniteMagnitude"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "primeFactors"]
+- !private ["s10ComparableP", "width"]
+- !private ["s14CountableRangeV", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "greatestFiniteMagnitude"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "maximumFractionDigits"]
+- !private ["s28CustomDebugStringConvertibleP", "minimumFractionDigits"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "greatestFiniteMagnitude"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "primeFactors"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "greatestFiniteMagnitude"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "primeFactors"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "greatestFiniteMagnitude"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "length"]
+- !private ["s23CustomStringConvertibleP", "maximumFractionDigits"]
+- !private ["s23CustomStringConvertibleP", "minimumFractionDigits"]
+- !private ["s23CustomStringConvertibleP", "primeFactors"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "screenLength"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "width"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "greatestFiniteMagnitude"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "primeFactors"]
+- !private ["s9DecodableP", "width"]
+- !private ["Sd", "greatestFiniteMagnitude"]
+- !private ["Sd", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "greatestFiniteMagnitude"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "primeFactors"]
+- !private ["s9EncodableP", "width"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "greatestFiniteMagnitude"]
+- !private ["s9EquatableP", "halve"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "maximumFractionDigits"]
+- !private ["s9EquatableP", "minimumFractionDigits"]
+- !private ["s9EquatableP", "primeFactors"]
+- !private ["s9EquatableP", "reduce"]
+- !private ["s9EquatableP", "string"]
+- !private ["s9EquatableP", "width"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "width"]
+- !private ["s25ExpressibleByFloatLiteralP", "greatestFiniteMagnitude"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "greatestFiniteMagnitude"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "primeFactors"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "width"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "width"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s17FixedWidthIntegerP", "primeFactors"]
+- !private ["s13FloatingPointP", "greatestFiniteMagnitude"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["So9FormatterC", "maximumFractionDigits"]
+- !private ["So9FormatterC", "minimumFractionDigits"]
+- !private ["So9FormatterC", "string"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "greatestFiniteMagnitude"]
+- !private ["s8HashableP", "halve"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "maximumFractionDigits"]
+- !private ["s8HashableP", "minimumFractionDigits"]
+- !private ["s8HashableP", "primeFactors"]
+- !private ["s8HashableP", "string"]
+- !private ["s8HashableP", "width"]
+- !private ["Si", "init"]
+- !private ["Si", "primeFactors"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "greatestFiniteMagnitude"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "primeFactors"]
+- !private ["s25LosslessStringConvertibleP", "width"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "primeFactors"]
+- !private ["s10MirrorPathP", "width"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "maximumFractionDigits"]
+- !private ["So8NSCodingP", "minimumFractionDigits"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So8NSCodingP", "width"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "maximumFractionDigits"]
+- !private ["So9NSCopyingP", "minimumFractionDigits"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So9NSCopyingP", "width"]
+- !private ["So21NSItemProviderReadingP", "width"]
+- !private ["So21NSItemProviderWritingP", "width"]
+- !private ["So16NSMutableCopyingP", "width"]
+- !private ["So8NSNumberC", "init"]
+- !private ["So8NSObjectC", "maximumFractionDigits"]
+- !private ["So8NSObjectC", "minimumFractionDigits"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "width"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "maximumFractionDigits"]
+- !private ["So16NSObjectProtocolP", "minimumFractionDigits"]
+- !private ["So16NSObjectProtocolP", "string"]
+- !private ["So16NSObjectProtocolP", "width"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "width"]
+- !private ["So8NSStringC", "width"]
+- !private ["So15NumberFormatterC", "maximumFractionDigits"]
+- !private ["So15NumberFormatterC", "minimumFractionDigits"]
+- !private ["So15NumberFormatterC", "string"]
+- !private ["s7NumericP", "greatestFiniteMagnitude"]
+- !private ["s7NumericP", "init"]
+- !private ["s7NumericP", "primeFactors"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "reduce"]
+- !private ["s5RangeV", "reduce"]
+- !private ["s15RangeExpressionP", "reduce"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "width"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "reduce"]
+- !private ["s8SequenceP", "width"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedIntegerP", "primeFactors"]
+- !private ["s13SignedNumericP", "greatestFiniteMagnitude"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "primeFactors"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "greatestFiniteMagnitude"]
+- !private ["s10StrideableP", "init"]
+- !private ["s10StrideableP", "primeFactors"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["SS", "width"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "width"]
+- !private ["11SwiftCharts10StringTypeP", "init"]
+- !private ["11SwiftCharts10StringTypeP", "width"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "width"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "width"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s18_BitwiseOperationsP", "primeFactors"]
+- !private ["s15_CVarArgAlignedP", "greatestFiniteMagnitude"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "greatestFiniteMagnitude"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "width"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "greatestFiniteMagnitude"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "greatestFiniteMagnitude"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "primeFactors"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "width"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "width"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "width"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "width"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "width"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maximumFractionDigits"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "minimumFractionDigits"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "width"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "greatestFiniteMagnitude"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "primeFactors"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "width"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "12CoreGraphics7CGFloatV"
+- !private "s7CVarArgP"
+- !private "11SwiftCharts9ChartAxisC"
+- "11SwiftCharts28ChartAxisGeneratorMultiplierC"
+- !private "11SwiftCharts38ChartAxisGeneratorMultiplierUpdateModeO"
+- "11SwiftCharts24ChartAxisValuesGeneratorP"
+- "11SwiftCharts33ChartAxisValuesGeneratorXDividersC"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s14CountableRangeV"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "Sd"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "s13FloatingPointP"
+- !private "So9FormatterC"
+- !private "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSNumberC"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So15NumberFormatterC"
+- !private "s7NumericP"
+- !private "s22RandomAccessCollectionP"
+- !private "s5RangeV"
+- !private "s15RangeExpressionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "11SwiftCharts10StringTypeP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/Target Support Files/SwiftCharts/SwiftCharts-umbrella.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SwiftCharts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "0b02216217370e4dbed6dcaf639be7b3"

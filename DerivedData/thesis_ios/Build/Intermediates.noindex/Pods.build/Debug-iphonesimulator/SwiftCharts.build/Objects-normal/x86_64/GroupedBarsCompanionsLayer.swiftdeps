@@ -1,0 +1,619 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GroupedBarsCompanionsLayer"
+provides-nominal:
+- "11SwiftCharts26GroupedBarsCompanionsLayerC"
+provides-member:
+- ["11SwiftCharts26GroupedBarsCompanionsLayerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "*"
+- !private "+"
+- !private "+="
+- !private "/"
+- !private "<"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Chart"
+- "ChartAxis"
+- "ChartBarModel"
+- "ChartGroupedStackedBarsLayer"
+- "ChartPoint"
+- "ChartPointsLayer"
+- !private "DispatchQueue"
+- !private "DispatchTime"
+- !private "Double"
+- "Float"
+- "GroupedBarsCompanionsLayer"
+- "Int"
+- !private "Int64"
+- !private "NSEC_PER_SEC"
+- !private "StringLiteralType"
+- "UIView"
+- "Void"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "enumerated"]
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "enumerated"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- !private ["s7CVarArgP", "DispatchTime"]
+- !private ["s7CVarArgP", "Double"]
+- !private ["s7CVarArgP", "Int64"]
+- !private ["s7CVarArgP", "NSEC_PER_SEC"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "asyncAfter"]
+- !private ["s7CVarArgP", "chart"]
+- !private ["s7CVarArgP", "companionViews"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "delayInit"]
+- !private ["s7CVarArgP", "display"]
+- !private ["s7CVarArgP", "displayDelay"]
+- !private ["s7CVarArgP", "enumerated"]
+- !private ["s7CVarArgP", "groupViews"]
+- !private ["s7CVarArgP", "groupedBarsLayer"]
+- !private ["s7CVarArgP", "handlePanEnd"]
+- !private ["s7CVarArgP", "handleZoomEnd"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "initViews"]
+- !private ["s7CVarArgP", "iterateBars"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "updatePositions"]
+- !private ["s7CVarArgP", "viewGenerator"]
+- !private ["s7CVarArgP", "viewUpdater"]
+- !private ["11SwiftCharts5ChartC", "addSubviewNoTransform"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "Bool"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "Chart"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartAxis"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartBarModel"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartGroupedStackedBarsLayer"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "CompanionViewGenerator"]
+- !private ["11SwiftCharts21ChartCoordsSpaceLayerC", "DispatchQueue"]
+- !private ["11SwiftCharts21ChartCoordsSpaceLayerC", "DispatchTime"]
+- !private ["11SwiftCharts21ChartCoordsSpaceLayerC", "Double"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "Float"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "GroupedBarsCompanionsLayer"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "Int"]
+- !private ["11SwiftCharts21ChartCoordsSpaceLayerC", "Int64"]
+- !private ["11SwiftCharts21ChartCoordsSpaceLayerC", "NSEC_PER_SEC"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "U"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "UIView"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "ViewUpdater"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "Void"]
+- !private ["11SwiftCharts21ChartCoordsSpaceLayerC", "chart"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "companionViews"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "delayInit"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "display"]
+- !private ["11SwiftCharts21ChartCoordsSpaceLayerC", "displayDelay"]
+- !private ["11SwiftCharts21ChartCoordsSpaceLayerC", "groupViews"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "groupedBarsLayer"]
+- !private ["11SwiftCharts21ChartCoordsSpaceLayerC", "handlePanEnd"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "handlePanFinish"]
+- !private ["11SwiftCharts21ChartCoordsSpaceLayerC", "handleZoomEnd"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "handleZoomFinish"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "initViews"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "iterateBars"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "updatePositions"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "viewGenerator"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "viewUpdater"]
+- !private ["11SwiftCharts21ChartGroupedBarsLayerC", "groupViews"]
+- !private ["11SwiftCharts29ChartGroupedStackedBarsLayer_C", "groupViews"]
+- !private ["11SwiftCharts10ChartLayerP", "DispatchQueue"]
+- !private ["11SwiftCharts10ChartLayerP", "DispatchTime"]
+- !private ["11SwiftCharts10ChartLayerP", "Double"]
+- !private ["11SwiftCharts10ChartLayerP", "Int64"]
+- !private ["11SwiftCharts10ChartLayerP", "NSEC_PER_SEC"]
+- ["11SwiftCharts10ChartLayerP", ""]
+- !private ["11SwiftCharts10ChartLayerP", "chart"]
+- !private ["11SwiftCharts10ChartLayerP", "companionViews"]
+- !private ["11SwiftCharts10ChartLayerP", "delayInit"]
+- !private ["11SwiftCharts10ChartLayerP", "display"]
+- !private ["11SwiftCharts10ChartLayerP", "displayDelay"]
+- !private ["11SwiftCharts10ChartLayerP", "groupViews"]
+- !private ["11SwiftCharts10ChartLayerP", "groupedBarsLayer"]
+- !private ["11SwiftCharts10ChartLayerP", "handlePanEnd"]
+- !private ["11SwiftCharts10ChartLayerP", "handleZoomEnd"]
+- !private ["11SwiftCharts10ChartLayerP", "init"]
+- !private ["11SwiftCharts10ChartLayerP", "initViews"]
+- !private ["11SwiftCharts10ChartLayerP", "iterateBars"]
+- !private ["11SwiftCharts10ChartLayerP", "updatePositions"]
+- !private ["11SwiftCharts10ChartLayerP", "viewGenerator"]
+- !private ["11SwiftCharts10ChartLayerP", "viewUpdater"]
+- ["11SwiftCharts14ChartLayerBaseC", "Bool"]
+- ["11SwiftCharts14ChartLayerBaseC", "Chart"]
+- ["11SwiftCharts14ChartLayerBaseC", "ChartAxis"]
+- ["11SwiftCharts14ChartLayerBaseC", "ChartBarModel"]
+- ["11SwiftCharts14ChartLayerBaseC", "ChartGroupedStackedBarsLayer"]
+- ["11SwiftCharts14ChartLayerBaseC", "CompanionViewGenerator"]
+- !private ["11SwiftCharts14ChartLayerBaseC", "DispatchQueue"]
+- !private ["11SwiftCharts14ChartLayerBaseC", "DispatchTime"]
+- !private ["11SwiftCharts14ChartLayerBaseC", "Double"]
+- ["11SwiftCharts14ChartLayerBaseC", "Float"]
+- ["11SwiftCharts14ChartLayerBaseC", "GroupedBarsCompanionsLayer"]
+- ["11SwiftCharts14ChartLayerBaseC", "Int"]
+- !private ["11SwiftCharts14ChartLayerBaseC", "Int64"]
+- !private ["11SwiftCharts14ChartLayerBaseC", "NSEC_PER_SEC"]
+- ["11SwiftCharts14ChartLayerBaseC", "U"]
+- ["11SwiftCharts14ChartLayerBaseC", "UIView"]
+- ["11SwiftCharts14ChartLayerBaseC", "ViewUpdater"]
+- ["11SwiftCharts14ChartLayerBaseC", "Void"]
+- !private ["11SwiftCharts14ChartLayerBaseC", "chart"]
+- ["11SwiftCharts14ChartLayerBaseC", "companionViews"]
+- ["11SwiftCharts14ChartLayerBaseC", "delayInit"]
+- ["11SwiftCharts14ChartLayerBaseC", "display"]
+- !private ["11SwiftCharts14ChartLayerBaseC", "displayDelay"]
+- !private ["11SwiftCharts14ChartLayerBaseC", "groupViews"]
+- ["11SwiftCharts14ChartLayerBaseC", "groupedBarsLayer"]
+- !private ["11SwiftCharts14ChartLayerBaseC", "handlePanEnd"]
+- ["11SwiftCharts14ChartLayerBaseC", "handlePanFinish"]
+- !private ["11SwiftCharts14ChartLayerBaseC", "handleZoomEnd"]
+- ["11SwiftCharts14ChartLayerBaseC", "handleZoomFinish"]
+- ["11SwiftCharts14ChartLayerBaseC", "initViews"]
+- ["11SwiftCharts14ChartLayerBaseC", "iterateBars"]
+- ["11SwiftCharts14ChartLayerBaseC", "updatePositions"]
+- ["11SwiftCharts14ChartLayerBaseC", "viewGenerator"]
+- ["11SwiftCharts14ChartLayerBaseC", "viewUpdater"]
+- !private ["11SwiftCharts19ChartPointsBarGroupC", "bars"]
+- ["11SwiftCharts16ChartPointsLayerC", "Bool"]
+- ["11SwiftCharts16ChartPointsLayerC", "Chart"]
+- ["11SwiftCharts16ChartPointsLayerC", "ChartAxis"]
+- ["11SwiftCharts16ChartPointsLayerC", "ChartBarModel"]
+- ["11SwiftCharts16ChartPointsLayerC", "ChartGroupedStackedBarsLayer"]
+- ["11SwiftCharts16ChartPointsLayerC", "CompanionViewGenerator"]
+- !private ["11SwiftCharts16ChartPointsLayerC", "DispatchQueue"]
+- !private ["11SwiftCharts16ChartPointsLayerC", "DispatchTime"]
+- !private ["11SwiftCharts16ChartPointsLayerC", "Double"]
+- ["11SwiftCharts16ChartPointsLayerC", "Float"]
+- ["11SwiftCharts16ChartPointsLayerC", "GroupedBarsCompanionsLayer"]
+- ["11SwiftCharts16ChartPointsLayerC", "Int"]
+- !private ["11SwiftCharts16ChartPointsLayerC", "Int64"]
+- !private ["11SwiftCharts16ChartPointsLayerC", "NSEC_PER_SEC"]
+- ["11SwiftCharts16ChartPointsLayerC", "U"]
+- ["11SwiftCharts16ChartPointsLayerC", "UIView"]
+- ["11SwiftCharts16ChartPointsLayerC", "ViewUpdater"]
+- ["11SwiftCharts16ChartPointsLayerC", "Void"]
+- ["11SwiftCharts16ChartPointsLayerC", ""]
+- !private ["11SwiftCharts16ChartPointsLayerC", "chart"]
+- ["11SwiftCharts16ChartPointsLayerC", "companionViews"]
+- !private ["11SwiftCharts16ChartPointsLayerC", "deinit"]
+- ["11SwiftCharts16ChartPointsLayerC", "delayInit"]
+- ["11SwiftCharts16ChartPointsLayerC", "display"]
+- !private ["11SwiftCharts16ChartPointsLayerC", "displayDelay"]
+- ["11SwiftCharts16ChartPointsLayerC", "groupedBarsLayer"]
+- !private ["11SwiftCharts16ChartPointsLayerC", "handlePanEnd"]
+- ["11SwiftCharts16ChartPointsLayerC", "handlePanFinish"]
+- !private ["11SwiftCharts16ChartPointsLayerC", "handleZoomEnd"]
+- ["11SwiftCharts16ChartPointsLayerC", "handleZoomFinish"]
+- ["11SwiftCharts16ChartPointsLayerC", "init"]
+- ["11SwiftCharts16ChartPointsLayerC", "initViews"]
+- ["11SwiftCharts16ChartPointsLayerC", "iterateBars"]
+- ["11SwiftCharts16ChartPointsLayerC", "updatePositions"]
+- ["11SwiftCharts16ChartPointsLayerC", "viewGenerator"]
+- ["11SwiftCharts16ChartPointsLayerC", "viewUpdater"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "enumerated"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "now"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchTime"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "Int64"]
+- !private ["s28CustomDebugStringConvertibleP", "NSEC_PER_SEC"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "asyncAfter"]
+- !private ["s28CustomDebugStringConvertibleP", "chart"]
+- !private ["s28CustomDebugStringConvertibleP", "companionViews"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "delayInit"]
+- !private ["s28CustomDebugStringConvertibleP", "display"]
+- !private ["s28CustomDebugStringConvertibleP", "displayDelay"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "groupViews"]
+- !private ["s28CustomDebugStringConvertibleP", "groupedBarsLayer"]
+- !private ["s28CustomDebugStringConvertibleP", "handlePanEnd"]
+- !private ["s28CustomDebugStringConvertibleP", "handleZoomEnd"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initViews"]
+- !private ["s28CustomDebugStringConvertibleP", "iterateBars"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "updatePositions"]
+- !private ["s28CustomDebugStringConvertibleP", "viewGenerator"]
+- !private ["s28CustomDebugStringConvertibleP", "viewUpdater"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "DispatchTime"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "Int64"]
+- !private ["s23CustomStringConvertibleP", "NSEC_PER_SEC"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "asyncAfter"]
+- !private ["s23CustomStringConvertibleP", "chart"]
+- !private ["s23CustomStringConvertibleP", "companionViews"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "delayInit"]
+- !private ["s23CustomStringConvertibleP", "display"]
+- !private ["s23CustomStringConvertibleP", "displayDelay"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "groupViews"]
+- !private ["s23CustomStringConvertibleP", "groupedBarsLayer"]
+- !private ["s23CustomStringConvertibleP", "handlePanEnd"]
+- !private ["s23CustomStringConvertibleP", "handleZoomEnd"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "initViews"]
+- !private ["s23CustomStringConvertibleP", "iterateBars"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "updatePositions"]
+- !private ["s23CustomStringConvertibleP", "viewGenerator"]
+- !private ["s23CustomStringConvertibleP", "viewUpdater"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "enumerated"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["So14DispatchObjectC", "asyncAfter"]
+- !private ["So14DispatchObjectC", "main"]
+- !private ["So13DispatchQueueC", "asyncAfter"]
+- !private ["So13DispatchQueueC", "main"]
+- !private ["8Dispatch0A4TimeV", "now"]
+- !private ["Sd", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "enumerated"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "DispatchQueue"]
+- !private ["s9EquatableP", "DispatchTime"]
+- !private ["s9EquatableP", "Double"]
+- !private ["s9EquatableP", "Int64"]
+- !private ["s9EquatableP", "NSEC_PER_SEC"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "asyncAfter"]
+- !private ["s9EquatableP", "chart"]
+- !private ["s9EquatableP", "companionViews"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "delayInit"]
+- !private ["s9EquatableP", "display"]
+- !private ["s9EquatableP", "displayDelay"]
+- !private ["s9EquatableP", "enumerated"]
+- !private ["s9EquatableP", "groupViews"]
+- !private ["s9EquatableP", "groupedBarsLayer"]
+- !private ["s9EquatableP", "handlePanEnd"]
+- !private ["s9EquatableP", "handleZoomEnd"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "initViews"]
+- !private ["s9EquatableP", "iterateBars"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "now"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "updatePositions"]
+- !private ["s9EquatableP", "viewGenerator"]
+- !private ["s9EquatableP", "viewUpdater"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s13FloatingPointP", "init"]
+- ["11SwiftCharts26GroupedBarsCompanionsLayerC", "Bool"]
+- ["11SwiftCharts26GroupedBarsCompanionsLayerC", "Chart"]
+- ["11SwiftCharts26GroupedBarsCompanionsLayerC", "ChartAxis"]
+- ["11SwiftCharts26GroupedBarsCompanionsLayerC", "ChartBarModel"]
+- ["11SwiftCharts26GroupedBarsCompanionsLayerC", "ChartGroupedStackedBarsLayer"]
+- ["11SwiftCharts26GroupedBarsCompanionsLayerC", "CompanionViewGenerator"]
+- !private ["11SwiftCharts26GroupedBarsCompanionsLayerC", "DispatchQueue"]
+- !private ["11SwiftCharts26GroupedBarsCompanionsLayerC", "DispatchTime"]
+- !private ["11SwiftCharts26GroupedBarsCompanionsLayerC", "Double"]
+- ["11SwiftCharts26GroupedBarsCompanionsLayerC", "Float"]
+- ["11SwiftCharts26GroupedBarsCompanionsLayerC", "GroupedBarsCompanionsLayer"]
+- ["11SwiftCharts26GroupedBarsCompanionsLayerC", "Int"]
+- !private ["11SwiftCharts26GroupedBarsCompanionsLayerC", "Int64"]
+- !private ["11SwiftCharts26GroupedBarsCompanionsLayerC", "NSEC_PER_SEC"]
+- ["11SwiftCharts26GroupedBarsCompanionsLayerC", "U"]
+- ["11SwiftCharts26GroupedBarsCompanionsLayerC", "UIView"]
+- ["11SwiftCharts26GroupedBarsCompanionsLayerC", "ViewUpdater"]
+- ["11SwiftCharts26GroupedBarsCompanionsLayerC", "Void"]
+- !private ["11SwiftCharts26GroupedBarsCompanionsLayerC", "chart"]
+- !private ["11SwiftCharts26GroupedBarsCompanionsLayerC", "companionViews"]
+- ["11SwiftCharts26GroupedBarsCompanionsLayerC", "deinit"]
+- !private ["11SwiftCharts26GroupedBarsCompanionsLayerC", "delayInit"]
+- ["11SwiftCharts26GroupedBarsCompanionsLayerC", "display"]
+- !private ["11SwiftCharts26GroupedBarsCompanionsLayerC", "displayDelay"]
+- !private ["11SwiftCharts26GroupedBarsCompanionsLayerC", "groupedBarsLayer"]
+- ["11SwiftCharts26GroupedBarsCompanionsLayerC", "handlePanFinish"]
+- ["11SwiftCharts26GroupedBarsCompanionsLayerC", "handleZoomFinish"]
+- ["11SwiftCharts26GroupedBarsCompanionsLayerC", "init"]
+- ["11SwiftCharts26GroupedBarsCompanionsLayerC", "initViews"]
+- !private ["11SwiftCharts26GroupedBarsCompanionsLayerC", "iterateBars"]
+- !private ["11SwiftCharts26GroupedBarsCompanionsLayerC", "updatePositions"]
+- !private ["11SwiftCharts26GroupedBarsCompanionsLayerC", "viewGenerator"]
+- !private ["11SwiftCharts26GroupedBarsCompanionsLayerC", "viewUpdater"]
+- !private ["s8HashableP", "DispatchQueue"]
+- !private ["s8HashableP", "DispatchTime"]
+- !private ["s8HashableP", "Double"]
+- !private ["s8HashableP", "Int64"]
+- !private ["s8HashableP", "NSEC_PER_SEC"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "asyncAfter"]
+- !private ["s8HashableP", "chart"]
+- !private ["s8HashableP", "companionViews"]
+- !private ["s8HashableP", "delayInit"]
+- !private ["s8HashableP", "display"]
+- !private ["s8HashableP", "displayDelay"]
+- !private ["s8HashableP", "groupViews"]
+- !private ["s8HashableP", "groupedBarsLayer"]
+- !private ["s8HashableP", "handlePanEnd"]
+- !private ["s8HashableP", "handleZoomEnd"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "initViews"]
+- !private ["s8HashableP", "iterateBars"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "updatePositions"]
+- !private ["s8HashableP", "viewGenerator"]
+- !private ["s8HashableP", "viewUpdater"]
+- !private ["s5Int64V", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "enumerated"]
+- !private ["s17MutableCollectionP", "subscript"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Chart"]
+- ["So8NSObjectC", "ChartAxis"]
+- ["So8NSObjectC", "ChartBarModel"]
+- ["So8NSObjectC", "ChartGroupedStackedBarsLayer"]
+- ["So8NSObjectC", "CompanionViewGenerator"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- !private ["So8NSObjectC", "DispatchTime"]
+- !private ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "Float"]
+- ["So8NSObjectC", "GroupedBarsCompanionsLayer"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "Int64"]
+- !private ["So8NSObjectC", "NSEC_PER_SEC"]
+- ["So8NSObjectC", "U"]
+- ["So8NSObjectC", "UIView"]
+- ["So8NSObjectC", "ViewUpdater"]
+- ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "asyncAfter"]
+- !private ["So8NSObjectC", "chart"]
+- ["So8NSObjectC", "companionViews"]
+- ["So8NSObjectC", "delayInit"]
+- ["So8NSObjectC", "display"]
+- !private ["So8NSObjectC", "displayDelay"]
+- !private ["So8NSObjectC", "groupViews"]
+- ["So8NSObjectC", "groupedBarsLayer"]
+- !private ["So8NSObjectC", "handlePanEnd"]
+- ["So8NSObjectC", "handlePanFinish"]
+- !private ["So8NSObjectC", "handleZoomEnd"]
+- ["So8NSObjectC", "handleZoomFinish"]
+- ["So8NSObjectC", "initViews"]
+- ["So8NSObjectC", "iterateBars"]
+- !private ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "updatePositions"]
+- ["So8NSObjectC", "viewGenerator"]
+- ["So8NSObjectC", "viewUpdater"]
+- !private ["So16NSObjectProtocolP", "DispatchQueue"]
+- !private ["So16NSObjectProtocolP", "DispatchTime"]
+- !private ["So16NSObjectProtocolP", "Double"]
+- !private ["So16NSObjectProtocolP", "Int64"]
+- !private ["So16NSObjectProtocolP", "NSEC_PER_SEC"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "asyncAfter"]
+- !private ["So16NSObjectProtocolP", "chart"]
+- !private ["So16NSObjectProtocolP", "companionViews"]
+- !private ["So16NSObjectProtocolP", "delayInit"]
+- !private ["So16NSObjectProtocolP", "display"]
+- !private ["So16NSObjectProtocolP", "displayDelay"]
+- !private ["So16NSObjectProtocolP", "groupViews"]
+- !private ["So16NSObjectProtocolP", "groupedBarsLayer"]
+- !private ["So16NSObjectProtocolP", "handlePanEnd"]
+- !private ["So16NSObjectProtocolP", "handleZoomEnd"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "initViews"]
+- !private ["So16NSObjectProtocolP", "iterateBars"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "updatePositions"]
+- !private ["So16NSObjectProtocolP", "viewGenerator"]
+- !private ["So16NSObjectProtocolP", "viewUpdater"]
+- !private ["s7NumericP", "init"]
+- !private ["So9OS_objectC", "asyncAfter"]
+- !private ["So9OS_objectC", "main"]
+- !private ["11SwiftCharts8PannableP", "addSubviewNoTransform"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "enumerated"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "enumerated"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "enumerated"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["11SwiftCharts8ZoomableP", "addSubviewNoTransform"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int64"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSEC_PER_SEC"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "asyncAfter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "chart"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "companionViews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delayInit"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "display"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "displayDelay"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "groupViews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "groupedBarsLayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handlePanEnd"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handleZoomEnd"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "initViews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "iterateBars"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updatePositions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewGenerator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewUpdater"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "11SwiftCharts5ChartC"
+- "11SwiftCharts21ChartCoordsSpaceLayerC"
+- !private "11SwiftCharts21ChartGroupedBarsLayerC"
+- !private "11SwiftCharts29ChartGroupedStackedBarsLayer_C"
+- "11SwiftCharts10ChartLayerP"
+- "11SwiftCharts14ChartLayerBaseC"
+- !private "11SwiftCharts19ChartPointsBarGroupC"
+- "11SwiftCharts16ChartPointsLayerC"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- !private "8Dispatch0A4TimeV"
+- !private "Sd"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "s13FloatingPointP"
+- "11SwiftCharts26GroupedBarsCompanionsLayerC"
+- "s8HashableP"
+- !private "s5Int64V"
+- !private "s25LosslessStringConvertibleP"
+- !private "s17MutableCollectionP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s7NumericP"
+- !private "So9OS_objectC"
+- !private "11SwiftCharts8PannableP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- !private "11SwiftCharts8ZoomableP"
+- !private "s14_ArrayProtocolP"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/Target Support Files/SwiftCharts/SwiftCharts-umbrella.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SwiftCharts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "9fef81fb16886c34d5a007ccd5a6eb75"

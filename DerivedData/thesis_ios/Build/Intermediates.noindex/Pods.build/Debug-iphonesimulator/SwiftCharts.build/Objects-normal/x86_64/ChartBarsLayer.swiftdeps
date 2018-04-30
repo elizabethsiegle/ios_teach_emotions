@@ -1,0 +1,650 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChartBarModel"
+- "ChartBarsViewGenerator"
+- "ChartTappedBar"
+- "ChartBarsLayer"
+provides-nominal:
+- "11SwiftCharts13ChartBarModelC"
+- "11SwiftCharts22ChartBarsViewGeneratorC"
+- "11SwiftCharts14ChartTappedBarV"
+- "11SwiftCharts14ChartBarsLayerC"
+provides-member:
+- ["11SwiftCharts13ChartBarModelC", ""]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", ""]
+- ["11SwiftCharts14ChartTappedBarV", ""]
+- ["11SwiftCharts14ChartBarsLayerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CGFloat"
+- "CGPoint"
+- "Chart"
+- "ChartAxis"
+- "ChartAxisValue"
+- "ChartBarModel"
+- "ChartBarViewSettings"
+- "ChartBarsLayer"
+- "ChartBarsViewGenerator"
+- "ChartCoordsSpaceLayer"
+- "ChartPointViewBar"
+- "ChartPointsViewsLayerMode"
+- "ChartTappedBar"
+- "Double"
+- "Int"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "UIColor"
+- "UIView"
+- "Void"
+- !private "fatalError"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "enumerated"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "enumerated"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "tapHandler"]
+- !private ["So15CALayerDelegateP", "updateFrame"]
+- !private ["SC7CGPointV", "init"]
+- ["s7CVarArgP", "ChartBarViewGenerator"]
+- !private ["s7CVarArgP", "ChartBarsViewGenerator"]
+- !private ["s7CVarArgP", "ChartTappedBar"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "barViews"]
+- !private ["s7CVarArgP", "barWidth"]
+- !private ["s7CVarArgP", "bars"]
+- !private ["s7CVarArgP", "barsGenerator"]
+- !private ["s7CVarArgP", "chartInitialized"]
+- !private ["s7CVarArgP", "enumerated"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "horizontal"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "mode"]
+- !private ["s7CVarArgP", "modelLocToContainerScreenLoc"]
+- !private ["s7CVarArgP", "modelLocToScreenLoc"]
+- !private ["s7CVarArgP", "pan"]
+- !private ["s7CVarArgP", "settings"]
+- !private ["s7CVarArgP", "tapHandler"]
+- !private ["s7CVarArgP", "updateForTransform"]
+- !private ["s7CVarArgP", "updateFrame"]
+- !private ["s7CVarArgP", "viewGenerator"]
+- !private ["s7CVarArgP", "zoom"]
+- !private ["11SwiftCharts5ChartC", "addSubview"]
+- !private ["11SwiftCharts5ChartC", "addSubviewNoTransform"]
+- !private ["11SwiftCharts14ChartAxisValueC", "scalar"]
+- ["11SwiftCharts13ChartBarModelC", "ChartAxisValue"]
+- ["11SwiftCharts13ChartBarModelC", "UIColor"]
+- ["11SwiftCharts13ChartBarModelC", "axisValue1"]
+- ["11SwiftCharts13ChartBarModelC", "axisValue2"]
+- ["11SwiftCharts13ChartBarModelC", "bgColor"]
+- ["11SwiftCharts13ChartBarModelC", "constant"]
+- ["11SwiftCharts13ChartBarModelC", "deinit"]
+- ["11SwiftCharts13ChartBarModelC", "init"]
+- ["11SwiftCharts14ChartBarsLayerC", "Bool"]
+- ["11SwiftCharts14ChartBarsLayerC", "CGFloat"]
+- ["11SwiftCharts14ChartBarsLayerC", "CGPoint"]
+- ["11SwiftCharts14ChartBarsLayerC", "Chart"]
+- ["11SwiftCharts14ChartBarsLayerC", "ChartAxis"]
+- ["11SwiftCharts14ChartBarsLayerC", "ChartBarModel"]
+- ["11SwiftCharts14ChartBarsLayerC", "ChartBarViewGenerator"]
+- ["11SwiftCharts14ChartBarsLayerC", "ChartBarViewSettings"]
+- ["11SwiftCharts14ChartBarsLayerC", "ChartBarsViewGenerator"]
+- ["11SwiftCharts14ChartBarsLayerC", "ChartPointsViewsLayerMode"]
+- ["11SwiftCharts14ChartBarsLayerC", "ChartTappedBar"]
+- ["11SwiftCharts14ChartBarsLayerC", "Double"]
+- ["11SwiftCharts14ChartBarsLayerC", "Int"]
+- ["11SwiftCharts14ChartBarsLayerC", "T"]
+- ["11SwiftCharts14ChartBarsLayerC", "UIColor"]
+- ["11SwiftCharts14ChartBarsLayerC", "UIView"]
+- ["11SwiftCharts14ChartBarsLayerC", "Void"]
+- ["11SwiftCharts14ChartBarsLayerC", "addSubview"]
+- ["11SwiftCharts14ChartBarsLayerC", "barViews"]
+- !private ["11SwiftCharts14ChartBarsLayerC", "barWidth"]
+- !private ["11SwiftCharts14ChartBarsLayerC", "bars"]
+- !private ["11SwiftCharts14ChartBarsLayerC", "barsGenerator"]
+- ["11SwiftCharts14ChartBarsLayerC", "chartInitialized"]
+- ["11SwiftCharts14ChartBarsLayerC", "deinit"]
+- !private ["11SwiftCharts14ChartBarsLayerC", "fatalError"]
+- !private ["11SwiftCharts14ChartBarsLayerC", "horizontal"]
+- ["11SwiftCharts14ChartBarsLayerC", "init"]
+- !private ["11SwiftCharts14ChartBarsLayerC", "mode"]
+- ["11SwiftCharts14ChartBarsLayerC", "modelLocToScreenLoc"]
+- ["11SwiftCharts14ChartBarsLayerC", "pan"]
+- !private ["11SwiftCharts14ChartBarsLayerC", "settings"]
+- !private ["11SwiftCharts14ChartBarsLayerC", "tapHandler"]
+- ["11SwiftCharts14ChartBarsLayerC", "updateForTransform"]
+- !private ["11SwiftCharts14ChartBarsLayerC", "viewGenerator"]
+- ["11SwiftCharts14ChartBarsLayerC", "zoom"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "Bool"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "CGFloat"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "CGPoint"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "Chart"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "ChartBarModel"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "ChartBarViewSettings"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "ChartBarsLayer"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "ChartCoordsSpaceLayer"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "Int"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "T"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "U"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "UIColor"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "barWidth"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "constantScreenLoc"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "deinit"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "generateView"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "horizontal"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "init"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "layer"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "viewGenerator"]
+- ["11SwiftCharts22ChartBarsViewGeneratorC", "viewPoints"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "Bool"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "CGFloat"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "CGPoint"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "Chart"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartAxis"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartBarModel"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartBarViewGenerator"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartBarViewSettings"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartBarsViewGenerator"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartPointsViewsLayerMode"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "ChartTappedBar"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "Double"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "Int"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "T"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "UIColor"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "UIView"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "Void"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", ""]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "addSubview"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "barViews"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "barWidth"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "bars"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "barsGenerator"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "chartInitialized"]
+- !private ["11SwiftCharts21ChartCoordsSpaceLayerC", "deinit"]
+- !private ["11SwiftCharts21ChartCoordsSpaceLayerC", "fatalError"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "horizontal"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "init"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "mode"]
+- !private ["11SwiftCharts21ChartCoordsSpaceLayerC", "modelLocToContainerScreenLoc"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "modelLocToScreenLoc"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "pan"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "settings"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "tapHandler"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "updateForTransform"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "viewGenerator"]
+- ["11SwiftCharts21ChartCoordsSpaceLayerC", "zoom"]
+- ["11SwiftCharts10ChartLayerP", "ChartBarViewGenerator"]
+- !private ["11SwiftCharts10ChartLayerP", "ChartBarsViewGenerator"]
+- !private ["11SwiftCharts10ChartLayerP", "ChartTappedBar"]
+- ["11SwiftCharts10ChartLayerP", ""]
+- !private ["11SwiftCharts10ChartLayerP", "addSubview"]
+- !private ["11SwiftCharts10ChartLayerP", "barViews"]
+- !private ["11SwiftCharts10ChartLayerP", "barWidth"]
+- !private ["11SwiftCharts10ChartLayerP", "bars"]
+- !private ["11SwiftCharts10ChartLayerP", "barsGenerator"]
+- !private ["11SwiftCharts10ChartLayerP", "chartInitialized"]
+- !private ["11SwiftCharts10ChartLayerP", "fatalError"]
+- !private ["11SwiftCharts10ChartLayerP", "horizontal"]
+- !private ["11SwiftCharts10ChartLayerP", "init"]
+- !private ["11SwiftCharts10ChartLayerP", "mode"]
+- !private ["11SwiftCharts10ChartLayerP", "modelLocToContainerScreenLoc"]
+- !private ["11SwiftCharts10ChartLayerP", "modelLocToScreenLoc"]
+- !private ["11SwiftCharts10ChartLayerP", "pan"]
+- !private ["11SwiftCharts10ChartLayerP", "settings"]
+- !private ["11SwiftCharts10ChartLayerP", "tapHandler"]
+- !private ["11SwiftCharts10ChartLayerP", "updateForTransform"]
+- !private ["11SwiftCharts10ChartLayerP", "viewGenerator"]
+- !private ["11SwiftCharts10ChartLayerP", "zoom"]
+- ["11SwiftCharts14ChartLayerBaseC", "Bool"]
+- ["11SwiftCharts14ChartLayerBaseC", "CGFloat"]
+- ["11SwiftCharts14ChartLayerBaseC", "CGPoint"]
+- ["11SwiftCharts14ChartLayerBaseC", "Chart"]
+- ["11SwiftCharts14ChartLayerBaseC", "ChartAxis"]
+- ["11SwiftCharts14ChartLayerBaseC", "ChartBarModel"]
+- ["11SwiftCharts14ChartLayerBaseC", "ChartBarViewGenerator"]
+- ["11SwiftCharts14ChartLayerBaseC", "ChartBarViewSettings"]
+- ["11SwiftCharts14ChartLayerBaseC", "ChartBarsViewGenerator"]
+- ["11SwiftCharts14ChartLayerBaseC", "ChartPointsViewsLayerMode"]
+- ["11SwiftCharts14ChartLayerBaseC", "ChartTappedBar"]
+- ["11SwiftCharts14ChartLayerBaseC", "Double"]
+- ["11SwiftCharts14ChartLayerBaseC", "Int"]
+- ["11SwiftCharts14ChartLayerBaseC", "T"]
+- ["11SwiftCharts14ChartLayerBaseC", "UIColor"]
+- ["11SwiftCharts14ChartLayerBaseC", "UIView"]
+- ["11SwiftCharts14ChartLayerBaseC", "Void"]
+- ["11SwiftCharts14ChartLayerBaseC", "addSubview"]
+- ["11SwiftCharts14ChartLayerBaseC", "barViews"]
+- ["11SwiftCharts14ChartLayerBaseC", "barWidth"]
+- ["11SwiftCharts14ChartLayerBaseC", "bars"]
+- ["11SwiftCharts14ChartLayerBaseC", "barsGenerator"]
+- ["11SwiftCharts14ChartLayerBaseC", "chartInitialized"]
+- !private ["11SwiftCharts14ChartLayerBaseC", "fatalError"]
+- ["11SwiftCharts14ChartLayerBaseC", "horizontal"]
+- ["11SwiftCharts14ChartLayerBaseC", "mode"]
+- !private ["11SwiftCharts14ChartLayerBaseC", "modelLocToContainerScreenLoc"]
+- ["11SwiftCharts14ChartLayerBaseC", "modelLocToScreenLoc"]
+- ["11SwiftCharts14ChartLayerBaseC", "pan"]
+- ["11SwiftCharts14ChartLayerBaseC", "settings"]
+- ["11SwiftCharts14ChartLayerBaseC", "tapHandler"]
+- ["11SwiftCharts14ChartLayerBaseC", "updateForTransform"]
+- ["11SwiftCharts14ChartLayerBaseC", "viewGenerator"]
+- ["11SwiftCharts14ChartLayerBaseC", "zoom"]
+- !private ["11SwiftCharts17ChartPointViewBarC", "init"]
+- !private ["11SwiftCharts17ChartPointViewBarC", "tapHandler"]
+- !private ["11SwiftCharts17ChartPointViewBarC", "updateFrame"]
+- ["11SwiftCharts25ChartPointsViewsLayerModeO", "custom"]
+- !private ["11SwiftCharts25ChartPointsViewsLayerModeO", "deinit"]
+- ["11SwiftCharts25ChartPointsViewsLayerModeO", "scaleAndTranslate"]
+- ["11SwiftCharts25ChartPointsViewsLayerModeO", "translate"]
+- ["11SwiftCharts14ChartTappedBarV", "ChartBarModel"]
+- ["11SwiftCharts14ChartTappedBarV", "ChartCoordsSpaceLayer"]
+- ["11SwiftCharts14ChartTappedBarV", "ChartPointViewBar"]
+- ["11SwiftCharts14ChartTappedBarV", "init"]
+- ["11SwiftCharts14ChartTappedBarV", "layer"]
+- ["11SwiftCharts14ChartTappedBarV", "model"]
+- ["11SwiftCharts14ChartTappedBarV", "view"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "enumerated"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "ChartBarViewGenerator"]
+- !private ["s28CustomDebugStringConvertibleP", "ChartBarsViewGenerator"]
+- !private ["s28CustomDebugStringConvertibleP", "ChartTappedBar"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "barViews"]
+- !private ["s28CustomDebugStringConvertibleP", "barWidth"]
+- !private ["s28CustomDebugStringConvertibleP", "bars"]
+- !private ["s28CustomDebugStringConvertibleP", "barsGenerator"]
+- !private ["s28CustomDebugStringConvertibleP", "chartInitialized"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "horizontal"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "mode"]
+- !private ["s28CustomDebugStringConvertibleP", "modelLocToContainerScreenLoc"]
+- !private ["s28CustomDebugStringConvertibleP", "modelLocToScreenLoc"]
+- !private ["s28CustomDebugStringConvertibleP", "pan"]
+- !private ["s28CustomDebugStringConvertibleP", "settings"]
+- !private ["s28CustomDebugStringConvertibleP", "tapHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "updateForTransform"]
+- !private ["s28CustomDebugStringConvertibleP", "updateFrame"]
+- !private ["s28CustomDebugStringConvertibleP", "viewGenerator"]
+- !private ["s28CustomDebugStringConvertibleP", "zoom"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "ChartBarViewGenerator"]
+- !private ["s23CustomStringConvertibleP", "ChartBarsViewGenerator"]
+- !private ["s23CustomStringConvertibleP", "ChartTappedBar"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "barViews"]
+- !private ["s23CustomStringConvertibleP", "barWidth"]
+- !private ["s23CustomStringConvertibleP", "bars"]
+- !private ["s23CustomStringConvertibleP", "barsGenerator"]
+- !private ["s23CustomStringConvertibleP", "chartInitialized"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "horizontal"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "mode"]
+- !private ["s23CustomStringConvertibleP", "modelLocToContainerScreenLoc"]
+- !private ["s23CustomStringConvertibleP", "modelLocToScreenLoc"]
+- !private ["s23CustomStringConvertibleP", "pan"]
+- !private ["s23CustomStringConvertibleP", "scalar"]
+- !private ["s23CustomStringConvertibleP", "settings"]
+- !private ["s23CustomStringConvertibleP", "tapHandler"]
+- !private ["s23CustomStringConvertibleP", "updateForTransform"]
+- !private ["s23CustomStringConvertibleP", "updateFrame"]
+- !private ["s23CustomStringConvertibleP", "viewGenerator"]
+- !private ["s23CustomStringConvertibleP", "zoom"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "enumerated"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "enumerated"]
+- !private ["s9EncodableP", "init"]
+- ["s9EquatableP", "ChartBarViewGenerator"]
+- !private ["s9EquatableP", "ChartBarsViewGenerator"]
+- !private ["s9EquatableP", "ChartTappedBar"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addSubview"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "barViews"]
+- !private ["s9EquatableP", "barWidth"]
+- !private ["s9EquatableP", "bars"]
+- !private ["s9EquatableP", "barsGenerator"]
+- !private ["s9EquatableP", "chartInitialized"]
+- ["s9EquatableP", "custom"]
+- !private ["s9EquatableP", "enumerated"]
+- !private ["s9EquatableP", "fatalError"]
+- !private ["s9EquatableP", "horizontal"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "mode"]
+- !private ["s9EquatableP", "modelLocToContainerScreenLoc"]
+- !private ["s9EquatableP", "modelLocToScreenLoc"]
+- !private ["s9EquatableP", "pan"]
+- !private ["s9EquatableP", "scalar"]
+- ["s9EquatableP", "scaleAndTranslate"]
+- !private ["s9EquatableP", "settings"]
+- !private ["s9EquatableP", "tapHandler"]
+- ["s9EquatableP", "translate"]
+- !private ["s9EquatableP", "updateForTransform"]
+- !private ["s9EquatableP", "updateFrame"]
+- !private ["s9EquatableP", "viewGenerator"]
+- !private ["s9EquatableP", "zoom"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "ChartBarViewGenerator"]
+- !private ["s8HashableP", "ChartBarsViewGenerator"]
+- !private ["s8HashableP", "ChartTappedBar"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addSubview"]
+- !private ["s8HashableP", "barViews"]
+- !private ["s8HashableP", "barWidth"]
+- !private ["s8HashableP", "bars"]
+- !private ["s8HashableP", "barsGenerator"]
+- !private ["s8HashableP", "chartInitialized"]
+- ["s8HashableP", "custom"]
+- !private ["s8HashableP", "fatalError"]
+- !private ["s8HashableP", "horizontal"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "mode"]
+- !private ["s8HashableP", "modelLocToContainerScreenLoc"]
+- !private ["s8HashableP", "modelLocToScreenLoc"]
+- !private ["s8HashableP", "pan"]
+- !private ["s8HashableP", "scalar"]
+- ["s8HashableP", "scaleAndTranslate"]
+- !private ["s8HashableP", "settings"]
+- !private ["s8HashableP", "tapHandler"]
+- ["s8HashableP", "translate"]
+- !private ["s8HashableP", "updateForTransform"]
+- !private ["s8HashableP", "updateFrame"]
+- !private ["s8HashableP", "viewGenerator"]
+- !private ["s8HashableP", "zoom"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "enumerated"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "tapHandler"]
+- !private ["So8NSCodingP", "updateFrame"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "CGPoint"]
+- ["So8NSObjectC", "Chart"]
+- ["So8NSObjectC", "ChartAxis"]
+- ["So8NSObjectC", "ChartBarModel"]
+- ["So8NSObjectC", "ChartBarViewGenerator"]
+- ["So8NSObjectC", "ChartBarViewSettings"]
+- ["So8NSObjectC", "ChartBarsViewGenerator"]
+- ["So8NSObjectC", "ChartPointsViewsLayerMode"]
+- ["So8NSObjectC", "ChartTappedBar"]
+- ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "T"]
+- ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UIView"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", "addSubview"]
+- ["So8NSObjectC", "barViews"]
+- ["So8NSObjectC", "barWidth"]
+- ["So8NSObjectC", "bars"]
+- ["So8NSObjectC", "barsGenerator"]
+- ["So8NSObjectC", "chartInitialized"]
+- !private ["So8NSObjectC", "fatalError"]
+- ["So8NSObjectC", "horizontal"]
+- ["So8NSObjectC", "mode"]
+- !private ["So8NSObjectC", "modelLocToContainerScreenLoc"]
+- ["So8NSObjectC", "modelLocToScreenLoc"]
+- ["So8NSObjectC", "pan"]
+- ["So8NSObjectC", "settings"]
+- ["So8NSObjectC", "tapHandler"]
+- ["So8NSObjectC", "updateForTransform"]
+- !private ["So8NSObjectC", "updateFrame"]
+- ["So8NSObjectC", "viewGenerator"]
+- ["So8NSObjectC", "zoom"]
+- ["So16NSObjectProtocolP", "ChartBarViewGenerator"]
+- !private ["So16NSObjectProtocolP", "ChartBarsViewGenerator"]
+- !private ["So16NSObjectProtocolP", "ChartTappedBar"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addSubview"]
+- !private ["So16NSObjectProtocolP", "barViews"]
+- !private ["So16NSObjectProtocolP", "barWidth"]
+- !private ["So16NSObjectProtocolP", "bars"]
+- !private ["So16NSObjectProtocolP", "barsGenerator"]
+- !private ["So16NSObjectProtocolP", "chartInitialized"]
+- !private ["So16NSObjectProtocolP", "fatalError"]
+- !private ["So16NSObjectProtocolP", "horizontal"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "mode"]
+- !private ["So16NSObjectProtocolP", "modelLocToContainerScreenLoc"]
+- !private ["So16NSObjectProtocolP", "modelLocToScreenLoc"]
+- !private ["So16NSObjectProtocolP", "pan"]
+- !private ["So16NSObjectProtocolP", "settings"]
+- !private ["So16NSObjectProtocolP", "tapHandler"]
+- !private ["So16NSObjectProtocolP", "updateForTransform"]
+- !private ["So16NSObjectProtocolP", "updateFrame"]
+- !private ["So16NSObjectProtocolP", "viewGenerator"]
+- !private ["So16NSObjectProtocolP", "zoom"]
+- !private ["11SwiftCharts8PannableP", "addSubview"]
+- !private ["11SwiftCharts8PannableP", "addSubviewNoTransform"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "enumerated"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "enumerated"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "enumerated"]
+- !private ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["11SwiftCharts10StringTypeP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "tapHandler"]
+- !private ["So29UIAccessibilityIdentificationP", "updateFrame"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "tapHandler"]
+- !private ["So12UIAppearanceP", "updateFrame"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "tapHandler"]
+- !private ["So21UIAppearanceContainerP", "updateFrame"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "tapHandler"]
+- !private ["So17UICoordinateSpaceP", "updateFrame"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "tapHandler"]
+- !private ["So13UIDynamicItemP", "updateFrame"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "tapHandler"]
+- !private ["So18UIFocusEnvironmentP", "updateFrame"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "tapHandler"]
+- !private ["So11UIFocusItemP", "updateFrame"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "tapHandler"]
+- !private ["So30UIPasteConfigurationSupportingP", "updateFrame"]
+- !private ["So11UIResponderC", "tapHandler"]
+- !private ["So11UIResponderC", "updateFrame"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "tapHandler"]
+- !private ["So30UIResponderStandardEditActionsP", "updateFrame"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "tapHandler"]
+- !private ["So18UITraitEnvironmentP", "updateFrame"]
+- !private ["So6UIViewC", "tapHandler"]
+- !private ["So6UIViewC", "updateFrame"]
+- !private ["11SwiftCharts8ZoomableP", "addSubview"]
+- !private ["11SwiftCharts8ZoomableP", "addSubviewNoTransform"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "tapHandler"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "updateFrame"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ChartBarViewGenerator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ChartBarsViewGenerator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ChartTappedBar"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "barViews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "barWidth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bars"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "barsGenerator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "chartInitialized"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "horizontal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "modelLocToContainerScreenLoc"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "modelLocToScreenLoc"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pan"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "settings"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tapHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateForTransform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateFrame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewGenerator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "zoom"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- !private "SC7CGPointV"
+- "s7CVarArgP"
+- !private "11SwiftCharts5ChartC"
+- !private "11SwiftCharts14ChartAxisValueC"
+- "11SwiftCharts13ChartBarModelC"
+- "11SwiftCharts14ChartBarsLayerC"
+- "11SwiftCharts22ChartBarsViewGeneratorC"
+- "11SwiftCharts21ChartCoordsSpaceLayerC"
+- "11SwiftCharts10ChartLayerP"
+- "11SwiftCharts14ChartLayerBaseC"
+- !private "11SwiftCharts17ChartPointViewBarC"
+- "11SwiftCharts25ChartPointsViewsLayerModeO"
+- "11SwiftCharts14ChartTappedBarV"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "11SwiftCharts8PannableP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "11SwiftCharts10StringTypeP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "11SwiftCharts8ZoomableP"
+- !private "s14_ArrayProtocolP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/Target Support Files/SwiftCharts/SwiftCharts-umbrella.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SwiftCharts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "4a612c8aaa3442572e74b94a6681bf3f"
