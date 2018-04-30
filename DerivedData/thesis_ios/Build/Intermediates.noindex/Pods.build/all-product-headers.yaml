@@ -4,33 +4,6 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers",
-      'contents': [
-        {
-          'type': 'file',
-          'name': "Alamofire-Swift.h",
-          'external-contents': "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
-        },
-        {
-          'type': 'file',
-          'name': "Alamofire-umbrella.h",
-          'external-contents': "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
-        }
-      ]
-    },
-    {
-      'type': 'directory',
-      'name': "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules",
-      'contents': [
-        {
-          'type': 'file',
-          'name': "module.modulemap",
-          'external-contents': "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
-        }
-      ]
-    },
-    {
-      'type': 'directory',
       'name': "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/DerivedData/thesis_ios/Build/Products/Debug-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework/Headers",
       'contents': [
         {

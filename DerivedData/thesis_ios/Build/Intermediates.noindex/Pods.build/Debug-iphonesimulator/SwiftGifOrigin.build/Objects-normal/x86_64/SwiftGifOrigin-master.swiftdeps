@@ -1,5 +1,0 @@
-version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
-options: "18397c6221b908af37c135377c8a6356"
-build_time: [1525118821, 91384000]
-inputs:
-  "/Users/lizziesiegle/Desktop/programming/ios/thesis_ios/Pods/SwiftGifOrigin/SwiftGifCommon/UIImage+Gif.swift": [1524588416, 0]

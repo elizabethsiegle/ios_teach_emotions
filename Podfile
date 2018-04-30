@@ -10,5 +10,4 @@ target 'thesis_ios' do
   pod 'Firebase/Auth'
   pod 'SwiftCharts', :git => 'https://github.com/i-schuetz/SwiftCharts.git'
   pod 'SwiftGifOrigin', ‘~> 1.6.1’
-  pod 'Alamofire'
 end

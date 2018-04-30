@@ -1,5 +1,4 @@
 PODS:
-  - Alamofire (4.5.1)
   - Firebase (4.3.0):
     - Firebase/Core (= 4.3.0)
   - Firebase/Auth (4.3.0):
@@ -49,7 +48,6 @@ PODS:
   - SwiftGifOrigin (1.6.1)
 
 DEPENDENCIES:
-  - Alamofire
   - Firebase
   - Firebase/Auth
   - Firebase/Core
@@ -59,7 +57,6 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - Alamofire
     - Firebase
     - FirebaseAnalytics
     - FirebaseAuth
@@ -82,7 +79,6 @@ CHECKOUT OPTIONS:
     :git: https://github.com/i-schuetz/SwiftCharts.git
 
 SPEC CHECKSUMS:
-  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
   Firebase: 83283761a1ef6dc9846e03d08059f51421afbd65
   FirebaseAnalytics: 722b53c7b32bfc7806b06e0093a2f5180d4f2c5a
   FirebaseAuth: d7f047fbeab98062b98ea933b8d934e0fb1190e2
@@ -96,6 +92,6 @@ SPEC CHECKSUMS:
   SwiftCharts: 344c17e93852fb14358046d0bcb831329c149648
   SwiftGifOrigin: d6679d3ebe9df2e049a84bc52582635107b581f6
 
-PODFILE CHECKSUM: 0773ceeffe34a7f2bd052547448f329d58d47f1d
+PODFILE CHECKSUM: 6445c9a722c11e5212c24bef3e2e0693f5d646f9
 
 COCOAPODS: 1.5.0
